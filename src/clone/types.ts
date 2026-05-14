@@ -1,0 +1,121 @@
+export type Chakra = "Tai" | "Blood" | "Nin" | "Gen" | "Random";
+export type SpecificChakra = Exclude<Chakra, "Random">;
+export type Side = 0 | 1;
+export type Slot = 0 | 1 | 2;
+
+export type RawSkillDefinition = {
+  name: string;
+  themeName?: string;
+  description?: string;
+  descriptionBR?: string;
+  energy?: Chakra[];
+  classes?: string[];
+  cooldown?: number;
+  url?: string;
+  themepic?: string;
+  target?: Record<string, [number, number]> | null;
+};
+
+export type RawCharacterDefinition = {
+  name: string;
+  url?: string;
+  themepic?: string;
+  description?: string;
+  descriptionBR?: string;
+  skills: RawSkillDefinition[];
+};
+
+export type CloneSkillState = {
+  baseIndex: number;
+  currentIndex: number;
+  name: string;
+  baseName: string;
+  description: string | null;
+  energy: Chakra[];
+  classes: string[];
+  baseCooldown: number;
+  cooldownRemaining: number;
+  isPassive: boolean;
+  disabled: boolean;
+  targetMap: Record<string, [number, number]> | null;
+};
+
+export type CloneEffect = {
+  id: string;
+  name: string;
+  sourcePlayerId: string | null;
+  sourceSlot: Slot | null;
+  durationTurns: number | null;
+  durationLabel: string;
+  text: string[];
+  textDurations?: string[];
+  stacks: number;
+  tags: string[];
+};
+
+export type CloneCharacterState = {
+  slot: Slot;
+  name: string;
+  maxHealth: number;
+  health: number;
+  isDead: boolean;
+  facepic: string | null;
+  themePic: string | null;
+  description: string | null;
+  skills: CloneSkillState[];
+  effects: CloneEffect[];
+};
+
+export type ClonePlayerState = {
+  playerId: string;
+  side: Side;
+  chakra: SpecificChakra[];
+  team: CloneCharacterState[];
+};
+
+export type CloneBattleState = {
+  engineVersion: string;
+  createdAt: string;
+  phase: "ready" | "in_turn" | "ended";
+  turnNumber: number;
+  turnPlayerId: string;
+  winner: string | null;
+  loser: string | null;
+  players: [ClonePlayerState, ClonePlayerState];
+  history: CloneHistoryEntry[];
+};
+
+export type CloneHistoryEntry = {
+  turnNumber: number;
+  playerId: string;
+  event: string;
+  payload?: unknown;
+};
+
+export type ProtocolQueueItem = {
+  name: string;
+  menu_local?: [number, number, number];
+  usedOn?: { s: Side; i: Slot };
+  new?: true;
+  assignedSkill?: { char: Slot; index: number };
+  encryptItem?: string;
+};
+
+export type QueueValidationResult = {
+  ok: boolean;
+  issues: string[];
+};
+
+export type ChakraSpendResult = {
+  ok: boolean;
+  reason: string | null;
+  totalCost: Chakra[];
+  exactCost: SpecificChakra[];
+  randomCost: number;
+  removedChakra: SpecificChakra[];
+  remainingChakra: SpecificChakra[];
+};
+
+export function isSpecificChakra(value: Chakra): value is SpecificChakra {
+  return value === "Tai" || value === "Blood" || value === "Nin" || value === "Gen";
+}
