@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
 
@@ -33,15 +32,13 @@ function pick(object, keys) {
 const [sessionDir, preFile, postFile] = process.argv.slice(2);
 
 if (!sessionDir || !preFile || !postFile) {
-  console.error(
-    [
-      "Usage:",
-      "  node scripts/export-replay-fixture.mjs <session-dir> <pre-json> <post-json>",
-      "",
-      "Example:",
-      "  node scripts/export-replay-fixture.mjs data/traffic/2026-05-14T21-34-39-137Z 0016_requestEndTurn.json 0017_passTurn.json",
-    ].join("\n")
-  );
+  console.error([
+    "Usage:",
+    "  node scripts/export-replay-fixture.mjs <session-dir> <pre-json> <post-json>",
+    "",
+    "Example:",
+    " node scripts/export-replay-fixture.mjs data/traffic/2026-05-14T21-34-39-137Z 0016_requestEndTurn.json 0017_passTurn.json",
+  ].join("\n"));
   process.exit(1);
 }
 
@@ -63,12 +60,12 @@ if (!postContent) {
 }
 
 const queue =
-  pick(postRecord, ["request", "payload", "queue"]) ??
   pick(preRecord, ["request", "payload", "queue"]) ??
+  pick(postRecord, ["request", "payload", "queue"]) ??
   [];
 
 if (!Array.isArray(queue)) {
-  fail("Expected request.payload.queue to be an array when present.");
+  fail("Expected request.payload.queue to be an array.");
 }
 
 const sessionName = path.basename(path.resolve(sessionDir));
