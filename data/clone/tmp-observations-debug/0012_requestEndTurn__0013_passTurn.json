@@ -1,0 +1,289 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T09-12-13-865Z",
+  "preFile": "0012_requestEndTurn.json",
+  "postFile": "0013_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Shadow Clones: Rasengan",
+      "kind": "encrypted_continuation",
+      "rawTarget": null
+    },
+    {
+      "index": 1,
+      "name": "Explosive Water Shock Wave",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 2,
+      "casterName": "Kisame Body Double (S)",
+      "skillIndex": 0,
+      "resolvedSkillName": "Explosive Water Shock Wave",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 2,
+      "targetName": "Naraka Path Pein (S)",
+      "classes": [
+        "Physical",
+        "Instant",
+        "Ranged",
+        "Affliction",
+        "Helpful",
+        "Harmful",
+        "Kisame Body Double (S)"
+      ],
+      "energy": [
+        "Blood"
+      ],
+      "description": "Kisame Body Double (S) fills the battlefield with water. For 3 turns, all allies including Kisame will lose one less chakra if a chakra removal or stealing skill is used on them. For 3 turns, all enemies who use a skill will have the cooldown of that skill increased by 1 turn.*"
+    },
+    {
+      "index": 2,
+      "name": "Kyuubi Boost",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Uzumaki Naruto (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Kyuubi Boost",
+      "targetSide": 0,
+      "targetPlayerId": "mestsxxx",
+      "targetSlot": 0,
+      "targetName": "Uzumaki Naruto (S)",
+      "classes": [
+        "Chakra",
+        "Instant",
+        "Unique",
+        "Affliction",
+        "Helpful",
+        "Uzumaki Naruto (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "before": 100,
+      "after": 90,
+      "delta": -10
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "before": 100,
+      "after": 80,
+      "delta": -20
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Explosive Water Shock Wave",
+      "detail": {
+        "name": "Explosive Water Shock Wave",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Kyuubi Boost",
+      "detail": {
+        "name": "Kyuubi Boost",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+            "duration": "3 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Explosive Water Shock Wave",
+      "detail": {
+        "name": "Explosive Water Shock Wave",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Kisame Body Double (S)",
+      "effect": "Explosive Water Shock Wave",
+      "detail": {
+        "name": "Explosive Water Shock Wave",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "'WATER PRISON TECHNIQUE' NOW WILL COST 1 RANDOM CHAKRA.",
+            "duration": "2 TURN LEFTS"
+          },
+          {
+            "text": "'FIVE MAN-EATING SHARKS' NOW WILL COST 1 NINJUTSU CHAKRA.",
+            "duration": "2 TURN LEFTS"
+          },
+          {
+            "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "effect": "Explosive Water Shock Wave",
+      "detail": {
+        "name": "Explosive Water Shock Wave",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 1,
+      "character": "Yakushi Kabuto",
+      "effect": "Explosive Water Shock Wave",
+      "detail": {
+        "name": "Explosive Water Shock Wave",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "effect": "Explosive Water Shock Wave",
+      "detail": {
+        "name": "Explosive Water Shock Wave",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Shadow Clones: Rasengan",
+      "detail": {
+        "name": "Shadow Clones: Rasengan",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "effect": "Shadow Clones: Rasengan",
+      "detail": {
+        "name": "Shadow Clones: Rasengan",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS SKILL CAN BE INTERRUPTED.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Blood",
+        "Blood",
+        "Blood"
+      ],
+      "after": []
+    }
+  ]
+}

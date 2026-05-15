@@ -1,0 +1,62 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0040_requestEndTurn.json",
+  "postFile": "0041_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [],
+  "hpDeltas": [],
+  "effectsAdded": [
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Expert Analysis",
+      "detail": {
+        "name": "Expert Analysis",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS SKILL HAS ENDED.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Wild Lion Mane",
+      "detail": {
+        "name": "Wild Lion Mane",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL DEAL 15 LESS NON-AFFLICTION DAMAGE.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Gen",
+        "Tai",
+        "Nin",
+        "Gen",
+        "Nin"
+      ],
+      "after": []
+    }
+  ]
+}

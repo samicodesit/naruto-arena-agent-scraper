@@ -1,0 +1,956 @@
+{
+  "generatedAt": "2026-05-15T01:42:13.492Z",
+  "sourceMechanicsFile": "data/clone/observed-mechanics-fixtures.json",
+  "skillCount": 16,
+  "skills": {
+    "Electric Water Encampment Wall": {
+      "skillName": "Electric Water Encampment Wall",
+      "observedOccurrences": 2,
+      "files": [
+        "0010_requestEndTurn__0011_passTurn.json",
+        "0027_requestEndTurn__0028_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Electric Water Encampment Wall",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+              "duration": "END THIS TURN"
+            },
+            {
+              "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json",
+            "0027_requestEndTurn__0028_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 1,
+              "character": "Nara Shikamaru (S)"
+            }
+          ]
+        },
+        {
+          "relation": "targetAlly",
+          "effectName": "Electric Water Encampment Wall",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+              "duration": "END THIS TURN"
+            },
+            {
+              "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json",
+            "0027_requestEndTurn__0028_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 0,
+              "character": "Animal Path Pein (S)"
+            },
+            {
+              "playerId": "azmel",
+              "slot": 2,
+              "character": "Jiraiya (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Birth of the Trees": {
+      "skillName": "Birth of the Trees",
+      "observedOccurrences": 2,
+      "files": [
+        "0010_requestEndTurn__0011_passTurn.json",
+        "0033_requestEndTurn__0034_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Birth of the Trees",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "IF HASHIRAMA USES A NEW SKILL, HIS TEAM WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "'TREE STRANGULATION' IS IMPROVED AND COSTS 1 LESS RANDOM CHAKRA.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "'BRANCH MANIPULATION' IS IMPROVED AND HAS NO COOLDOWN.",
+              "duration": "3 TURN LEFTS"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json",
+            "0033_requestEndTurn__0034_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Shodai Hokage"
+            }
+          ]
+        },
+        {
+          "relation": "casterAlly",
+          "effectName": "Birth of the Trees",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+              "duration": "3 TURN LEFTS"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json",
+            "0033_requestEndTurn__0034_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Darui (S)"
+            },
+            {
+              "playerId": "mestsxxx",
+              "slot": 2,
+              "character": "Chiyo (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Birth of the Trees",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+              "duration": "3 TURN LEFTS (-)"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json",
+            "0033_requestEndTurn__0034_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 1,
+              "character": "Nara Shikamaru (S)"
+            },
+            {
+              "playerId": "azmel",
+              "slot": 2,
+              "character": "Jiraiya (S)"
+            }
+          ]
+        },
+        {
+          "relation": "targetAlly",
+          "effectName": "Birth of the Trees",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+              "duration": "3 TURN LEFTS (-)"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 0,
+              "character": "Animal Path Pein (S)"
+            },
+            {
+              "playerId": "azmel",
+              "slot": 2,
+              "character": "Jiraiya (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "White Secret Attack Rampage": {
+      "skillName": "White Secret Attack Rampage",
+      "observedOccurrences": 3,
+      "files": [
+        "0010_requestEndTurn__0011_passTurn.json",
+        "0016_requestEndTurn__0017_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "White Secret Attack Rampage",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THE NEXT USE OF 'SANBOU KYUUKAI' WILL DEAL 5 ADDITIONAL DAMAGE.",
+              "duration": "INFINITE"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 2,
+              "character": "Chiyo (S)"
+            }
+          ]
+        },
+        {
+          "relation": "targetAlly",
+          "effectName": "White Secret Attack Rampage",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL TAKE 20 DAMAGE.",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "THIS SKILL HAS BEEN USED.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0010_requestEndTurn__0011_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 2,
+              "character": "Jiraiya (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Shadow Clones: Rasengan": {
+      "skillName": "Shadow Clones: Rasengan",
+      "observedOccurrences": 2,
+      "files": [
+        "0012_requestEndTurn__0013_passTurn.json",
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Shadow Clones: Rasengan",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Shadow Clones: Rasengan",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "THIS SKILL CAN BE INTERRUPTED.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": [
+        {
+          "relation": "encrypted_continuation_related",
+          "effectName": "Shadow Clones: Rasengan",
+          "observedInFiles": [
+            "0012_requestEndTurn__0013_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            },
+            {
+              "playerId": "luzidtraum",
+              "slot": 0,
+              "character": "Kimimaro"
+            }
+          ]
+        }
+      ]
+    },
+    "Explosive Water Shock Wave": {
+      "skillName": "Explosive Water Shock Wave",
+      "observedOccurrences": 1,
+      "files": [
+        "0012_requestEndTurn__0013_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Explosive Water Shock Wave",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "'WATER PRISON TECHNIQUE' NOW WILL COST 1 RANDOM CHAKRA.",
+              "duration": "2 TURN LEFTS"
+            },
+            {
+              "text": "'FIVE MAN-EATING SHARKS' NOW WILL COST 1 NINJUTSU CHAKRA.",
+              "duration": "2 TURN LEFTS"
+            },
+            {
+              "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+              "duration": "3 TURN LEFTS (-)"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0012_requestEndTurn__0013_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 2,
+              "character": "Kisame Body Double (S)"
+            }
+          ]
+        },
+        {
+          "relation": "casterAlly",
+          "effectName": "Explosive Water Shock Wave",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+              "duration": "3 TURN LEFTS (-)"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0012_requestEndTurn__0013_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            },
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Explosive Water Shock Wave",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+              "duration": "3 TURN LEFTS (-)"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0012_requestEndTurn__0013_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        },
+        {
+          "relation": "targetAlly",
+          "effectName": "Explosive Water Shock Wave",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+              "duration": "3 TURN LEFTS (-)"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0012_requestEndTurn__0013_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 0,
+              "character": "Kimimaro"
+            },
+            {
+              "playerId": "luzidtraum",
+              "slot": 1,
+              "character": "Yakushi Kabuto"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Kyuubi Boost": {
+      "skillName": "Kyuubi Boost",
+      "observedOccurrences": 3,
+      "files": [
+        "0012_requestEndTurn__0013_passTurn.json",
+        "0019_requestEndTurn__0020_passTurn.json",
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Kyuubi Boost",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+              "duration": "3 TURN LEFTS"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0012_requestEndTurn__0013_passTurn.json",
+            "0019_requestEndTurn__0020_passTurn.json",
+            "0047_requestEndTurn__0048_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Branch Manipulation": {
+      "skillName": "Branch Manipulation",
+      "observedOccurrences": 1,
+      "files": [
+        "0016_requestEndTurn__0017_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Branch Manipulation",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0016_requestEndTurn__0017_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Shodai Hokage"
+            }
+          ]
+        },
+        {
+          "relation": "casterAlly",
+          "effectName": "Branch Manipulation",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0016_requestEndTurn__0017_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Darui (S)"
+            },
+            {
+              "playerId": "mestsxxx",
+              "slot": 2,
+              "character": "Chiyo (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Water Prison Technique": {
+      "skillName": "Water Prison Technique",
+      "observedOccurrences": 2,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Water Prison Technique",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0021_requestEndTurn__0022_passTurn.json",
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 2,
+              "character": "Kisame Body Double (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Water Prison Technique",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            },
+            {
+              "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0021_requestEndTurn__0022_passTurn.json",
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 0,
+              "character": "Kimimaro"
+            },
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Oodama Rasengan": {
+      "skillName": "Oodama Rasengan",
+      "observedOccurrences": 2,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Oodama Rasengan",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0021_requestEndTurn__0022_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 0,
+              "character": "Kimimaro"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Tree Strangulation": {
+      "skillName": "Tree Strangulation",
+      "observedOccurrences": 2,
+      "files": [
+        "0022_requestEndTurn__0023_passTurn.json",
+        "0027_requestEndTurn__0028_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Tree Strangulation",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S PHYSICAL AND CHAKRA SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0022_requestEndTurn__0023_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 0,
+              "character": "Animal Path Pein (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Laser Circus": {
+      "skillName": "Laser Circus",
+      "observedOccurrences": 2,
+      "files": [
+        "0022_requestEndTurn__0023_passTurn.json",
+        "0033_requestEndTurn__0034_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Laser Circus",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0022_requestEndTurn__0023_passTurn.json",
+            "0033_requestEndTurn__0034_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 1,
+              "character": "Nara Shikamaru (S)"
+            },
+            {
+              "playerId": "azmel",
+              "slot": 2,
+              "character": "Jiraiya (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Detachment of Primitive World": {
+      "skillName": "Detachment of Primitive World",
+      "observedOccurrences": 2,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Detachment of Primitive World",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0025_requestEndTurn__0026_passTurn.json",
+            "0052_requestEndTurn__0053_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Detachment of Primitive World",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0025_requestEndTurn__0026_passTurn.json",
+            "0052_requestEndTurn__0053_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Effortless Flight": {
+      "skillName": "Effortless Flight",
+      "observedOccurrences": 1,
+      "files": [
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Effortless Flight",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER IS INVULNERABLE.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Black Panther Lightning": {
+      "skillName": "Black Panther Lightning",
+      "observedOccurrences": 2,
+      "files": [
+        "0037_requestEndTurn__0038_passTurn.json",
+        "0043_requestEndTurn__0044_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Black Panther Lightning",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 2 ADDITIONAL COOLDOWN ON THEIR SKILLS.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0043_requestEndTurn__0044_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "azmel",
+              "slot": 1,
+              "character": "Nara Shikamaru (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Rock Fist": {
+      "skillName": "Rock Fist",
+      "observedOccurrences": 1,
+      "files": [
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Rock Fist",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 15 POINTS OF DESTRUCTIBLE DEFENSE.",
+              "duration": "INFINITE"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0047_requestEndTurn__0048_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Three-Tail: Claw Smash": {
+      "skillName": "Three-Tail: Claw Smash",
+      "observedOccurrences": 1,
+      "files": [
+        "0056_requestEndTurn__0057_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Three-Tail: Claw Smash",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0056_requestEndTurn__0057_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 1,
+              "character": "Yakushi Kabuto"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    }
+  }
+}

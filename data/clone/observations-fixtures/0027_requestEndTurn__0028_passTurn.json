@@ -1,0 +1,150 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0027_requestEndTurn.json",
+  "postFile": "0028_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Tree Strangulation",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Shodai Hokage",
+      "skillIndex": 1,
+      "resolvedSkillName": "Tree Strangulation",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 0,
+      "targetName": "Animal Path Pein (S)",
+      "classes": [
+        "Physical",
+        "Instant",
+        "Ranged",
+        "Unique",
+        "Harmful",
+        "Shodai Hokage"
+      ],
+      "energy": [
+        "Blood"
+      ],
+      "description": "Hashirama catches and crushes one enemy in giant tree branches, <Damage>dealing 25 piercing damage<Damage> to that enemy and <Effects>stunning<Effects> their <Classes>physical and chakra<Classes> skills for 1 turn. During <SkillName>'Birth of the Trees'<SkillName>, this skill <Improvements>will cost 1 less random chakra<Improvements>."
+    },
+    {
+      "index": 1,
+      "name": "Electric Water Encampment Wall",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Darui (S)",
+      "skillIndex": 1,
+      "resolvedSkillName": "Electric Water Encampment Wall",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 1,
+      "targetName": "Nara Shikamaru (S)",
+      "classes": [
+        "Chakra",
+        "Ranged",
+        "Instant",
+        "Unique",
+        "Affliction",
+        "Harmful",
+        "Darui (S)"
+      ],
+      "energy": [],
+      "description": "Darui targets all enemies for 1 turn, any enemy that uses a new harmful skill will take 5 affliction damage. The following turn, all enemies affected by this skill will recelve 5 additional damage from 'Laser Circus' and 'Black Panther Lightning'. This skill cannot be countered."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "before": 25,
+      "after": 0,
+      "delta": -25
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Expert Analysis",
+      "detail": {
+        "name": "Expert Analysis",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS SKILL HAS ENDED.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Gen",
+        "Nin",
+        "Blood",
+        "Gen",
+        "Tai"
+      ],
+      "after": []
+    }
+  ]
+}

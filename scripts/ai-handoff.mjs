@@ -88,7 +88,7 @@ if (validateActive) {
   const sessionDir = fs.existsSync(fixtureDir) ? fixtureDir : rawDir;
 
   validationCommand = [
-    "OBSERVED_EFFECT_RULES_FILE=data/clone/observed-effect-rules-20260514-213439-rich.json",
+    "OBSERVED_EFFECT_RULES_FILE=data/clone/observed-effect-rules-fixtures.json",
     `SESSION_DIR=${sessionDir}`,
     "PRE=0016_requestEndTurn.json",
     "POST=0017_passTurn.json",

@@ -7,7 +7,7 @@ const root = process.argv[2] ?? "data/fixtures/traffic";
 const strict = process.argv.includes("--strict");
 const rulesFile =
   process.env.OBSERVED_EFFECT_RULES_FILE ??
-  "data/clone/observed-effect-rules-20260514-213439-rich.json";
+  "data/clone/observed-effect-rules-fixtures.json";
 
 if (!fs.existsSync(root)) {
   console.error(`ERROR: fixture root not found: ${root}`);

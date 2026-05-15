@@ -1,0 +1,2866 @@
+{
+  "generatedAt": "2026-05-15T01:42:13.182Z",
+  "source": "data/clone/observations-fixtures",
+  "files": [
+    "0010_requestEndTurn__0011_passTurn.json",
+    "0012_requestEndTurn__0013_passTurn.json",
+    "0016_requestEndTurn__0017_passTurn.json",
+    "0019_requestEndTurn__0020_passTurn.json",
+    "0021_requestEndTurn__0022_passTurn.json",
+    "0022_requestEndTurn__0023_passTurn.json",
+    "0025_requestEndTurn__0026_passTurn.json",
+    "0027_requestEndTurn__0028_passTurn.json",
+    "0029_requestEndTurn__0030_passTurn.json",
+    "0033_requestEndTurn__0034_passTurn.json",
+    "0037_requestEndTurn__0038_passTurn.json",
+    "0040_requestEndTurn__0041_passTurn.json",
+    "0043_requestEndTurn__0044_passTurn.json",
+    "0046_requestEndTurn__0047_passTurn.json",
+    "0047_requestEndTurn__0048_passTurn.json",
+    "0052_requestEndTurn__0053_passTurn.json",
+    "0056_requestEndTurn__0057_passTurn.json"
+  ],
+  "skills": {
+    "Electric Water Encampment Wall": {
+      "skillName": "Electric Water Encampment Wall",
+      "occurrences": 2,
+      "files": [
+        "0010_requestEndTurn__0011_passTurn.json",
+        "0027_requestEndTurn__0028_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Darui (S)"
+          ],
+          "energy": []
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Darui (S)"
+          ],
+          "energy": []
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "azmel",
+          "slot": 0,
+          "character": "Animal Path Pein (S)",
+          "effect": "Electric Water Encampment Wall",
+          "detail": {
+            "name": "Electric Water Encampment Wall",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 1,
+          "character": "Nara Shikamaru (S)",
+          "effect": "Electric Water Encampment Wall",
+          "detail": {
+            "name": "Electric Water Encampment Wall",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "azmel",
+          "slot": 2,
+          "character": "Jiraiya (S)",
+          "effect": "Electric Water Encampment Wall",
+          "detail": {
+            "name": "Electric Water Encampment Wall",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 1,
+          "character": "Nara Shikamaru (S)",
+          "effect": "Electric Water Encampment Wall",
+          "detail": {
+            "name": "Electric Water Encampment Wall",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "azmel",
+          "slot": 2,
+          "character": "Jiraiya (S)",
+          "effect": "Electric Water Encampment Wall",
+          "detail": {
+            "name": "Electric Water Encampment Wall",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Blood",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Blood",
+            "Gen",
+            "Tai"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Birth of the Trees": {
+      "skillName": "Birth of the Trees",
+      "occurrences": 2,
+      "files": [
+        "0010_requestEndTurn__0011_passTurn.json",
+        "0033_requestEndTurn__0034_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "classes": [
+            "Physical",
+            "Instant",
+            "Ranged",
+            "Unique",
+            "Harmful",
+            "Helpful",
+            "Shodai Hokage"
+          ],
+          "energy": [
+            "Random",
+            "Random"
+          ]
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "targetPlayerId": "azmel",
+          "targetSlot": 2,
+          "targetName": "Jiraiya (S)",
+          "classes": [
+            "Physical",
+            "Instant",
+            "Ranged",
+            "Unique",
+            "Harmful",
+            "Helpful",
+            "Shodai Hokage"
+          ],
+          "energy": [
+            "Random",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Darui (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Shodai Hokage",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "IF HASHIRAMA USES A NEW SKILL, HIS TEAM WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "'TREE STRANGULATION' IS IMPROVED AND COSTS 1 LESS RANDOM CHAKRA.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "'BRANCH MANIPULATION' IS IMPROVED AND HAS NO COOLDOWN.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Chiyo (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "azmel",
+          "slot": 0,
+          "character": "Animal Path Pein (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 1,
+          "character": "Nara Shikamaru (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "azmel",
+          "slot": 2,
+          "character": "Jiraiya (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Darui (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+                "duration": "INFINITE"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Shodai Hokage",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+                "duration": "INFINITE"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 2,
+          "character": "Jiraiya (S)",
+          "effect": "Birth of the Trees",
+          "detail": {
+            "name": "Birth of the Trees",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 2,
+          "targetName": "Jiraiya (S)",
+          "observedTurnDelta": -10,
+          "before": 45,
+          "after": 35,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Laser Circus",
+            "Birth of the Trees"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Blood",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Gen",
+            "Tai",
+            "Gen",
+            "Tai"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "White Secret Attack Rampage": {
+      "skillName": "White Secret Attack Rampage",
+      "occurrences": 3,
+      "files": [
+        "0010_requestEndTurn__0011_passTurn.json",
+        "0016_requestEndTurn__0017_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Chiyo (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Unique",
+            "Harmful",
+            "Helpful",
+            "Chiyo (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        },
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "kind": "encrypted_continuation",
+          "casterPlayerId": null,
+          "casterSlot": null,
+          "casterName": null,
+          "targetPlayerId": null,
+          "targetSlot": null,
+          "targetName": null,
+          "classes": [],
+          "energy": []
+        },
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Chiyo (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Unique",
+            "Harmful",
+            "Helpful",
+            "Chiyo (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Chiyo (S)",
+          "effect": "White Secret Attack Rampage",
+          "detail": {
+            "name": "White Secret Attack Rampage",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THE NEXT USE OF 'SANBOU KYUUKAI' WILL DEAL 5 ADDITIONAL DAMAGE.",
+                "duration": "INFINITE"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "azmel",
+          "slot": 2,
+          "character": "Jiraiya (S)",
+          "effect": "White Secret Attack Rampage",
+          "detail": {
+            "name": "White Secret Attack Rampage",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 20 DAMAGE.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS SKILL HAS BEEN USED.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "observedTurnDelta": -10,
+          "before": 75,
+          "after": 65,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Branch Manipulation",
+            "White Secret Attack Rampage"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Chiyo (S)",
+          "observedTurnDelta": -10,
+          "before": 70,
+          "after": 60
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0010_requestEndTurn__0011_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Blood",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Gen"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Shadow Clones: Rasengan": {
+      "skillName": "Shadow Clones: Rasengan",
+      "occurrences": 2,
+      "files": [
+        "0012_requestEndTurn__0013_passTurn.json",
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "kind": "encrypted_continuation",
+          "casterPlayerId": null,
+          "casterSlot": null,
+          "casterName": null,
+          "targetPlayerId": null,
+          "targetSlot": null,
+          "targetName": null,
+          "classes": [],
+          "energy": []
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Action",
+            "Melee",
+            "Harmful",
+            "Helpful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS SKILL CAN BE INTERRUPTED.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "encrypted_continuation_related",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "encrypted_continuation_related",
+          "playerId": "luzidtraum",
+          "slot": 0,
+          "character": "Kimimaro",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS SKILL CAN BE INTERRUPTED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -15,
+          "before": 90,
+          "after": 75,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Shadow Clones: Rasengan"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Explosive Water Shock Wave": {
+      "skillName": "Explosive Water Shock Wave",
+      "occurrences": 1,
+      "files": [
+        "0012_requestEndTurn__0013_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Instant",
+            "Ranged",
+            "Affliction",
+            "Helpful",
+            "Harmful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Blood"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Explosive Water Shock Wave",
+          "detail": {
+            "name": "Explosive Water Shock Wave",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Explosive Water Shock Wave",
+          "detail": {
+            "name": "Explosive Water Shock Wave",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Kisame Body Double (S)",
+          "effect": "Explosive Water Shock Wave",
+          "detail": {
+            "name": "Explosive Water Shock Wave",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "'WATER PRISON TECHNIQUE' NOW WILL COST 1 RANDOM CHAKRA.",
+                "duration": "2 TURN LEFTS"
+              },
+              {
+                "text": "'FIVE MAN-EATING SHARKS' NOW WILL COST 1 NINJUTSU CHAKRA.",
+                "duration": "2 TURN LEFTS"
+              },
+              {
+                "text": "THIS CHARACTER WILL LOSE ONE LESS CHAKRA IF A CHAKRA REMOVAL OR STEALING SKILL IS USED ON THEM.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "luzidtraum",
+          "slot": 0,
+          "character": "Kimimaro",
+          "effect": "Explosive Water Shock Wave",
+          "detail": {
+            "name": "Explosive Water Shock Wave",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "targetAlly",
+          "playerId": "luzidtraum",
+          "slot": 1,
+          "character": "Yakushi Kabuto",
+          "effect": "Explosive Water Shock Wave",
+          "detail": {
+            "name": "Explosive Water Shock Wave",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Explosive Water Shock Wave",
+          "detail": {
+            "name": "Explosive Water Shock Wave",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "IF THIS ENEMY USES A NEW SKILL THE COOLDOWN OF THAT SKILL IS INCREASED BY 1 TURNS.",
+                "duration": "3 TURN LEFTS (-)"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Blood",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Kyuubi Boost": {
+      "skillName": "Kyuubi Boost",
+      "occurrences": 3,
+      "files": [
+        "0012_requestEndTurn__0013_passTurn.json",
+        "0019_requestEndTurn__0020_passTurn.json",
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "classes": [
+            "Chakra",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Helpful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        },
+        {
+          "file": "0019_requestEndTurn__0020_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "classes": [
+            "Chakra",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Helpful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        },
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "classes": [
+            "Chakra",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Helpful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Kyuubi Boost",
+          "detail": {
+            "name": "Kyuubi Boost",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0019_requestEndTurn__0020_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Kyuubi Boost",
+          "detail": {
+            "name": "Kyuubi Boost",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Kyuubi Boost",
+          "detail": {
+            "name": "Kyuubi Boost",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 100,
+          "after": 90,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Kyuubi Boost"
+          ]
+        },
+        {
+          "file": "0019_requestEndTurn__0020_passTurn.json",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 95,
+          "after": 85,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Kyuubi Boost"
+          ]
+        },
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 65,
+          "after": 55,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Kyuubi Boost"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 100,
+          "after": 90
+        },
+        {
+          "file": "0019_requestEndTurn__0020_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 95,
+          "after": 85
+        },
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 65,
+          "after": 55
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0012_requestEndTurn__0013_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Blood",
+            "Blood"
+          ],
+          "after": []
+        },
+        {
+          "file": "0019_requestEndTurn__0020_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Tai",
+            "Gen",
+            "Blood"
+          ],
+          "after": []
+        },
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Branch Manipulation": {
+      "skillName": "Branch Manipulation",
+      "occurrences": 1,
+      "files": [
+        "0016_requestEndTurn__0017_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Instant",
+            "Ranged",
+            "Affliction",
+            "Unique",
+            "Shodai Hokage",
+            "Helpful",
+            "Harmful",
+            "Shodai Hokage"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Darui (S)",
+          "effect": "Branch Manipulation",
+          "detail": {
+            "name": "Branch Manipulation",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Shodai Hokage",
+          "effect": "Branch Manipulation",
+          "detail": {
+            "name": "Branch Manipulation",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "relation": "casterAlly",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Chiyo (S)",
+          "effect": "Branch Manipulation",
+          "detail": {
+            "name": "Branch Manipulation",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "observedTurnDelta": -10,
+          "before": 75,
+          "after": 65,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Branch Manipulation",
+            "White Secret Attack Rampage"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "observedTurnDelta": -10,
+          "before": 70,
+          "after": 60
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0016_requestEndTurn__0017_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Gen"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Water Prison Technique": {
+      "skillName": "Water Prison Technique",
+      "occurrences": 2,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Affliction",
+            "Instant",
+            "Melee",
+            "Kisame Body Double (S)",
+            "Harmful",
+            "Helpful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Affliction",
+            "Instant",
+            "Melee",
+            "Harmful",
+            "Helpful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Blood"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Kisame Body Double (S)",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 0,
+          "character": "Kimimaro",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Kisame Body Double (S)",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -55,
+          "before": 95,
+          "after": 40,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Oodama Rasengan"
+          ]
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -15,
+          "before": 90,
+          "after": 75,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Shadow Clones: Rasengan"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Oodama Rasengan": {
+      "skillName": "Oodama Rasengan",
+      "occurrences": 2,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Affliction*",
+            "Uzumaki Naruto (S)",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Tai",
+            "Nin"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Affliction*",
+            "Uzumaki Naruto (S)",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Tai",
+            "Nin"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 0,
+          "character": "Kimimaro",
+          "effect": "Oodama Rasengan",
+          "detail": {
+            "name": "Oodama Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -55,
+          "before": 95,
+          "after": 40,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Oodama Rasengan"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -40,
+          "before": 40,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Oodama Rasengan"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -5,
+          "before": 80,
+          "after": 75
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -5,
+          "before": 55,
+          "after": 50
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Nin",
+            "Gen",
+            "Tai",
+            "Gen"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Tree Strangulation": {
+      "skillName": "Tree Strangulation",
+      "occurrences": 2,
+      "files": [
+        "0022_requestEndTurn__0023_passTurn.json",
+        "0027_requestEndTurn__0028_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Instant",
+            "Ranged",
+            "Unique",
+            "Harmful",
+            "Shodai Hokage"
+          ],
+          "energy": [
+            "Blood"
+          ]
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Instant",
+            "Ranged",
+            "Unique",
+            "Harmful",
+            "Shodai Hokage"
+          ],
+          "energy": [
+            "Blood"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 0,
+          "character": "Animal Path Pein (S)",
+          "effect": "Tree Strangulation",
+          "detail": {
+            "name": "Tree Strangulation",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S PHYSICAL AND CHAKRA SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "observedTurnDelta": -40,
+          "before": 65,
+          "after": 25,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Tree Strangulation"
+          ]
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 0,
+          "targetName": "Animal Path Pein (S)",
+          "observedTurnDelta": -25,
+          "before": 25,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Tree Strangulation"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Shodai Hokage",
+          "observedTurnDelta": -10,
+          "before": 60,
+          "after": 50
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0027_requestEndTurn__0028_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Blood",
+            "Gen",
+            "Tai"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Laser Circus": {
+      "skillName": "Laser Circus",
+      "occurrences": 2,
+      "files": [
+        "0022_requestEndTurn__0023_passTurn.json",
+        "0033_requestEndTurn__0034_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Harmful",
+            "Darui (S)"
+          ],
+          "energy": [
+            "Nin"
+          ]
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 2,
+          "targetName": "Jiraiya (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Harmful",
+            "Darui (S)"
+          ],
+          "energy": [
+            "Nin"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 1,
+          "character": "Nara Shikamaru (S)",
+          "effect": "Laser Circus",
+          "detail": {
+            "name": "Laser Circus",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 2,
+          "character": "Jiraiya (S)",
+          "effect": "Laser Circus",
+          "detail": {
+            "name": "Laser Circus",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "observedTurnDelta": -5,
+          "before": 65,
+          "after": 60,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Laser Circus"
+          ]
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 2,
+          "targetName": "Jiraiya (S)",
+          "observedTurnDelta": -10,
+          "before": 45,
+          "after": 35,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Laser Circus",
+            "Birth of the Trees"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "observedTurnDelta": -5,
+          "before": 70,
+          "after": 65
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0022_requestEndTurn__0023_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0033_requestEndTurn__0034_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Gen",
+            "Tai",
+            "Gen",
+            "Tai"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Detachment of Primitive World": {
+      "skillName": "Detachment of Primitive World",
+      "occurrences": 2,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Gen"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Gen"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -10,
+          "before": 100,
+          "after": 90,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Detachment of Primitive World"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -10,
+          "before": 15,
+          "after": 5,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Detachment of Primitive World"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Nin",
+            "Gen",
+            "Tai",
+            "Gen"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Kyuubi Empowered Rasengan": {
+      "skillName": "Kyuubi Empowered Rasengan",
+      "occurrences": 1,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Nin"
+          ]
+        }
+      ],
+      "effectAdds": [],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -40,
+          "before": 40,
+          "after": 0,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Kyuubi Empowered Rasengan",
+            "Five Man-Eating Sharks"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Five Man-Eating Sharks": {
+      "skillName": "Five Man-Eating Sharks",
+      "occurrences": 2,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json",
+        "0056_requestEndTurn__0057_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Kisame Body Double (S)",
+            "Harmful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Nin"
+          ]
+        },
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Harmful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Nin",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -40,
+          "before": 40,
+          "after": 0,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Kyuubi Empowered Rasengan",
+            "Five Man-Eating Sharks"
+          ]
+        },
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -5,
+          "before": 5,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Five Man-Eating Sharks"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Tai",
+            "Nin",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Effortless Flight": {
+      "skillName": "Effortless Flight",
+      "occurrences": 1,
+      "files": [
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 1,
+          "targetName": "Tsuchikage (S)",
+          "classes": [
+            "Chakra",
+            "Instant",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Effortless Flight",
+          "detail": {
+            "name": "Effortless Flight",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Black Panther Lightning": {
+      "skillName": "Black Panther Lightning",
+      "occurrences": 2,
+      "files": [
+        "0037_requestEndTurn__0038_passTurn.json",
+        "0043_requestEndTurn__0044_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0037_requestEndTurn__0038_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 2,
+          "targetName": "Jiraiya (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Harmful",
+            "Darui (S)"
+          ],
+          "energy": [
+            "Blood",
+            "Random"
+          ]
+        },
+        {
+          "file": "0043_requestEndTurn__0044_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Harmful",
+            "Darui (S)"
+          ],
+          "energy": [
+            "Blood",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0043_requestEndTurn__0044_passTurn.json",
+          "relation": "target",
+          "playerId": "azmel",
+          "slot": 1,
+          "character": "Nara Shikamaru (S)",
+          "effect": "Black Panther Lightning",
+          "detail": {
+            "name": "Black Panther Lightning",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 2 ADDITIONAL COOLDOWN ON THEIR SKILLS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0037_requestEndTurn__0038_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 2,
+          "targetName": "Jiraiya (S)",
+          "observedTurnDelta": -35,
+          "before": 35,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Black Panther Lightning"
+          ]
+        },
+        {
+          "file": "0043_requestEndTurn__0044_passTurn.json",
+          "targetPlayerId": "azmel",
+          "targetSlot": 1,
+          "targetName": "Nara Shikamaru (S)",
+          "observedTurnDelta": -35,
+          "before": 55,
+          "after": 20,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Black Panther Lightning"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0037_requestEndTurn__0038_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Darui (S)",
+          "observedTurnDelta": -5,
+          "before": 55,
+          "after": 50
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0037_requestEndTurn__0038_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Tai",
+            "Nin",
+            "Blood"
+          ],
+          "after": []
+        },
+        {
+          "file": "0043_requestEndTurn__0044_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Tai",
+            "Nin",
+            "Gen",
+            "Nin",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Rock Fist": {
+      "skillName": "Rock Fist",
+      "occurrences": 1,
+      "files": [
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "classes": [
+            "Physical",
+            "Melee",
+            "Instant",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Blood",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Rock Fist",
+          "detail": {
+            "name": "Rock Fist",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 15 POINTS OF DESTRUCTIBLE DEFENSE.",
+                "duration": "INFINITE"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "observedTurnDelta": -30,
+          "before": 90,
+          "after": 60,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Rock Fist"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Three-Tail: Claw Smash": {
+      "skillName": "Three-Tail: Claw Smash",
+      "occurrences": 1,
+      "files": [
+        "0056_requestEndTurn__0057_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "classes": [
+            "Physical",
+            "Melee",
+            "Instant",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 1,
+          "character": "Yakushi Kabuto",
+          "effect": "Three-Tail: Claw Smash",
+          "detail": {
+            "name": "Three-Tail: Claw Smash",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "observedTurnDelta": -40,
+          "before": 95,
+          "after": 55,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Three-Tail: Claw Smash"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -5,
+          "before": 50,
+          "after": 45
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Tai",
+            "Nin",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    }
+  }
+}

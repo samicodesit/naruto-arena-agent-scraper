@@ -1,0 +1,233 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0022_requestEndTurn.json",
+  "postFile": "0023_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Tree Strangulation",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Shodai Hokage",
+      "skillIndex": 1,
+      "resolvedSkillName": "Tree Strangulation",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 0,
+      "targetName": "Animal Path Pein (S)",
+      "classes": [
+        "Physical",
+        "Instant",
+        "Ranged",
+        "Unique",
+        "Harmful",
+        "Shodai Hokage"
+      ],
+      "energy": [
+        "Blood"
+      ],
+      "description": "Hashirama catches and crushes one enemy in giant tree branches, <Damage>dealing 25 piercing damage<Damage> to that enemy and <Effects>stunning<Effects> their <Classes>physical and chakra<Classes> skills for 1 turn. During <SkillName>'Birth of the Trees'<SkillName>, this skill <Improvements>will cost 1 less random chakra<Improvements>."
+    },
+    {
+      "index": 1,
+      "name": "Laser Circus",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Darui (S)",
+      "skillIndex": 0,
+      "resolvedSkillName": "Laser Circus",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 1,
+      "targetName": "Nara Shikamaru (S)",
+      "classes": [
+        "Chakra",
+        "Ranged",
+        "Instant",
+        "Unique",
+        "Harmful",
+        "Darui (S)"
+      ],
+      "energy": [
+        "Nin"
+      ],
+      "description": "Darui creates several beams and shoots his opponents, stunning one enemy's harmful skills for 1 turn. Afterwards, the main target takes 5 piercing damage and all other enemies take 15 piercing damage."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "before": 70,
+      "after": 65,
+      "delta": -5
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Shodai Hokage",
+      "before": 60,
+      "after": 50,
+      "delta": -10
+    },
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "before": 65,
+      "after": 25,
+      "delta": -40
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "before": 65,
+      "after": 60,
+      "delta": -5
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "before": 65,
+      "after": 50,
+      "delta": -15
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "effect": "Tree Strangulation",
+      "detail": {
+        "name": "Tree Strangulation",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S PHYSICAL AND CHAKRA SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Laser Circus",
+      "detail": {
+        "name": "Laser Circus",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Cerberus Hydra",
+      "detail": {
+        "name": "Cerberus Hydra",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW SKILL THEY WILL TAKE 15 PIERCING DAMAGE.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Shodai Hokage",
+      "effect": "Cerberus Hydra",
+      "detail": {
+        "name": "Cerberus Hydra",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW SKILL THEY WILL TAKE 15 PIERCING DAMAGE.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Chiyo (S)",
+      "effect": "Cerberus Hydra",
+      "detail": {
+        "name": "Cerberus Hydra",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW SKILL THEY WILL TAKE 15 PIERCING DAMAGE.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "White Secret Attack Rampage",
+      "detail": {
+        "name": "White Secret Attack Rampage",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 20 DAMAGE.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS SKILL HAS ENDED.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Gen",
+        "Blood",
+        "Nin",
+        "Nin"
+      ],
+      "after": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T09-57-27-164Z",
+  "preFile": "0019_requestEndTurn.json",
+  "postFile": "0020_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Kyuubi Boost",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Uzumaki Naruto (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Kyuubi Boost",
+      "targetSide": 0,
+      "targetPlayerId": "mestsxxx",
+      "targetSlot": 0,
+      "targetName": "Uzumaki Naruto (S)",
+      "classes": [
+        "Chakra",
+        "Instant",
+        "Unique",
+        "Affliction",
+        "Helpful",
+        "Uzumaki Naruto (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "before": 95,
+      "after": 85,
+      "delta": -10
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Kyuubi Boost",
+      "detail": {
+        "name": "Kyuubi Boost",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+            "duration": "3 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Blood",
+        "Tai",
+        "Gen",
+        "Blood"
+      ],
+      "after": []
+    }
+  ]
+}

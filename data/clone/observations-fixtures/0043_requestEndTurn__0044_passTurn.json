@@ -1,0 +1,119 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0043_requestEndTurn.json",
+  "postFile": "0044_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Black Panther Lightning",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Darui (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Black Panther Lightning",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 1,
+      "targetName": "Nara Shikamaru (S)",
+      "classes": [
+        "Chakra",
+        "Ranged",
+        "Instant",
+        "Unique",
+        "Harmful",
+        "Darui (S)"
+      ],
+      "energy": [
+        "Blood",
+        "Random"
+      ],
+      "description": "Darui generates a black panther lightning from his body and releases it at one enemy, dealing 35 piercing damage to them. For 1 turn, that enemy's skills will have 2 additional cooldown. This skill ignores invulnerability."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "before": 55,
+      "after": 20,
+      "delta": -35
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Black Panther Lightning",
+      "detail": {
+        "name": "Black Panther Lightning",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 2 ADDITIONAL COOLDOWN ON THEIR SKILLS.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Expert Analysis",
+      "detail": {
+        "name": "Expert Analysis",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "'EXPERT ANALYSIS' HAS BEEN TRIGGERED.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Gen",
+        "Tai",
+        "Nin",
+        "Gen",
+        "Nin",
+        "Blood"
+      ],
+      "after": []
+    }
+  ]
+}
