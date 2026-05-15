@@ -303,19 +303,6 @@ export function grantDestructibleDefense(
   if (amount <= 0 || character.isDead) return;
   const current = getDestructibleDefense(character);
   setDestructibleDefense(character, current + amount);
-
-  character.effects.push({
-    id: `observed-defense:${source}:${character.slot}:${Date.now()}:${Math.random()}`,
-    name: "__Observed Destructible Defense",
-    sourcePlayerId: null,
-    sourceSlot: null,
-    durationTurns: null,
-    durationLabel: "INFINITE",
-    text: [`THIS CHARACTER HAS ${amount} POINTS OF DESTRUCTIBLE DEFENSE.`],
-    textDurations: ["INFINITE"],
-    stacks: 1,
-    tags: ["ObservedInternal", "DestructibleDefense"]
-  });
 }
 
 function consumeDestructibleDefense(character: CloneCharacterState, amount: number): number {

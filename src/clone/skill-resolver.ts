@@ -7,7 +7,7 @@ import type {
   ProtocolQueueItem,
   Slot
 } from "./types.js";
-import { damageCharacter, getOpponent, getPlayer } from "./turn-engine.js";
+import { damageCharacter, getOpponent, getPlayer, grantDestructibleDefense } from "./turn-engine.js";
 import { applyObservedEffectRules } from "./observed-effect-applier.js";
 
 export type ResolveSkillResult = {
@@ -53,7 +53,7 @@ export function resolveQueueSkill(
     return { ok: false, skillName: item.name, notes: ["invalid_caster_or_skill"] };
   }
 
-  const description = skill.description ?? "";
+  if (item.new) { applyReactiveNewSkillEffects(battle, playerId, caster, assigned.char as Slot, skill); } const description = skill.description ?? "";
   const delayedDamage = extractDelayedDamage(description);
 
   if (delayedDamage !== null) {
@@ -292,6 +292,60 @@ export function resolveQueueSkill(
   });
 
   return { ok: true, skillName: skill.name, notes: [`applied_${damage.amount}_damage`] };
+}
+
+
+function applyReactiveNewSkillEffects(
+  battle: CloneBattleState,
+  playerId: string,
+  caster: CloneCharacterState,
+  casterSlot: Slot,
+  skill: CloneSkillState
+): void {
+  grantHashiramaTeamDefenseIfObserved(battle, playerId, caster);
+  applyObservedSelfDamageOnNewSkill(battle, playerId, caster, casterSlot, skill);
+}
+
+function grantHashiramaTeamDefenseIfObserved(
+  battle: CloneBattleState,
+  playerId: string,
+  caster: CloneCharacterState
+): void {
+  const amount = extractHashiramaTeamDefenseAmount(caster);
+  if (amount === null) return;
+
+  const player = getPlayer(battle, playerId);
+  for (const ally of player.team) {
+    grantDestructibleDefense(ally, amount, "Birth of the Trees");
+  }
+}
+
+function extractHashiramaTeamDefenseAmount(caster: CloneCharacterState): number | null {
+  for (const effect of caster.effects) {
+    for (const line of effect.text) {
+      const match = String(line).match(/\bIF +HASHIRAMA +USES +A +NEW +SKILL,? +HIS +TEAM +WILL +GAIN +(\d+) +POINTS? +OF +DESTRUCTIBLE +DEFENSE\b/i);
+      if (match) return Number(match[1]);
+    }
+  }
+  return null;
+}
+
+function applyObservedSelfDamageOnNewSkill(
+  battle: CloneBattleState,
+  playerId: string,
+  caster: CloneCharacterState,
+  casterSlot: Slot,
+  skill: CloneSkillState
+): void {
+  for (const effect of caster.effects) {
+    for (const line of effect.text) {
+      const match = String(line).match(/\bIF +THIS +CHARACTER +USES +A +NEW +SKILL +THEY +WILL +TAKE +(\d+) +(PIERCING +|AFFLICTION +)?DAMAGE\b/i);
+      if (!match) continue;
+
+      damageCharacter(battle, playerId, casterSlot, Number(match[1]), effect.name);
+      return;
+    }
+  }
 }
 
 function resolveEncryptedContinuationEffect(
