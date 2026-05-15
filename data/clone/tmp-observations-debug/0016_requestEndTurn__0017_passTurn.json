@@ -1,0 +1,256 @@
+{
+  "sessionDir": "data/fixtures/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0016_requestEndTurn.json",
+  "postFile": "0017_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "White Secret Attack Rampage",
+      "kind": "encrypted_continuation",
+      "rawTarget": null
+    },
+    {
+      "index": 1,
+      "name": "Branch Manipulation",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Shodai Hokage",
+      "skillIndex": 2,
+      "resolvedSkillName": "Branch Manipulation",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 0,
+      "targetName": "Animal Path Pein (S)",
+      "classes": [
+        "Physical",
+        "Instant",
+        "Ranged",
+        "Affliction",
+        "Unique",
+        "Shodai Hokage",
+        "Helpful",
+        "Harmful",
+        "Shodai Hokage"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Hashirama sends out his trees in all directions, <Damage>dealing 10 affliction damage<Damage> to all enemies and granting 25% <Defense>damage reduction<Defense> to himself and his allies. During <SkillName>'Birth of the Trees'<SkillName>, this skill will <Improvements>have no cooldown<Improvements>."
+    },
+    {
+      "index": 2,
+      "name": "White Secret Attack Rampage",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 2,
+      "casterName": "Chiyo (S)",
+      "skillIndex": 0,
+      "resolvedSkillName": "White Secret Attack Rampage",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 0,
+      "targetName": "Animal Path Pein (S)",
+      "classes": [
+        "Physical",
+        "Action",
+        "Ranged",
+        "Unique",
+        "Harmful",
+        "Helpful",
+        "Chiyo (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Chiyo directs her puppets to devastate the battlefield, dealing 20 damage to a random enemy for 1 turn. The following turn, a second random enemy will also be dealt 20 damage. The second target is invisible. The next use of 'Sanbou Kyuukai' will deal 5 aditional damage. This skill stacks."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Shodai Hokage",
+      "before": 70,
+      "after": 60,
+      "delta": -10
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Chiyo (S)",
+      "before": 70,
+      "after": 60,
+      "delta": -10
+    },
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "before": 75,
+      "after": 65,
+      "delta": -10
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "before": 95,
+      "after": 65,
+      "delta": -30
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "before": 95,
+      "after": 65,
+      "delta": -30
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Branch Manipulation",
+      "detail": {
+        "name": "Branch Manipulation",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Shodai Hokage",
+      "effect": "Branch Manipulation",
+      "detail": {
+        "name": "Branch Manipulation",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Chiyo (S)",
+      "effect": "Branch Manipulation",
+      "detail": {
+        "name": "Branch Manipulation",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "DAMAGE TO THIS CHARACTER IS REDUCED BY 25%.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Expert Analysis",
+      "detail": {
+        "name": "Expert Analysis",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "'EXPERT ANALYSIS' HAS BEEN TRIGGERED.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Tai",
+        "Gen",
+        "Gen"
+      ],
+      "after": []
+    }
+  ]
+}

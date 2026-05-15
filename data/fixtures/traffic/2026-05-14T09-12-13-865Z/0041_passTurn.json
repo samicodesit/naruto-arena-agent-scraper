@@ -1,0 +1,500 @@
+{
+  "request": {
+    "payload": {
+      "queue": [
+        {
+          "name": "Shadow Clones: Rasengan",
+          "encryptItem": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hhZG93IENsb25lczogUmFzZW5nYW4iLCJ0aGlzSWQiOjE1LCJ0aGlzQ2xhc3NlcyI6WyJDaGFrcmEiLCJBY3Rpb24iLCJNZWxlZSIsIlV6dW1ha2kgTmFydXRvIChTKSIsIlNoYWRvdyBDbG9uZXM6IFJhc2VuZ2FuIiwicGllcmNpbmciLCJpbnZpc2libGUiLCJwaWVyY2luZyIsImludmlzaWJsZSIsInBpZXJjaW5nIiwiaW52aXNpYmxlIiwicGllcmNpbmciLCJpbnZpc2libGUiLCJwaWVyY2luZyIsImludmlzaWJsZSIsInBpZXJjaW5nIiwiaW52aXNpYmxlIiwiaWdub3JlSGFybWZ1bCIsImludmlzaWJsZSIsImlnbm9yZUhhcm1mdWwiLCJpbnZpc2libGUiLCJIYXJtZnVsIiwiSGVscGZ1bCJdLCJpbmRleCI6MCwiaWF0IjoxNzc4NzUwMTcxLCJleHAiOjE3Nzg3NjA5NzF9.0pIJFt16rziaKaG_5L0MhQl8OJBcVp3OexIo-WhP4sU"
+        },
+        {
+          "name": "Five Man-Eating Sharks",
+          "menu_local": [
+            0,
+            2,
+            2
+          ],
+          "usedOn": {
+            "s": 1,
+            "i": 0
+          },
+          "new": true,
+          "assignedSkill": {
+            "char": 2,
+            "index": 2
+          }
+        },
+        {
+          "name": "Detachment of Primitive World",
+          "menu_local": [
+            0,
+            1,
+            0
+          ],
+          "usedOn": {
+            "s": 1,
+            "i": 1
+          },
+          "new": true,
+          "assignedSkill": {
+            "char": 1,
+            "index": 0
+          }
+        },
+        {
+          "name": "Oodama Rasengan",
+          "menu_local": [
+            0,
+            0,
+            0
+          ],
+          "usedOn": {
+            "s": 1,
+            "i": 2
+          },
+          "new": true,
+          "assignedSkill": {
+            "char": 0,
+            "index": 0
+          }
+        }
+      ]
+    }
+  },
+  "response": {
+    "body": {
+      "content": {
+        "players": [
+          {
+            "playerId": "mestsxxx",
+            "team": {
+              "char0": {
+                "name": "Uzumaki Naruto (S)",
+                "health": 65,
+                "icon": [
+                  {
+                    "name": "Passive: Three Tails Release",
+                    "effects": [
+                      {
+                        "text": "NARUTO HAS 3 KYUUBI RAGE STACK.",
+                        "duration": "INFINITE"
+                      },
+                      {
+                        "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Tsuchikage (S)",
+                "health": 10,
+                "icon": [
+                  {
+                    "name": "Detachment of Primitive World",
+                    "effects": [
+                      {
+                        "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+                        "duration": "1 TURN LEFT"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Kisame Body Double (S)",
+                "health": 70,
+                "icon": [],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/MhMKfMr.jpeg",
+            "border_temp": "https://i.imgur.com/2O6uXW7.png",
+            "info": {
+              "win": 119,
+              "lose": 103,
+              "streak": 9,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "soul slayers",
+              "ladderrank": 696,
+              "title": null,
+              "activeSkins": null,
+              "activeBorder": null
+            }
+          },
+          {
+            "playerId": "luzidtraum",
+            "team": {
+              "char0": {
+                "name": "Kimimaro",
+                "health": 0,
+                "icon": [],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Yakushi Kabuto",
+                "health": 90,
+                "icon": [
+                  {
+                    "name": "Detachment of Primitive World",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                        "duration": "1 TURN LEFT"
+                      },
+                      {
+                        "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+                        "duration": "1 TURN LEFT"
+                      },
+                      {
+                        "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+                        "duration": "1 TURN LEFT",
+                        "isNothing": true
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Naraka Path Pein (S)",
+                "health": 15,
+                "icon": [
+                  {
+                    "name": "Rejuvenation",
+                    "effects": [
+                      {
+                        "text": "THIS SKILL WILL COST 1 ADDITIONAL GENJUTSU CHAKRA.",
+                        "duration": "INFINITE"
+                      },
+                      {
+                        "text": "THIS SKILL WILL HEAL 15 ADDITIONAL HEALTH.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "luzidtraum",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/GagjnK5.jpg",
+            "border_temp": null,
+            "info": {
+              "win": 2292,
+              "lose": 2604,
+              "streak": 1,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 696,
+              "title": null,
+              "activeSkins": [],
+              "activeBorder": null
+            }
+          }
+        ],
+        "turn": "luzidtraum",
+        "charImages": {
+          "facepics": {
+            "Kimimaro": {
+              "src": "https://i.imgur.com/qzCv58M.png",
+              "srcOldTheme": "https://i.imgur.com/gtE042X.jpg"
+            },
+            "Yakushi Kabuto": {
+              "src": "https://i.imgur.com/ZIyW33w.png",
+              "srcOldTheme": "https://i.imgur.com/4kwL3yX.jpg"
+            },
+            "Tsuchikage (S)": {
+              "src": "https://i.imgur.com/2TGh48c.png",
+              "srcOldTheme": "https://i.imgur.com/2TGh48c.png"
+            },
+            "Naraka Path Pein (S)": {
+              "src": "https://i.imgur.com/mkVVxYO.png",
+              "srcOldTheme": "https://i.imgur.com/JMaDKFI.jpg"
+            },
+            "Uzumaki Naruto (S)": {
+              "src": "https://i.imgur.com/ksOuPJi.png",
+              "srcOldTheme": "https://i.imgur.com/AyQeKCH.png"
+            },
+            "Kisame Body Double (S)": {
+              "src": "https://i.imgur.com/bqqAtVc.jpeg",
+              "srcOldTheme": "https://i.imgur.com/bqqAtVc.jpeg"
+            }
+          },
+          "skills": {
+            "Dance of the Camellia": {
+              "src": "https://i.imgur.com/kwWcpw0.png",
+              "srcOldTheme": "https://i.imgur.com/zIpXEZr.jpg"
+            },
+            "Dance of the Clematis": {
+              "src": "https://i.imgur.com/Q6rE1Ey.png",
+              "srcOldTheme": "https://i.imgur.com/ShFLrWG.jpg"
+            },
+            "Dance of the Seedling Fern": {
+              "src": "https://i.imgur.com/hgM78mG.png",
+              "srcOldTheme": "https://i.imgur.com/xI4CGeo.jpg"
+            },
+            "Bone Defense": {
+              "src": "https://i.imgur.com/bSUqg3e.png",
+              "srcOldTheme": "https://i.imgur.com/oI2V9GS.jpg"
+            },
+            "Mystical Palm Technique": {
+              "src": "https://i.imgur.com/jyPztJT.png",
+              "srcOldTheme": "https://i.imgur.com/BhijRbd.jpg"
+            },
+            "Temple of Nirvana": {
+              "src": "https://i.imgur.com/6MjweCd.png",
+              "srcOldTheme": "https://i.imgur.com/qsrADbd.jpg"
+            },
+            "Secret Healing Wound Destruction": {
+              "src": "https://i.imgur.com/nFIj8h6.png",
+              "srcOldTheme": "https://i.imgur.com/jeRuVsG.jpg"
+            },
+            "Dead Soul Technique": {
+              "src": "https://i.imgur.com/1DqPb41.png",
+              "srcOldTheme": "https://i.imgur.com/1ymdv9I.jpg"
+            },
+            "Detachment of Primitive World": {
+              "src": "https://i.imgur.com/IRQ1VBv.png",
+              "srcOldTheme": "https://i.imgur.com/IRQ1VBv.png"
+            },
+            "Super-Weighted Boulder Technique": {
+              "src": "https://i.imgur.com/sq51r2K.png",
+              "srcOldTheme": "https://i.imgur.com/sq51r2K.png"
+            },
+            "Rock Fist": {
+              "src": "https://i.imgur.com/IubtdOZ.png",
+              "srcOldTheme": "https://i.imgur.com/IubtdOZ.png"
+            },
+            "Effortless Flight": {
+              "src": "https://i.imgur.com/5ctULD8.png",
+              "srcOldTheme": "https://i.imgur.com/5ctULD8.png"
+            },
+            "Dust Implode": {
+              "src": "https://i.imgur.com/L9B79qi.png",
+              "srcOldTheme": "https://i.imgur.com/L9B79qi.png"
+            },
+            "Outer Path": {
+              "src": "https://i.imgur.com/4aboIoQ.png",
+              "srcOldTheme": "https://i.imgur.com/RyWxFYA.jpg"
+            },
+            "Judgement": {
+              "src": "https://i.imgur.com/xf6e75f.png",
+              "srcOldTheme": "https://i.imgur.com/q4L8qST.jpg"
+            },
+            "Rejuvenation": {
+              "src": "https://i.imgur.com/zaX6YtB.png",
+              "srcOldTheme": "https://i.imgur.com/qd4Qxag.jpg"
+            },
+            "Chakra Rod Deflection": {
+              "src": "https://i.imgur.com/Ry4Xmau.png",
+              "srcOldTheme": "https://i.imgur.com/Y94AV55.jpg"
+            },
+            "Oodama Rasengan": {
+              "src": "https://i.imgur.com/toWCXT5.png",
+              "srcOldTheme": "https://i.imgur.com/OjjYVZg.png"
+            },
+            "Shadow Clones: Rasengan": {
+              "src": "https://i.imgur.com/KdxZzju.png",
+              "srcOldTheme": null
+            },
+            "Kyuubi Boost": {
+              "src": "https://i.imgur.com/Mv0n65V.jpg",
+              "srcOldTheme": null
+            },
+            "Shadow Clone Save": {
+              "src": "https://i.imgur.com/8lPJUXh.png",
+              "srcOldTheme": null
+            },
+            "Kyuubi Empowered Rasengan": {
+              "src": "https://i.imgur.com/iqprvFg.png",
+              "srcOldTheme": null
+            },
+            "Passive: Three Tails Release": {
+              "src": "https://i.imgur.com/W4maqPt.png",
+              "srcOldTheme": null
+            },
+            "Three-Tail: Claw Smash": {
+              "src": "https://i.imgur.com/MOw6ymg.png",
+              "srcOldTheme": null
+            },
+            "Three-Tail: Chakra Shockwave": {
+              "src": "https://i.imgur.com/pd00clo.png",
+              "srcOldTheme": null
+            },
+            "Explosive Water Shock Wave": {
+              "src": "https://i.imgur.com/zVJTGma.jpeg",
+              "srcOldTheme": "https://i.imgur.com/zVJTGma.jpeg"
+            },
+            "Water Prison Technique": {
+              "src": "https://i.imgur.com/gmuc252.jpeg",
+              "srcOldTheme": "https://i.imgur.com/gmuc252.jpeg"
+            },
+            "Five Man-Eating Sharks": {
+              "src": "https://i.imgur.com/csZyWj6.jpeg",
+              "srcOldTheme": "https://i.imgur.com/csZyWj6.jpeg"
+            },
+            "Kisame Body Double (S) Water Clone": {
+              "src": "https://i.imgur.com/lRyljhc.jpeg",
+              "srcOldTheme": "https://i.imgur.com/lRyljhc.jpeg"
+            }
+          }
+        },
+        "shortcut_s": {
+          "Dance of the Camellia": [
+            "0",
+            "0"
+          ],
+          "Dance of the Clematis": [
+            "0",
+            "1"
+          ],
+          "Dance of the Seedling Fern": [
+            "0",
+            "2"
+          ],
+          "Bone Defense": [
+            "0",
+            "3"
+          ],
+          "Mystical Palm Technique": [
+            "1",
+            "0"
+          ],
+          "Temple of Nirvana": [
+            "1",
+            "1"
+          ],
+          "Secret Healing Wound Destruction": [
+            "1",
+            "2"
+          ],
+          "Dead Soul Technique": [
+            "1",
+            "3"
+          ],
+          "Detachment of Primitive World": [
+            "2",
+            "0"
+          ],
+          "Super-Weighted Boulder Technique": [
+            "2",
+            "1"
+          ],
+          "Rock Fist": [
+            "2",
+            "2"
+          ],
+          "Effortless Flight": [
+            "2",
+            "3"
+          ],
+          "Dust Implode": [
+            "2",
+            "4"
+          ],
+          "Outer Path": [
+            "3",
+            "0"
+          ],
+          "Judgement": [
+            "3",
+            "1"
+          ],
+          "Rejuvenation": [
+            "3",
+            "2"
+          ],
+          "Chakra Rod Deflection": [
+            "3",
+            "3"
+          ],
+          "Oodama Rasengan": [
+            "4",
+            "0"
+          ],
+          "Shadow Clones: Rasengan": [
+            "4",
+            "1"
+          ],
+          "Kyuubi Boost": [
+            "4",
+            "2"
+          ],
+          "Shadow Clone Save": [
+            "4",
+            "3"
+          ],
+          "Kyuubi Empowered Rasengan": [
+            "4",
+            "4"
+          ],
+          "Passive: Three Tails Release": [
+            "4",
+            "5"
+          ],
+          "Three-Tail: Claw Smash": [
+            "4",
+            "6"
+          ],
+          "Three-Tail: Chakra Shockwave": [
+            "4",
+            "7"
+          ],
+          "Explosive Water Shock Wave": [
+            "5",
+            "0"
+          ],
+          "Water Prison Technique": [
+            "5",
+            "1"
+          ],
+          "Five Man-Eating Sharks": [
+            "5",
+            "2"
+          ],
+          "Kisame Body Double (S) Water Clone": [
+            "5",
+            "3"
+          ]
+        },
+        "turnKey": 11
+      }
+    }
+  }
+}

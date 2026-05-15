@@ -1,0 +1,1551 @@
+{
+  "response": {
+    "body": {
+      "content": {
+        "players": [
+          {
+            "playerId": "mestsxxx",
+            "team": {
+              "char0": {
+                "name": "Uzumaki Naruto (S)",
+                "health": 65,
+                "skills": [
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Oodama Rasengan",
+                    "description": "Naruto uses a greater version of Rasengan, dealing 40 piercing damage to one enemy ignoring invulnerability. During 'Kyuubi Boost', this skill will stun that enemy's non-mental skills for 1 turn. Afterwards, Naruto takes 5 affliction damage*. During 'Passive: Three Tails Release', this skill will be replaced.",
+                    "descriptionBR": "Naruto usa uma versão maior do Rasengan, causando 40 de dano perfurante a um inimigo ignorando invulnerabilidade. Durante 'Kyuubi Boost', esta habilidade atordoará as habilidades não mentais desse inimigo por 1 turno. Depois, Naruto recebe 5 de dano aflitivo*. Durante 'Passive: Three Tails Release', esta habilidade será substituída.",
+                    "energy": [
+                      "Tai",
+                      "Nin"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Melee",
+                      "Instant",
+                      "Affliction*",
+                      "Harmful",
+                      "Uzumaki Naruto (S)"
+                    ],
+                    "cooldown": 0,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": true,
+                    "cd_on": 2,
+                    "name": "Shadow Clones: Rasengan",
+                    "description": "The following turn, Naruto will deal 20 piercing damage to one enemy. During this time, Naruto will ignore all harmful effects. During 'Passive: Three Tails Release', this skill will be replaced. This skill is invisible.",
+                    "descriptionBR": "No turno seguinte, Naruto causará 20 de dano perfurante a um inimigo. Durante esse tempo, Naruto ignorará todos os efeitos prejudiciais. Durante 'Passive: Three Tails Release', esta habilidade será substituída. Esta habilidade é invisível.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Action",
+                      "Melee",
+                      "Harmful",
+                      "Helpful",
+                      "Uzumaki Naruto (S)"
+                    ],
+                    "cooldown": 2,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        1
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Kyuubi Boost",
+                    "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'.",
+                    "descriptionBR": "Naruto perde 10 de vida e por 3 turnos ganha 10 pontos de redução de dano. Nos próximos 3 turnos, ele ignorará efeitos de atordoamento e esta habilidade se tornará 'Kyuubi Empowered Rasengan'. Não pode ser usado durante 'Passive: Three Tails Transformation'.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Unique",
+                      "Affliction",
+                      "Helpful",
+                      "Uzumaki Naruto (S)"
+                    ],
+                    "cooldown": 3,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        1,
+                        1
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Shadow Clone Save",
+                    "description": "This skill makes Uzumaki Naruto (S) <Defense>invulnerable<Defense> for 1 turn.",
+                    "descriptionBR": "Essa habilidade faz Uzumaki Naruto (S) <Defense>invulnerável<Defense> por 1 turno.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Helpful",
+                      "Uzumaki Naruto (S)"
+                    ],
+                    "cooldown": 4,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        1,
+                        1
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ],
+                "icon": [
+                  {
+                    "name": "Passive: Three Tails Release",
+                    "effects": [
+                      {
+                        "text": "NARUTO HAS 2 KYUUBI RAGE STACK.",
+                        "duration": "INFINITE"
+                      },
+                      {
+                        "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Shadow Clones: Rasengan",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+                        "duration": "END THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "cd": [
+                  {
+                    "name": "Shadow Clones: Rasengan",
+                    "val": 2,
+                    "valOg": 2
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Tsuchikage (S)",
+                "health": 10,
+                "skills": [
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Detachment of Primitive World",
+                    "description": "Ohnoki isolates an enemy with his dust release, dealing 10 affliction damage to them. For 1 turn, that enemy will be invulnerable to helpful skills and their harmful skills will be stunned. The following turn, this skill will be replaced by 'Dust Implode'.",
+                    "descriptionBR": "Ohnoki isola um inimigo com sua liberação de poeira, causando 10 de dano aflitivo. Por 1 turno, esse inimigo ficará invulnerável a habilidades benéficas e suas habilidades ofensivas serão atordoadas. No turno seguinte, esta habilidade será substituída por 'Dust Implode'.",
+                    "energy": [
+                      "Gen"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Ranged",
+                      "Instant",
+                      "Unique",
+                      "Affliction",
+                      "Harmful",
+                      "Helpful",
+                      "Tsuchikage (S)"
+                    ],
+                    "cooldown": 1,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        1,
+                        1
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Super-Weighted Boulder Technique",
+                    "description": "Onhoki touches an enemy and makes them much heavier. For 2 turns, the cost of their harmful skills will be increased by 1 random. This skill ends if that enemy uses a new harmful skill.",
+                    "descriptionBR": "Ohnoki toca um inimigo e o torna muito mais pesado. Por 2 turnos, o custo de suas habilidades ofensivas será aumentado em 1 chakra aleatório. Essa habilidade termina se esse inimigo usar uma nova habilidade ofensiva.",
+                    "energy": [],
+                    "classes": [
+                      "Chakra",
+                      "Melee",
+                      "Instant",
+                      "Harmful",
+                      "Tsuchikage (S)"
+                    ],
+                    "cooldown": 2,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Rock Fist",
+                    "description": "Increasing his striking power with Rock Fist, Ohnoki deals 30 damage to one enemy. Afterwards, Ohnoki gains 15 permanent destructible defense.",
+                    "descriptionBR": "Aumentando seu poder de ataque com o Punho de Pedra, Ohnoki causa 30 de dano a um inimigo. Em seguida, Ohnoki ganha 15 de defesa destrutível permanente.",
+                    "energy": [
+                      "Blood",
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Melee",
+                      "Instant",
+                      "Harmful",
+                      "Helpful",
+                      "Tsuchikage (S)"
+                    ],
+                    "cooldown": 1,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        1,
+                        1
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": true,
+                    "cd_on": 4,
+                    "name": "Effortless Flight",
+                    "description": "This skill makes Tsuchikage (S) <Defense>invulnerable<Defense> for 1 turn.",
+                    "descriptionBR": "Essa habilidade faz Tsuchikage (S) <Defense>invulnerável<Defense> por 1 turno.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Helpful",
+                      "Tsuchikage (S)"
+                    ],
+                    "cooldown": 4,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        1,
+                        1
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ],
+                "icon": [],
+                "cd": [
+                  {
+                    "name": "Effortless Flight",
+                    "val": 4,
+                    "valOg": 4
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Kisame Body Double (S)",
+                "health": 70,
+                "skills": [
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Explosive Water Shock Wave",
+                    "description": "Kisame Body Double (S) fills the battlefield with water. For 3 turns, all allies including Kisame will lose one less chakra if a chakra removal or stealing skill is used on them. For 3 turns, all enemies who use a skill will have the cooldown of that skill increased by 1 turn.*",
+                    "descriptionBR": "Kisame Body Double (S) enche o campo de batalha com água. Por 3 turnos, todos os aliados, incluindo Kisame, perderão 1 chakra a menos se uma habilidade de remoção ou roubo de chakra for usada neles. Por 3 turnos, todos os inimigos que usarem uma habilidade terão o tempo de recarga dessa habilidade aumentado em 1 turno.",
+                    "energy": [
+                      "Blood"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Instant",
+                      "Ranged",
+                      "Affliction",
+                      "Helpful",
+                      "Harmful",
+                      "Kisame Body Double (S)"
+                    ],
+                    "cooldown": 3,
+                    "target": {
+                      "10": [
+                        1,
+                        1
+                      ],
+                      "11": [
+                        1,
+                        1
+                      ],
+                      "12": [
+                        1,
+                        1
+                      ],
+                      "00": [
+                        1,
+                        1
+                      ],
+                      "01": [
+                        1,
+                        1
+                      ],
+                      "02": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": true,
+                    "cd_on": 1,
+                    "name": "Water Prison Technique",
+                    "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra.",
+                    "descriptionBR": "Usando uma bolha de água, Kisame atordoa as habilidades físicas ou à distância de um inimigo por 1 turno. Durante esse tempo, o inimigo recebe 15 de dano aflitivo* e se torna invulnerável a habilidades aliadas, e Kisame ganha 15 pontos de redução de dano. Durante Onda de Choque de Água Explosiva, esta habilidade custa 1 chakra aleatório.",
+                    "energy": [
+                      "Blood"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Affliction",
+                      "Instant",
+                      "Melee",
+                      "Harmful",
+                      "Helpful",
+                      "Kisame Body Double (S)"
+                    ],
+                    "cooldown": 1,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Five Man-Eating Sharks",
+                    "description": "Kisame Body Double summons five sharks of water who attack one enemy dealing 25 damage for 2 turns. During Explosive Water Shock Wave this skill costs 1 ninjutsu chakra.",
+                    "descriptionBR": "O Corpo Duplo de Kisame invoca cinco tubarões de água que atacam um inimigo causando 25 de dano por 2 turnos. Durante Onda de Choque de Água Explosiva, esta habilidade custa 1 chakra de ninjutsu.",
+                    "energy": [
+                      "Nin",
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Action",
+                      "Ranged",
+                      "Harmful",
+                      "Kisame Body Double (S)"
+                    ],
+                    "cooldown": 0,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Kisame Body Double (S) Water Clone",
+                    "description": "This skill makes Kisame Body Double (S) <Defense>invulnerable<Defense> for 1 turn.",
+                    "descriptionBR": "Essa habilidade faz Kisame Body Double (S) <Defense>invulnerável<Defense> por 1 turno.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Helpful",
+                      "Kisame Body Double (S)"
+                    ],
+                    "cooldown": 4,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "icon": [],
+                "cd": [
+                  {
+                    "name": "Water Prison Technique",
+                    "val": 1,
+                    "valOg": 1
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "chakra": [
+              "Gen",
+              "Nin",
+              "Nin",
+              "Blood",
+              "Tai"
+            ],
+            "queue": [
+              {
+                "name": "Shadow Clones: Rasengan",
+                "encryptItem": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hhZG93IENsb25lczogUmFzZW5nYW4iLCJ0aGlzSWQiOjE1LCJ0aGlzQ2xhc3NlcyI6WyJDaGFrcmEiLCJBY3Rpb24iLCJNZWxlZSIsIlV6dW1ha2kgTmFydXRvIChTKSIsIlNoYWRvdyBDbG9uZXM6IFJhc2VuZ2FuIiwicGllcmNpbmciLCJpbnZpc2libGUiLCJwaWVyY2luZyIsImludmlzaWJsZSIsInBpZXJjaW5nIiwiaW52aXNpYmxlIiwicGllcmNpbmciLCJpbnZpc2libGUiLCJwaWVyY2luZyIsImludmlzaWJsZSIsInBpZXJjaW5nIiwiaW52aXNpYmxlIiwiaWdub3JlSGFybWZ1bCIsImludmlzaWJsZSIsImlnbm9yZUhhcm1mdWwiLCJpbnZpc2libGUiLCJIYXJtZnVsIiwiSGVscGZ1bCJdLCJpbmRleCI6MCwiaWF0IjoxNzc4NzUwMTcxLCJleHAiOjE3Nzg3NjA5NzF9.0pIJFt16rziaKaG_5L0MhQl8OJBcVp3OexIo-WhP4sU"
+              }
+            ],
+            "avatar_temp": "https://i.imgur.com/MhMKfMr.jpeg",
+            "border_temp": "https://i.imgur.com/2O6uXW7.png",
+            "info": {
+              "win": 119,
+              "lose": 103,
+              "streak": 9,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "soul slayers",
+              "ladderrank": 696,
+              "title": null,
+              "activeSkins": null,
+              "activeBorder": null
+            }
+          },
+          {
+            "playerId": "luzidtraum",
+            "team": {
+              "char0": {
+                "name": "Kimimaro",
+                "health": 25,
+                "icon": [],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Yakushi Kabuto",
+                "health": 100,
+                "icon": [],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Naraka Path Pein (S)",
+                "health": 75,
+                "icon": [
+                  {
+                    "name": "Shadow Clones: Rasengan",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+                        "duration": "END THIS TURN"
+                      },
+                      {
+                        "text": "THIS SKILL CAN BE INTERRUPTED.",
+                        "duration": "END THIS TURN",
+                        "isNothing": true
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Rejuvenation",
+                    "effects": [
+                      {
+                        "text": "THIS SKILL WILL COST 1 ADDITIONAL GENJUTSU CHAKRA.",
+                        "duration": "INFINITE"
+                      },
+                      {
+                        "text": "THIS SKILL WILL HEAL 15 ADDITIONAL HEALTH.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "luzidtraum",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/GagjnK5.jpg",
+            "border_temp": null,
+            "info": {
+              "win": 2292,
+              "lose": 2604,
+              "streak": 1,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 696,
+              "title": null,
+              "activeSkins": [],
+              "activeBorder": null
+            }
+          }
+        ],
+        "turn": "mestsxxx",
+        "characters": [
+          {
+            "name": "Kimimaro",
+            "description": "A member of the Sound Five, Kimimaro was the leader, and the strongest of the team before his illness. Kimimaro's bloodline grants him unstoppable offensive power, however, his illness is slowly killing him, giving him precious little time.",
+            "descriptionBR": "Membro do Quinteto do Som, Kimimaro era o líder e o mais forte da equipe antes de sua doença. Sua linhagem sanguínea lhe concede um poder ofensivo imparável; no entanto, sua doença está lentamente o matando, lhe restando muito pouco tempo.",
+            "url": "https://i.imgur.com/qzCv58M.png",
+            "themepic": "https://i.imgur.com/gtE042X.jpg",
+            "skills": [
+              {
+                "name": "Dance of the Camellia",
+                "description": "Kimimaro uses his superior taijutsu and arm bones as a sword <Damage>dealing 30 damage<Damage> to one enemy. This skill cannot be <Classes>countered<Classes> or <Classes>reflected<Classes>. Afterwards, Kimimaro will <Damage>receive 5 affliction damage<Damage>.*",
+                "descriptionBR": "Kimimaro usa seu taijutsu superior e ossos do braço como uma espada, <Damage>causando 30 de dano<Damage> a um inimigo. Essa habilidade não pode ser <Classes>counterada<Classes> ou <Classes>refletida<Classes>. Em seguida, Kimimaro irá <Damage>receber 5 de dano aflitivo<Damage>.",
+                "energy": [
+                  "Tai"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Unique",
+                  "Melee",
+                  "Affliction*"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/kwWcpw0.png",
+                "themepic": "https://i.imgur.com/zIpXEZr.jpg"
+              },
+              {
+                "name": "Dance of the Clematis",
+                "description": "Kimimaro attacks one enemy with an extremely hard and sharp bone spear, <Damage>dealing 40 damage<Damage> to them and <Effects>stunning<Effects> them for 1 turn. This skill cannot be <Classes>countered<Classes> or <Classes>reflected<Classes>. Afterwards, Kimimaro <Damage>will receive 10 affliction damage<Damage>.",
+                "descriptionBR": "Kimimaro ataca um inimigo com uma lança óssea extremamente dura e afiada, <Damage>causando 40 de dano<Damage> a ele e <Effects>atordoando-o<Effects> por 1 turno. Essa habilidade não pode ser <Classes>counterada<Classes> ou <Classes>refletida<Classes>. Em seguida, Kimimaro <Damage>irá receber 10 de dano aflitivo<Damage>.",
+                "energy": [
+                  "Tai",
+                  "Blood"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Unique",
+                  "Melee",
+                  "Affliction*"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/Q6rE1Ey.png",
+                "themepic": "https://i.imgur.com/ShFLrWG.jpg"
+              },
+              {
+                "name": "Dance of the Seedling Fern",
+                "description": "Kimimaro creates a forest of sharp bones, <Damage>dealing 30 damage<Damage> to all enemies and <Effects>reducing<Effects> all enemy <Classes>physical and chakra<Classes> <Effects>non-affliction damage<Effects> <Effects>by 20<Effects> for 1 turn. This skill cannot be <Classes>countered<Classes> or <Classes>reflected<Classes>. Afterwards, Kimimaro will <Damage>receive 15 affliction damage<Damage> for 2 turns.*",
+                "descriptionBR": "Kimimaro cria uma floresta de ossos afiados, <Damage>causando 30 de dano<Damage> a todos os inimigos e <Effects>reduzindo todo o dano não-aflitivo<Effects> de habilidades <Classes>physical e chakra<Classes> <Effects>inimigas em 20<Effects> por 1 turno. Essa habilidade não pode ser <Classes>counterada<Classes> ou <Classes>refletida<Classes>. Em seguida, Kimimaro <Damage>irá receber 15 de dano aflitivo<Damage> por 2 turnos.*",
+                "energy": [
+                  "Blood",
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Unique",
+                  "Ranged",
+                  "Affliction*"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/hgM78mG.png",
+                "themepic": "https://i.imgur.com/xI4CGeo.jpg"
+              },
+              {
+                "name": "Bone Defense",
+                "description": "This skill makes Kimimaro <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Kimimaro <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/bSUqg3e.png",
+                "themepic": "https://i.imgur.com/oI2V9GS.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Yakushi Kabuto",
+            "description": "Kabuto was once found on the battlefield, was taught medical ninjutsu, and now assists Orochimaru. He uses his medical skill for both offence and defense.",
+            "descriptionBR": "Kabuto foi encontrado no campo de batalha, aprendeu ninjutsu médico e agora auxilia Orochimaru. Ele usa suas habilidades médicas tanto para ataque quanto para defesa.",
+            "url": "https://i.imgur.com/ZIyW33w.png",
+            "themepic": "https://i.imgur.com/4kwL3yX.jpg",
+            "skills": [
+              {
+                "name": "Mystical Palm Technique",
+                "description": "Kabuto custs one enemy through their flesh like a scalpel, <Damage>dealing 20 piercing damage<Damage> to them. For 1 turn, that enemy's <Classes>harmful skills<Classes> will <Defense>cost 1 additional random chakra<Defense>, and they will <Improvements>receive 10 additional damage<Improvements> from <Classes>melee skills<Classes>. This <Effects>additional damage effect<Effects> may only trigger <Invisible>once per turn<Invisible>.",
+                "descriptionBR": "Kabuto corta um inimigo através de sua carne como um bisturi, <Damage>causando 20 de dano perfurante<Damage> a ele. Por 1 turno, as <Classes>habilidades ofensivas<Classes> desse inimigo irão <Defense>custar 1 chakra aleatório adicional<Defense>, e ele irá <Improvements>receber 10 de dano adicional<Improvements> de <Classes>habilidades melee<Classes>. Esse <Effects>efeito de dano adicional<Effects> só pode ser ativado <Invisible>uma vez por turno<Invisible>.",
+                "energy": [
+                  "Nin"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant",
+                  "Melee"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/jyPztJT.png",
+                "themepic": "https://i.imgur.com/BhijRbd.jpg"
+              },
+              {
+                "name": "Temple of Nirvana",
+                "description": "Kabuto creates a large scale genjutsu. For 1 turn, any enemy that <Classes>uses a new skill<Classes> will have their <Classes>harmful<Classes> skills <Effects>stunned<Effects> and will <Improvements>receive 5 additional damage<Improvements> from <Classes>melee skills<Classes> for 1 turn. <Invisible>This skill is invisible<Invisible>.",
+                "descriptionBR": "Kabuto cria um genjutsu em grande escala. Por 1 turno, qualquer inimigo que <Classes>usar uma nova habilidade<Classes> terá suas habilidades <Classes>ofensivas<Classes> <Effects>atordoadas<Effects> e <Improvements>receberá 5 de dano adicional<Improvements> de <Classes>habilidades Melee<Classes> por 1 turno. <Invisible>Essa habilidade é invisível<Invisible>.",
+                "energy": [
+                  "Gen"
+                ],
+                "classes": [
+                  "Mental",
+                  "Instant",
+                  "Ranged"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/6MjweCd.png",
+                "themepic": "https://i.imgur.com/qsrADbd.jpg"
+              },
+              {
+                "name": "Secret Healing Wound Destruction",
+                "description": "Kabuto <Effects>removes<Effects> all <Classes>enemy affliction skills<Classes> from himself, gains 50% <Defense>damage reduction<Defense> for 1 turn and <Defense>heals 35 health<Defense>. This skill <Effects>will heal 5 less health<Effects> each time it is used.",
+                "descriptionBR": "Kabuto <Effects>remove<Effects> todas as <Classes>habilidades Affliction inimigas<Classes> de si mesmo, ganha 50% de <Defense>redução de dano<Defense> por 1 turno e <Defense>cura 35 de vida<Defense>. Essa habilidade <Effects>irá curar 5 de vida a menos<Effects> a cada vez que for usada.",
+                "energy": [
+                  "Nin"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/nFIj8h6.png",
+                "themepic": "https://i.imgur.com/jeRuVsG.jpg"
+              },
+              {
+                "name": "Dead Soul Technique",
+                "description": "This skill makes Yakushi Kabuto <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Yakushi Kabuto <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Mental",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/1DqPb41.png",
+                "themepic": "https://i.imgur.com/1ymdv9I.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Naraka Path Pein (S)",
+            "description": "Naraka Path Pein (S) is one of the six paths of Pein. This path is able to interrogate it's enemies at will. Naraka Path Pein (S) can also give life as well as take it.",
+            "descriptionBR": "Naraka Path Pein (S) é um dos seis caminhos de Pein. Esse caminho é capaz de interrogar seus inimigos à vontade. Naraka Path Pein (S) também pode dar vida assim como tirá-la.",
+            "url": "https://i.imgur.com/mkVVxYO.png",
+            "themepic": "https://i.imgur.com/JMaDKFI.jpg",
+            "skills": [
+              {
+                "name": "Outer Path",
+                "description": "Naraka Path summons the Outer Path, <Damage>dealing 10 affliction damage<Damage> to all enemies for 3 turns. During this time, <SkillName>'Judgement'<SkillName> can be used.",
+                "descriptionBR": "Naraka Path invoca o Outer Path, <Damage>causando 10 de dano aflitivo<Damage> a todos os inimigos por 3 turnos. Durante esse tempo, <SkillName>'Judgement'<SkillName> pode ser usado.",
+                "energy": [
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Mental",
+                  "Action",
+                  "Ranged",
+                  "Unique",
+                  "Affliction"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/4aboIoQ.png",
+                "themepic": "https://i.imgur.com/RyWxFYA.jpg"
+              },
+              {
+                "name": "Judgement",
+                "description": "Naraka executes an enemy affected by <SkillName>'Outer Path'<SkillName>, <Damage>stealing 35 health<Damage> from them. For 1 turn, that enemy will <Defense>ignore healing<Defense> effects.",
+                "descriptionBR": "Naraka executa um inimigo afetado por <SkillName>'Outer Path'<SkillName>, <Damage>roubando 35 de vida<Damage> dele. Por 1 turno, esse inimigo <Defense>ignorará<Defense> efeitos de <Defense>cura<Defense>.",
+                "energy": [
+                  "Gen",
+                  "Random"
+                ],
+                "classes": [
+                  "Mental",
+                  "Instant",
+                  "Melee",
+                  "Unique"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/xf6e75f.png",
+                "themepic": "https://i.imgur.com/q4L8qST.jpg"
+              },
+              {
+                "name": "Rejuvenation",
+                "description": "Naraka Path uses Rejuvination on himself or an ally, healing them for 25 health and removing all affliction skills from them. This skill can be used on dead allies. If used on a dead ally, 'Rejuvination' will have its cost increased by 1 genjutsu chakra and heal increased by 15 permanently.",
+                "descriptionBR": "Naraka Path Pein (S) usa Rejuvination em si mesmo ou em um aliado, curando-o em 25 de vida e removendo todas as habilidades aflitivas dele. Esta habilidade pode ser usada em aliados mortos. Se usada em um aliado morto, 'Rejuvination' terá seu custo aumentado em 1 chakra Genjutsu e a cura aumentada em 15 permanentemente.",
+                "energy": [
+                  "Gen"
+                ],
+                "classes": [
+                  "Mental",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/zaX6YtB.png",
+                "themepic": "https://i.imgur.com/qd4Qxag.jpg"
+              },
+              {
+                "name": "Chakra Rod Deflection",
+                "description": "This skill makes Naraka Path Pein (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Naraka Path Pein (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/Ry4Xmau.png",
+                "themepic": "https://i.imgur.com/Y94AV55.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Uzumaki Naruto (S)",
+            "description": "After nearly three years of secluded training with Jiraiya, Naruto(s) has returned to Konoha with a greatly improved arsenal of ninja skills.",
+            "url": "https://i.imgur.com/ksOuPJi.png",
+            "themepic": "https://i.imgur.com/AyQeKCH.png",
+            "skills": [
+              {
+                "name": "Oodama Rasengan",
+                "description": "Naruto uses a greater version of Rasengan, dealing 40 piercing damage to one enemy ignoring invulnerability. During 'Kyuubi Boost', this skill will stun that enemy's non-mental skills for 1 turn. Afterwards, Naruto takes 5 affliction damage*. During 'Passive: Three Tails Release', this skill will be replaced.",
+                "descriptionBR": "Naruto usa uma versão maior do Rasengan, causando 40 de dano perfurante a um inimigo ignorando invulnerabilidade. Durante 'Kyuubi Boost', esta habilidade atordoará as habilidades não mentais desse inimigo por 1 turno. Depois, Naruto recebe 5 de dano aflitivo*. Durante 'Passive: Three Tails Release', esta habilidade será substituída.",
+                "energy": [
+                  "Tai",
+                  "Nin"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Melee",
+                  "Instant",
+                  "Affliction*"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/toWCXT5.png",
+                "themepic": "https://i.imgur.com/OjjYVZg.png"
+              },
+              {
+                "name": "Shadow Clones: Rasengan",
+                "description": "The following turn, Naruto will deal 20 piercing damage to one enemy. During this time, Naruto will ignore all harmful effects. During 'Passive: Three Tails Release', this skill will be replaced. This skill is invisible.",
+                "descriptionBR": "No turno seguinte, Naruto causará 20 de dano perfurante a um inimigo. Durante esse tempo, Naruto ignorará todos os efeitos prejudiciais. Durante 'Passive: Three Tails Release', esta habilidade será substituída. Esta habilidade é invisível.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Action",
+                  "Melee"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/KdxZzju.png"
+              },
+              {
+                "name": "Kyuubi Boost",
+                "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'.",
+                "descriptionBR": "Naruto perde 10 de vida e por 3 turnos ganha 10 pontos de redução de dano. Nos próximos 3 turnos, ele ignorará efeitos de atordoamento e esta habilidade se tornará 'Kyuubi Empowered Rasengan'. Não pode ser usado durante 'Passive: Three Tails Transformation'.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant",
+                  "Unique",
+                  "Affliction"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/Mv0n65V.jpg"
+              },
+              {
+                "name": "Shadow Clone Save",
+                "description": "This skill makes Uzumaki Naruto (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Uzumaki Naruto (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/8lPJUXh.png"
+              },
+              {
+                "name": "Kyuubi Empowered Rasengan",
+                "description": "Naruto uses a Rasengan empowered by the Kyuubi chakra, dealing 25 damage to one enemy and stunning their non-mental skills for 1 turn.",
+                "descriptionBR": "Naruto usa um Rasengan fortalecido pelo chakra do Kyuubi, causando 25 de dano a um inimigo e atordoando suas habilidades não mentais por 1 turno.",
+                "energy": [
+                  "Nin"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Melee",
+                  "Instant"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/iqprvFg.png"
+              },
+              {
+                "name": "Passive: Three Tails Release",
+                "description": "Each time Naruto uses 'Oodama Rasengan' or 'Kyuubi Empowered Rasengan', he will gain 1 Kyuubi Rage stack. At 4 Kyuubi Rage stacks, kyuubi chakra will be released for 3 turns, removing all harmful skills, granting 50% unpierceable damage reduction, ignoring stun effects and improving his skills.",
+                "descriptionBR": "Cada vez que Naruto usa 'Oodama Rasengan' ou 'Kyuubi Empowered Rasengan', ele ganha 1 stack de Kyuubi Rage. Ao atingir 4 stacks de Kyuubi Rage, o chakra do Kyuubi será liberado por 3 turnos, removendo todas as habilidades prejudiciais, concedendo 50% de redução de dano inperfurável, ignorando efeitos de atordoamento e melhorando suas habilidades.",
+                "energy": [],
+                "classes": [
+                  "Mental",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/W4maqPt.png"
+              },
+              {
+                "name": "Three-Tail: Claw Smash",
+                "description": "Naruto dashes forward and strikes one enemy with a powerful smash, dealing 40 piercing damage and stunning their non-mental for 1 turn. Afterwards, Naruto takes 5 affliction damage. This skill ignores invulnerability.",
+                "descriptionBR": "Naruto avança e atinge um inimigo com um golpe poderoso, causando 40 de dano perfurante e atordoando suas habilidades não mentais por 1 turno. Depois, Naruto recebe 5 de dano aflitivo. Esta habilidade ignora invulnerabilidade.",
+                "energy": [
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Melee",
+                  "Instant"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/MOw6ymg.png"
+              },
+              {
+                "name": "Three-Tail: Chakra Shockwave",
+                "description": "The following turn, Naruto will deal 20 affliction damage to all enemies. During this time, Naruto will ignore all harmful effects. This skill is invisible.",
+                "descriptionBR": "No proximo turno, Naruto vai dar 20 de dano aflitivo em todos os inimigos. Durante esse tempo, Naruto vai ignorar todos os efeitos prejudiciais. Esta habilidade é invisível.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Action",
+                  "Unique",
+                  "Affliction"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/pd00clo.png"
+              }
+            ],
+            "descriptionBR": "After nearly three years of secluded training with Jiraiya, Naruto(s) has returned to Konoha with a greatly improved arsenal of ninja skills."
+          },
+          {
+            "name": "Tsuchikage (S)",
+            "description": "The Third Tsuchikage of the Hidden Rock Village, Oonoki is an intensely proud and headstrong man, despite his advanced age. An expert in a variety of jutsu, and notably able to fly, Oonoki is renowned for his unique nature transformation, the Dust Release kekkei tota, with which he can outright vaporize his enemies.",
+            "descriptionBR": "Oonoki é o Terceiro Tsuchikage da Vila Oculta da Pedra, um homem extremamente orgulhoso e teimoso, apesar de sua idade avançada. Especialista em diversos jutsus e capaz de voar, Oonoki é renomado por sua transformação de natureza única, a Liberação de Poeira (kekkei tota), com a qual pode vaporizar completamente seus inimigos.",
+            "url": "https://i.imgur.com/2TGh48c.png",
+            "themepic": "https://i.imgur.com/2TGh48c.png",
+            "skills": [
+              {
+                "name": "Detachment of Primitive World",
+                "description": "Ohnoki isolates an enemy with his dust release, dealing 10 affliction damage to them. For 1 turn, that enemy will be invulnerable to helpful skills and their harmful skills will be stunned. The following turn, this skill will be replaced by 'Dust Implode'.",
+                "descriptionBR": "Ohnoki isola um inimigo com sua liberação de poeira, causando 10 de dano aflitivo. Por 1 turno, esse inimigo ficará invulnerável a habilidades benéficas e suas habilidades ofensivas serão atordoadas. No turno seguinte, esta habilidade será substituída por 'Dust Implode'.",
+                "energy": [
+                  "Gen"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant",
+                  "Unique",
+                  "Affliction"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/IRQ1VBv.png",
+                "themepic": "https://i.imgur.com/IRQ1VBv.png"
+              },
+              {
+                "name": "Super-Weighted Boulder Technique",
+                "description": "Onhoki touches an enemy and makes them much heavier. For 2 turns, the cost of their harmful skills will be increased by 1 random. This skill ends if that enemy uses a new harmful skill.",
+                "descriptionBR": "Ohnoki toca um inimigo e o torna muito mais pesado. Por 2 turnos, o custo de suas habilidades ofensivas será aumentado em 1 chakra aleatório. Essa habilidade termina se esse inimigo usar uma nova habilidade ofensiva.",
+                "energy": [],
+                "classes": [
+                  "Chakra",
+                  "Melee",
+                  "Instant"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/sq51r2K.png",
+                "themepic": "https://i.imgur.com/sq51r2K.png"
+              },
+              {
+                "name": "Rock Fist",
+                "description": "Increasing his striking power with Rock Fist, Ohnoki deals 30 damage to one enemy. Afterwards, Ohnoki gains 15 permanent destructible defense.",
+                "descriptionBR": "Aumentando seu poder de ataque com o Punho de Pedra, Ohnoki causa 30 de dano a um inimigo. Em seguida, Ohnoki ganha 15 de defesa destrutível permanente.",
+                "energy": [
+                  "Blood",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Melee",
+                  "Instant"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/IubtdOZ.png",
+                "themepic": "https://i.imgur.com/IubtdOZ.png"
+              },
+              {
+                "name": "Effortless Flight",
+                "description": "This skill makes Tsuchikage (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Tsuchikage (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/5ctULD8.png",
+                "themepic": "https://i.imgur.com/5ctULD8.png"
+              },
+              {
+                "name": "Dust Implode",
+                "description": "Ohnoki incinerates an enemey trapped by 'Detachment of Primitive World' into mere particles, removing all helpful skills from that enemy and dealing 40 damage to them. This skill cannot be ignored or countered.",
+                "descriptionBR": "Ohnoki incinera um inimigo preso por 'Detachment of Primitive World' em partículas, removendo todas as habilidades aliadas desse inimigo e causando 40 de dano. Esta habilidade não pode ser ignorada ou counterada.",
+                "energy": [
+                  "Gen",
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/L9B79qi.png",
+                "themepic": "https://i.imgur.com/L9B79qi.png"
+              }
+            ]
+          },
+          {
+            "name": "Kisame Body Double (S)",
+            "description": "By using one of Pein's techniques a Sand Nin spy for Akatsuki is changed to look like Kisame. The body double is controlled by Kisame but only has a third of his chakra.",
+            "descriptionBR": "Usando uma das técnicas de Pein, um espião da Areia para a Akatsuki é transformado para se parecer com Kisame. O corpo duplo é controlado por Kisame, mas possui apenas um terço de seu chakra.",
+            "url": "https://i.imgur.com/bqqAtVc.jpeg",
+            "themepic": "https://i.imgur.com/bqqAtVc.jpeg",
+            "skills": [
+              {
+                "name": "Explosive Water Shock Wave",
+                "description": "Kisame Body Double (S) fills the battlefield with water. For 3 turns, all allies including Kisame will lose one less chakra if a chakra removal or stealing skill is used on them. For 3 turns, all enemies who use a skill will have the cooldown of that skill increased by 1 turn.*",
+                "descriptionBR": "Kisame Body Double (S) enche o campo de batalha com água. Por 3 turnos, todos os aliados, incluindo Kisame, perderão 1 chakra a menos se uma habilidade de remoção ou roubo de chakra for usada neles. Por 3 turnos, todos os inimigos que usarem uma habilidade terão o tempo de recarga dessa habilidade aumentado em 1 turno.",
+                "energy": [
+                  "Blood"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Ranged",
+                  "Affliction"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/zVJTGma.jpeg",
+                "themepic": "https://i.imgur.com/zVJTGma.jpeg"
+              },
+              {
+                "name": "Water Prison Technique",
+                "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra.",
+                "descriptionBR": "Usando uma bolha de água, Kisame atordoa as habilidades físicas ou à distância de um inimigo por 1 turno. Durante esse tempo, o inimigo recebe 15 de dano aflitivo* e se torna invulnerável a habilidades aliadas, e Kisame ganha 15 pontos de redução de dano. Durante Onda de Choque de Água Explosiva, esta habilidade custa 1 chakra aleatório.",
+                "energy": [
+                  "Blood"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Affliction",
+                  "Instant",
+                  "Melee"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/gmuc252.jpeg",
+                "themepic": "https://i.imgur.com/gmuc252.jpeg"
+              },
+              {
+                "name": "Five Man-Eating Sharks",
+                "description": "Kisame Body Double summons five sharks of water who attack one enemy dealing 25 damage for 2 turns. During Explosive Water Shock Wave this skill costs 1 ninjutsu chakra.",
+                "descriptionBR": "O Corpo Duplo de Kisame invoca cinco tubarões de água que atacam um inimigo causando 25 de dano por 2 turnos. Durante Onda de Choque de Água Explosiva, esta habilidade custa 1 chakra de ninjutsu.",
+                "energy": [
+                  "Nin",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Action",
+                  "Ranged"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/csZyWj6.jpeg",
+                "themepic": "https://i.imgur.com/csZyWj6.jpeg"
+              },
+              {
+                "name": "Kisame Body Double (S) Water Clone",
+                "description": "This skill makes Kisame Body Double (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Kisame Body Double (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/lRyljhc.jpeg",
+                "themepic": "https://i.imgur.com/lRyljhc.jpeg"
+              }
+            ]
+          }
+        ],
+        "charImages": {
+          "facepics": {
+            "Kimimaro": {
+              "src": "https://i.imgur.com/qzCv58M.png",
+              "srcOldTheme": "https://i.imgur.com/gtE042X.jpg"
+            },
+            "Yakushi Kabuto": {
+              "src": "https://i.imgur.com/ZIyW33w.png",
+              "srcOldTheme": "https://i.imgur.com/4kwL3yX.jpg"
+            },
+            "Naraka Path Pein (S)": {
+              "src": "https://i.imgur.com/mkVVxYO.png",
+              "srcOldTheme": "https://i.imgur.com/JMaDKFI.jpg"
+            },
+            "Uzumaki Naruto (S)": {
+              "src": "https://i.imgur.com/ksOuPJi.png",
+              "srcOldTheme": "https://i.imgur.com/AyQeKCH.png"
+            },
+            "Tsuchikage (S)": {
+              "src": "https://i.imgur.com/2TGh48c.png",
+              "srcOldTheme": "https://i.imgur.com/2TGh48c.png"
+            },
+            "Kisame Body Double (S)": {
+              "src": "https://i.imgur.com/bqqAtVc.jpeg",
+              "srcOldTheme": "https://i.imgur.com/bqqAtVc.jpeg"
+            }
+          },
+          "skills": {
+            "Dance of the Camellia": {
+              "src": "https://i.imgur.com/kwWcpw0.png",
+              "srcOldTheme": "https://i.imgur.com/zIpXEZr.jpg"
+            },
+            "Dance of the Clematis": {
+              "src": "https://i.imgur.com/Q6rE1Ey.png",
+              "srcOldTheme": "https://i.imgur.com/ShFLrWG.jpg"
+            },
+            "Dance of the Seedling Fern": {
+              "src": "https://i.imgur.com/hgM78mG.png",
+              "srcOldTheme": "https://i.imgur.com/xI4CGeo.jpg"
+            },
+            "Bone Defense": {
+              "src": "https://i.imgur.com/bSUqg3e.png",
+              "srcOldTheme": "https://i.imgur.com/oI2V9GS.jpg"
+            },
+            "Mystical Palm Technique": {
+              "src": "https://i.imgur.com/jyPztJT.png",
+              "srcOldTheme": "https://i.imgur.com/BhijRbd.jpg"
+            },
+            "Temple of Nirvana": {
+              "src": "https://i.imgur.com/6MjweCd.png",
+              "srcOldTheme": "https://i.imgur.com/qsrADbd.jpg"
+            },
+            "Secret Healing Wound Destruction": {
+              "src": "https://i.imgur.com/nFIj8h6.png",
+              "srcOldTheme": "https://i.imgur.com/jeRuVsG.jpg"
+            },
+            "Dead Soul Technique": {
+              "src": "https://i.imgur.com/1DqPb41.png",
+              "srcOldTheme": "https://i.imgur.com/1ymdv9I.jpg"
+            },
+            "Outer Path": {
+              "src": "https://i.imgur.com/4aboIoQ.png",
+              "srcOldTheme": "https://i.imgur.com/RyWxFYA.jpg"
+            },
+            "Judgement": {
+              "src": "https://i.imgur.com/xf6e75f.png",
+              "srcOldTheme": "https://i.imgur.com/q4L8qST.jpg"
+            },
+            "Rejuvenation": {
+              "src": "https://i.imgur.com/zaX6YtB.png",
+              "srcOldTheme": "https://i.imgur.com/qd4Qxag.jpg"
+            },
+            "Chakra Rod Deflection": {
+              "src": "https://i.imgur.com/Ry4Xmau.png",
+              "srcOldTheme": "https://i.imgur.com/Y94AV55.jpg"
+            },
+            "Oodama Rasengan": {
+              "src": "https://i.imgur.com/toWCXT5.png",
+              "srcOldTheme": "https://i.imgur.com/OjjYVZg.png"
+            },
+            "Shadow Clones: Rasengan": {
+              "src": "https://i.imgur.com/KdxZzju.png",
+              "srcOldTheme": null
+            },
+            "Kyuubi Boost": {
+              "src": "https://i.imgur.com/Mv0n65V.jpg",
+              "srcOldTheme": null
+            },
+            "Shadow Clone Save": {
+              "src": "https://i.imgur.com/8lPJUXh.png",
+              "srcOldTheme": null
+            },
+            "Kyuubi Empowered Rasengan": {
+              "src": "https://i.imgur.com/iqprvFg.png",
+              "srcOldTheme": null
+            },
+            "Passive: Three Tails Release": {
+              "src": "https://i.imgur.com/W4maqPt.png",
+              "srcOldTheme": null
+            },
+            "Three-Tail: Claw Smash": {
+              "src": "https://i.imgur.com/MOw6ymg.png",
+              "srcOldTheme": null
+            },
+            "Three-Tail: Chakra Shockwave": {
+              "src": "https://i.imgur.com/pd00clo.png",
+              "srcOldTheme": null
+            },
+            "Detachment of Primitive World": {
+              "src": "https://i.imgur.com/IRQ1VBv.png",
+              "srcOldTheme": "https://i.imgur.com/IRQ1VBv.png"
+            },
+            "Super-Weighted Boulder Technique": {
+              "src": "https://i.imgur.com/sq51r2K.png",
+              "srcOldTheme": "https://i.imgur.com/sq51r2K.png"
+            },
+            "Rock Fist": {
+              "src": "https://i.imgur.com/IubtdOZ.png",
+              "srcOldTheme": "https://i.imgur.com/IubtdOZ.png"
+            },
+            "Effortless Flight": {
+              "src": "https://i.imgur.com/5ctULD8.png",
+              "srcOldTheme": "https://i.imgur.com/5ctULD8.png"
+            },
+            "Dust Implode": {
+              "src": "https://i.imgur.com/L9B79qi.png",
+              "srcOldTheme": "https://i.imgur.com/L9B79qi.png"
+            },
+            "Explosive Water Shock Wave": {
+              "src": "https://i.imgur.com/zVJTGma.jpeg",
+              "srcOldTheme": "https://i.imgur.com/zVJTGma.jpeg"
+            },
+            "Water Prison Technique": {
+              "src": "https://i.imgur.com/gmuc252.jpeg",
+              "srcOldTheme": "https://i.imgur.com/gmuc252.jpeg"
+            },
+            "Five Man-Eating Sharks": {
+              "src": "https://i.imgur.com/csZyWj6.jpeg",
+              "srcOldTheme": "https://i.imgur.com/csZyWj6.jpeg"
+            },
+            "Kisame Body Double (S) Water Clone": {
+              "src": "https://i.imgur.com/lRyljhc.jpeg",
+              "srcOldTheme": "https://i.imgur.com/lRyljhc.jpeg"
+            }
+          }
+        },
+        "shortcut_c": {
+          "Kimimaro": "0",
+          "Yakushi Kabuto": "1",
+          "Naraka Path Pein (S)": "2",
+          "Uzumaki Naruto (S)": "3",
+          "Tsuchikage (S)": "4",
+          "Kisame Body Double (S)": "5"
+        },
+        "shortcut_s": {
+          "Dance of the Camellia": [
+            "0",
+            "0"
+          ],
+          "Dance of the Clematis": [
+            "0",
+            "1"
+          ],
+          "Dance of the Seedling Fern": [
+            "0",
+            "2"
+          ],
+          "Bone Defense": [
+            "0",
+            "3"
+          ],
+          "Mystical Palm Technique": [
+            "1",
+            "0"
+          ],
+          "Temple of Nirvana": [
+            "1",
+            "1"
+          ],
+          "Secret Healing Wound Destruction": [
+            "1",
+            "2"
+          ],
+          "Dead Soul Technique": [
+            "1",
+            "3"
+          ],
+          "Outer Path": [
+            "2",
+            "0"
+          ],
+          "Judgement": [
+            "2",
+            "1"
+          ],
+          "Rejuvenation": [
+            "2",
+            "2"
+          ],
+          "Chakra Rod Deflection": [
+            "2",
+            "3"
+          ],
+          "Oodama Rasengan": [
+            "3",
+            "0"
+          ],
+          "Shadow Clones: Rasengan": [
+            "3",
+            "1"
+          ],
+          "Kyuubi Boost": [
+            "3",
+            "2"
+          ],
+          "Shadow Clone Save": [
+            "3",
+            "3"
+          ],
+          "Kyuubi Empowered Rasengan": [
+            "3",
+            "4"
+          ],
+          "Passive: Three Tails Release": [
+            "3",
+            "5"
+          ],
+          "Three-Tail: Claw Smash": [
+            "3",
+            "6"
+          ],
+          "Three-Tail: Chakra Shockwave": [
+            "3",
+            "7"
+          ],
+          "Detachment of Primitive World": [
+            "4",
+            "0"
+          ],
+          "Super-Weighted Boulder Technique": [
+            "4",
+            "1"
+          ],
+          "Rock Fist": [
+            "4",
+            "2"
+          ],
+          "Effortless Flight": [
+            "4",
+            "3"
+          ],
+          "Dust Implode": [
+            "4",
+            "4"
+          ],
+          "Explosive Water Shock Wave": [
+            "5",
+            "0"
+          ],
+          "Water Prison Technique": [
+            "5",
+            "1"
+          ],
+          "Five Man-Eating Sharks": [
+            "5",
+            "2"
+          ],
+          "Kisame Body Double (S) Water Clone": [
+            "5",
+            "3"
+          ]
+        },
+        "turnKey": 10
+      }
+    }
+  }
+}

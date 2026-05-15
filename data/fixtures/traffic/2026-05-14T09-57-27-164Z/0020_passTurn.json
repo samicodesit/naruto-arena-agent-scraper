@@ -1,0 +1,578 @@
+{
+  "request": {
+    "payload": {
+      "queue": [
+        {
+          "name": "Kyuubi Boost",
+          "menu_local": [
+            0,
+            0,
+            2
+          ],
+          "usedOn": {
+            "s": 0,
+            "i": 0
+          },
+          "new": true,
+          "assignedSkill": {
+            "char": 0,
+            "index": 2
+          }
+        }
+      ]
+    }
+  },
+  "response": {
+    "body": {
+      "content": {
+        "players": [
+          {
+            "playerId": "mestsxxx",
+            "team": {
+              "char0": {
+                "name": "Uzumaki Naruto (S)",
+                "health": 85,
+                "icon": [
+                  {
+                    "name": "Passive: Three Tails Release",
+                    "effects": [
+                      {
+                        "text": "NARUTO HAS 0 KYUUBI RAGE STACK.",
+                        "duration": "INFINITE"
+                      },
+                      {
+                        "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Hungry Sharks",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Kyuubi Boost",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+                        "duration": "3 TURN LEFTS"
+                      },
+                      {
+                        "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+                        "duration": "3 TURN LEFTS"
+                      },
+                      {
+                        "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+                        "duration": "3 TURN LEFTS"
+                      },
+                      {
+                        "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+                        "duration": "3 TURN LEFTS"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Tsuchikage (S)",
+                "health": 95,
+                "icon": [
+                  {
+                    "name": "Hungry Sharks",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Kisame Body Double (S)",
+                "health": 95,
+                "icon": [
+                  {
+                    "name": "Hungry Sharks",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/MhMKfMr.jpeg",
+            "border_temp": "https://i.imgur.com/2O6uXW7.png",
+            "info": {
+              "win": 119,
+              "lose": 103,
+              "streak": 9,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 697,
+              "title": null,
+              "activeSkins": null,
+              "activeBorder": null
+            }
+          },
+          {
+            "playerId": "ghokame-kak",
+            "team": {
+              "char0": {
+                "name": "Chiyo (S)",
+                "health": 100,
+                "icon": [
+                  {
+                    "name": "Ally Puppetry",
+                    "effects": [
+                      {
+                        "text": "THIS SKILL WILL BE REPLACED BY 'ONE'S OWN LIFE REINCARNATION'.",
+                        "duration": "2 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Killer Bee (S)",
+                "health": 100,
+                "icon": [
+                  {
+                    "name": "Kenjutsu",
+                    "effects": [
+                      {
+                        "text": "IF AN ENEMY USES A NEW HARMFUL NON-MENTAL DAMAGING SKILL BEE, THEY WILL TAKE 10 PIERCING DAMAGE.",
+                        "duration": "4 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "'BUZZ SAW' WILL DEAL 10 ADDITIONAL DAMAGE.",
+                        "duration": "4 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "'KENJUTSU' WILL BE REPLACED BY 'FINAL KENJUTSU'.",
+                        "duration": "4 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Ally Puppetry",
+                    "effects": [
+                      {
+                        "text": "EACH TURN, THAT ALLY WILL NULLIFY THE FIRST HARMFUL PHYSICAL OR CHAKRA NON-AFFLICTION SKILL USED ON THEM.",
+                        "duration": "2 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "THIS CHARACTER'S MELEE SKILLS ARE IMPROVED AND WILL DEAL 25% MORE DAMAGE.",
+                        "duration": "2 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Hoshigaki Kisame (S)",
+                "health": 100,
+                "icon": [
+                  {
+                    "name": "Hungry Sharks",
+                    "effects": [
+                      {
+                        "text": "HUNGRY SHARKS ARE HUNTING THEIR PREY.",
+                        "duration": "INFINITE",
+                        "isNothing": true
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "ghokame-kak",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/8cVg0kz.jpg",
+            "border_temp": "https://i.imgur.com/CQYJRRJ.png",
+            "info": {
+              "win": 136,
+              "lose": 169,
+              "streak": -2,
+              "xp": 29085,
+              "level": 37,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 220,
+              "title": null,
+              "activeSkins": null,
+              "activeBorder": null
+            }
+          }
+        ],
+        "turn": "ghokame-kak",
+        "charImages": {
+          "facepics": {
+            "Uzumaki Naruto (S)": {
+              "src": "https://i.imgur.com/ksOuPJi.png",
+              "srcOldTheme": "https://i.imgur.com/AyQeKCH.png"
+            },
+            "Hoshigaki Kisame (S)": {
+              "src": "https://i.imgur.com/bjUbTdZ.png",
+              "srcOldTheme": null
+            },
+            "Tsuchikage (S)": {
+              "src": "https://i.imgur.com/2TGh48c.png",
+              "srcOldTheme": "https://i.imgur.com/2TGh48c.png"
+            },
+            "Kisame Body Double (S)": {
+              "src": "https://i.imgur.com/bqqAtVc.jpeg",
+              "srcOldTheme": "https://i.imgur.com/bqqAtVc.jpeg"
+            },
+            "Chiyo (S)": {
+              "src": "https://i.imgur.com/Xwi4eLx.png",
+              "srcOldTheme": "https://i.imgur.com/WNPtn7n.jpg"
+            },
+            "Killer Bee (S)": {
+              "src": "https://i.imgur.com/w7d55NW.png",
+              "srcOldTheme": "https://i.imgur.com/LXesv7k.jpg"
+            }
+          },
+          "skills": {
+            "Oodama Rasengan": {
+              "src": "https://i.imgur.com/toWCXT5.png",
+              "srcOldTheme": "https://i.imgur.com/OjjYVZg.png"
+            },
+            "Shadow Clones: Rasengan": {
+              "src": "https://i.imgur.com/KdxZzju.png",
+              "srcOldTheme": null
+            },
+            "Kyuubi Boost": {
+              "src": "https://i.imgur.com/Mv0n65V.jpg",
+              "srcOldTheme": null
+            },
+            "Shadow Clone Save": {
+              "src": "https://i.imgur.com/8lPJUXh.png",
+              "srcOldTheme": null
+            },
+            "Kyuubi Empowered Rasengan": {
+              "src": "https://i.imgur.com/iqprvFg.png",
+              "srcOldTheme": null
+            },
+            "Passive: Three Tails Release": {
+              "src": "https://i.imgur.com/W4maqPt.png",
+              "srcOldTheme": null
+            },
+            "Three-Tail: Claw Smash": {
+              "src": "https://i.imgur.com/MOw6ymg.png",
+              "srcOldTheme": null
+            },
+            "Three-Tail: Chakra Shockwave": {
+              "src": "https://i.imgur.com/pd00clo.png",
+              "srcOldTheme": null
+            },
+            "Hungry Sharks": {
+              "src": "https://i.imgur.com/HpnDSZs.png",
+              "srcOldTheme": null
+            },
+            "Shark Bomb": {
+              "src": "https://i.imgur.com/SekpWvV.png",
+              "srcOldTheme": null
+            },
+            "Samehada Guard": {
+              "src": "https://i.imgur.com/qgg1luS.png",
+              "srcOldTheme": null
+            },
+            "Water Isolation": {
+              "src": "https://i.imgur.com/yXzkEad.png",
+              "srcOldTheme": null
+            },
+            "Detachment of Primitive World": {
+              "src": "https://i.imgur.com/IRQ1VBv.png",
+              "srcOldTheme": "https://i.imgur.com/IRQ1VBv.png"
+            },
+            "Super-Weighted Boulder Technique": {
+              "src": "https://i.imgur.com/sq51r2K.png",
+              "srcOldTheme": "https://i.imgur.com/sq51r2K.png"
+            },
+            "Rock Fist": {
+              "src": "https://i.imgur.com/IubtdOZ.png",
+              "srcOldTheme": "https://i.imgur.com/IubtdOZ.png"
+            },
+            "Effortless Flight": {
+              "src": "https://i.imgur.com/5ctULD8.png",
+              "srcOldTheme": "https://i.imgur.com/5ctULD8.png"
+            },
+            "Dust Implode": {
+              "src": "https://i.imgur.com/L9B79qi.png",
+              "srcOldTheme": "https://i.imgur.com/L9B79qi.png"
+            },
+            "Explosive Water Shock Wave": {
+              "src": "https://i.imgur.com/zVJTGma.jpeg",
+              "srcOldTheme": "https://i.imgur.com/zVJTGma.jpeg"
+            },
+            "Water Prison Technique": {
+              "src": "https://i.imgur.com/gmuc252.jpeg",
+              "srcOldTheme": "https://i.imgur.com/gmuc252.jpeg"
+            },
+            "Five Man-Eating Sharks": {
+              "src": "https://i.imgur.com/csZyWj6.jpeg",
+              "srcOldTheme": "https://i.imgur.com/csZyWj6.jpeg"
+            },
+            "Kisame Body Double (S) Water Clone": {
+              "src": "https://i.imgur.com/lRyljhc.jpeg",
+              "srcOldTheme": "https://i.imgur.com/lRyljhc.jpeg"
+            },
+            "White Secret Attack Rampage": {
+              "src": "https://i.imgur.com/6rGUR71.png",
+              "srcOldTheme": "https://i.imgur.com/3iDBLhW.jpg"
+            },
+            "Sanbou Kyuukai": {
+              "src": "https://i.imgur.com/nEG0auz.png",
+              "srcOldTheme": "https://i.imgur.com/61Jr2Nq.jpg"
+            },
+            "Ally Puppetry": {
+              "src": "https://i.imgur.com/bMu8gne.png",
+              "srcOldTheme": "https://i.imgur.com/op5ywuv.jpg"
+            },
+            "Chakra Shield": {
+              "src": "https://i.imgur.com/BdXtVD4.png",
+              "srcOldTheme": "https://i.imgur.com/FCTthAl.jpg"
+            },
+            "One's Own Life Reincarnation": {
+              "src": "https://i.imgur.com/8tkBGN3.png",
+              "srcOldTheme": null
+            },
+            "Kenjutsu": {
+              "src": "https://i.imgur.com/rRqiVre.png",
+              "srcOldTheme": "https://i.imgur.com/VFAbcCN.jpg"
+            },
+            "Buzz Saw": {
+              "src": "https://i.imgur.com/TJrai76.png",
+              "srcOldTheme": "https://i.imgur.com/i8ywDo2.jpg"
+            },
+            "Chakra Stream": {
+              "src": "https://i.imgur.com/xW7QlkR.png",
+              "srcOldTheme": "https://i.imgur.com/9PMa58H.jpg"
+            },
+            "Strong Defense": {
+              "src": "https://i.imgur.com/JkuN3d1.png",
+              "srcOldTheme": "https://i.imgur.com/c8mUlYM.jpg"
+            },
+            "Final Kenjutsu": {
+              "src": "https://i.imgur.com/5cPNd9Q.png",
+              "srcOldTheme": "https://i.imgur.com/a7bAOzr.png"
+            }
+          }
+        },
+        "shortcut_s": {
+          "Oodama Rasengan": [
+            "0",
+            "0"
+          ],
+          "Shadow Clones: Rasengan": [
+            "0",
+            "1"
+          ],
+          "Kyuubi Boost": [
+            "0",
+            "2"
+          ],
+          "Shadow Clone Save": [
+            "0",
+            "3"
+          ],
+          "Kyuubi Empowered Rasengan": [
+            "0",
+            "4"
+          ],
+          "Passive: Three Tails Release": [
+            "0",
+            "5"
+          ],
+          "Three-Tail: Claw Smash": [
+            "0",
+            "6"
+          ],
+          "Three-Tail: Chakra Shockwave": [
+            "0",
+            "7"
+          ],
+          "Hungry Sharks": [
+            "1",
+            "0"
+          ],
+          "Shark Bomb": [
+            "1",
+            "1"
+          ],
+          "Samehada Guard": [
+            "1",
+            "2"
+          ],
+          "Water Isolation": [
+            "1",
+            "3"
+          ],
+          "Detachment of Primitive World": [
+            "2",
+            "0"
+          ],
+          "Super-Weighted Boulder Technique": [
+            "2",
+            "1"
+          ],
+          "Rock Fist": [
+            "2",
+            "2"
+          ],
+          "Effortless Flight": [
+            "2",
+            "3"
+          ],
+          "Dust Implode": [
+            "2",
+            "4"
+          ],
+          "Explosive Water Shock Wave": [
+            "3",
+            "0"
+          ],
+          "Water Prison Technique": [
+            "3",
+            "1"
+          ],
+          "Five Man-Eating Sharks": [
+            "3",
+            "2"
+          ],
+          "Kisame Body Double (S) Water Clone": [
+            "3",
+            "3"
+          ],
+          "White Secret Attack Rampage": [
+            "4",
+            "0"
+          ],
+          "Sanbou Kyuukai": [
+            "4",
+            "1"
+          ],
+          "Ally Puppetry": [
+            "4",
+            "2"
+          ],
+          "Chakra Shield": [
+            "4",
+            "3"
+          ],
+          "One's Own Life Reincarnation": [
+            "4",
+            "4"
+          ],
+          "Kenjutsu": [
+            "5",
+            "0"
+          ],
+          "Buzz Saw": [
+            "5",
+            "1"
+          ],
+          "Chakra Stream": [
+            "5",
+            "2"
+          ],
+          "Strong Defense": [
+            "5",
+            "3"
+          ],
+          "Final Kenjutsu": [
+            "5",
+            "4"
+          ]
+        },
+        "turnKey": 3
+      }
+    }
+  }
+}

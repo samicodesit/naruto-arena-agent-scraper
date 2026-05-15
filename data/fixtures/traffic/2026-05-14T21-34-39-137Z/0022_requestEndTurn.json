@@ -1,0 +1,1769 @@
+{
+  "response": {
+    "body": {
+      "content": {
+        "players": [
+          {
+            "playerId": "mestsxxx",
+            "team": {
+              "char0": {
+                "name": "Darui (S)",
+                "health": 70,
+                "skills": [
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Laser Circus",
+                    "description": "Darui creates several beams and shoots his opponents, stunning one enemy's harmful skills for 1 turn. Afterwards, the main target takes 5 piercing damage and all other enemies take 15 piercing damage.",
+                    "descriptionBR": "Darui cria diversos feixes e dispara contra seus oponentes, atordoando as habilidades ofensivas de um inimigo por 1 turno. Em seguida, o alvo principal recebe 5 de dano perfurante e todos os outros inimigos recebem 15 de dano perfurante.",
+                    "energy": [
+                      "Nin"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Ranged",
+                      "Instant",
+                      "Unique",
+                      "Harmful",
+                      "Darui (S)"
+                    ],
+                    "cooldown": 1,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Electric Water Encampment Wall",
+                    "description": "Darui targets all enemies for 1 turn, any enemy that uses a new harmful skill will take 5 affliction damage. The following turn, all enemies affected by this skill will recelve 5 additional damage from 'Laser Circus' and 'Black Panther Lightning'. This skill cannot be countered.",
+                    "descriptionBR": "Darui mira em todos os inimigos por 1 turno; qualquer inimigo que usar uma nova habilidade ofensiva receberá 5 de dano aflitivo. No turno seguinte, todos os inimigos afetados por esta habilidade receberão 5 de dano adicional de 'Laser Circus' e 'Black Panther Lightning'. Esta habilidade não pode ser counterada.",
+                    "energy": [],
+                    "classes": [
+                      "Chakra",
+                      "Ranged",
+                      "Instant",
+                      "Unique",
+                      "Affliction",
+                      "Harmful",
+                      "Darui (S)"
+                    ],
+                    "cooldown": 1,
+                    "target": {
+                      "10": [
+                        1,
+                        1
+                      ],
+                      "11": [
+                        1,
+                        1
+                      ],
+                      "12": [
+                        1,
+                        1
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Black Panther Lightning",
+                    "description": "Darui generates a black panther lightning from his body and releases it at one enemy, dealing 35 piercing damage to them. For 1 turn, that enemy's skills will have 2 additional cooldown. This skill ignores invulnerability.",
+                    "descriptionBR": "Darui gera uma pantera negra de raio a partir do seu corpo e a lança contra um inimigo, causando 35 de dano perfurante. Por 1 turno, as habilidades desse inimigo terão 2 de recarga adicional. Esta habilidade ignora invulnerabilidade.",
+                    "energy": [
+                      "Blood",
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Ranged",
+                      "Instant",
+                      "Unique",
+                      "Harmful",
+                      "Darui (S)"
+                    ],
+                    "cooldown": 1,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Cleaver Sword Defense",
+                    "description": "This skill makes Darui (S) <Defense>invulnerable<Defense> for 1 turn.",
+                    "descriptionBR": "Essa habilidade faz Darui (S) <Defense>invulnerável<Defense> por 1 turno.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Instant",
+                      "Helpful",
+                      "Darui (S)"
+                    ],
+                    "cooldown": 4,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        1,
+                        1
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ],
+                "icon": [
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+                        "duration": "2 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [
+                      [
+                        {
+                          "text": "THIS CHARACTER HAS 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+                          "duration": "INFINITE"
+                        }
+                      ]
+                    ],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Cerberus Hydra",
+                    "effects": [
+                      {
+                        "text": "IF THIS CHARACTER USES A NEW SKILL THEY WILL TAKE 15 PIERCING DAMAGE.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Toad Oil Projectile",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 10 ADDITIONAL DAMAGE FROM 'KATON ENDAN' .",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "cd": [],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Shodai Hokage",
+                "health": 60,
+                "skills": [
+                  {
+                    "outtagame": true,
+                    "cd_on": 2,
+                    "name": "Birth of the Trees",
+                    "description": "Hashirama summons a giant field of trees. For 3 turns, any enemy that <Classes>uses a new harmful skill<Classes> will have the <Effects>cost of their harmful skills<Effects> <Effects>increased<Effects> by <Effects>1 random chakra<Effects> and <Effects>their cooldowns increased by 1<Effects> for 1 turn. The following 3 turns, if Hashirama <Effects>uses a new skill<Effects> his team will gain 5 <Defense>destructible defense<Defense>.",
+                    "descriptionBR": "Hashirama invoca um enorme campo de árvores. Por 3 turnos, qualquer inimigo que <Classes>usar uma nova habilidade ofensiva<Classes> terá o <Effects>custo de suas habilidades ofensivas aumentado<Effects> em <Effects>1 chakra aleatório<Effects> e suas <Effects>recargas aumentadas em 1<Effects> por 1 turno. Nos 3 turnos seguintes, se Hashirama <Effects>usar uma nova habilidade<Effects>, sua equipe ganhará 5 <Defense>pontos de defesa destrutível<Defense>.",
+                    "energy": [
+                      "Random",
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Instant",
+                      "Ranged",
+                      "Unique",
+                      "Harmful",
+                      "Helpful",
+                      "Shodai Hokage"
+                    ],
+                    "cooldown": 3,
+                    "target": {
+                      "10": [
+                        1,
+                        1
+                      ],
+                      "11": [
+                        1,
+                        1
+                      ],
+                      "12": [
+                        1,
+                        1
+                      ],
+                      "00": [
+                        1,
+                        3
+                      ],
+                      "01": [
+                        1,
+                        1
+                      ],
+                      "02": [
+                        1,
+                        3
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Tree Strangulation",
+                    "description": "Hashirama catches and crushes one enemy in giant tree branches, <Damage>dealing 25 piercing damage<Damage> to that enemy and <Effects>stunning<Effects> their <Classes>physical and chakra<Classes> skills for 1 turn. During <SkillName>'Birth of the Trees'<SkillName>, this skill <Improvements>will cost 1 less random chakra<Improvements>.",
+                    "descriptionBR": "Hashirama captura e esmaga um inimigo com galhos gigantes, <Damage>causando 25 de dano perfurante<Damage> e <Effects>atordoando<Effects> suas habilidades <Classes>Physical e Chakra<Classes> por 1 turno. Durante <SkillName>'Birth of the Trees'<SkillName>, essa skill custará 1 chakra aleatório a menos<Improvements>.",
+                    "energy": [
+                      "Blood"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Instant",
+                      "Ranged",
+                      "Unique",
+                      "Harmful",
+                      "Shodai Hokage"
+                    ],
+                    "cooldown": 0,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Branch Manipulation",
+                    "description": "Hashirama sends out his trees in all directions, <Damage>dealing 10 affliction damage<Damage> to all enemies and granting 25% <Defense>damage reduction<Defense> to himself and his allies. During <SkillName>'Birth of the Trees'<SkillName>, this skill will <Improvements>have no cooldown<Improvements>.",
+                    "descriptionBR": "Hashirama envia suas árvores em todas as direções, <Damage>causando 10 de dano aflitivo<Damage> a todos os inimigos e concedendo 25% de <Defense>redução de dano<Defense> para si mesmo e aliados. Durante <SkillName>'Birth of the Trees'<SkillName>, essa habilidade <Improvements>não terá cooldown<Improvements>.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Instant",
+                      "Ranged",
+                      "Affliction",
+                      "Unique",
+                      "Shodai Hokage",
+                      "Helpful",
+                      "Harmful",
+                      "Shodai Hokage"
+                    ],
+                    "cooldown": 0,
+                    "target": {
+                      "10": [
+                        1,
+                        1
+                      ],
+                      "11": [
+                        1,
+                        1
+                      ],
+                      "12": [
+                        1,
+                        1
+                      ],
+                      "00": [
+                        0,
+                        1
+                      ],
+                      "01": [
+                        0,
+                        1
+                      ],
+                      "02": [
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": false,
+                    "cd_on": 0,
+                    "name": "Deflection",
+                    "description": "This skill makes Shodai Hokage invulnerable for 1 turn. This skill will <Defense>not<Defense> grant <Defense>destructible defense<Defense> during <SkillName>'Birth of the Trees'<SkillName>.",
+                    "descriptionBR": "Essa skill torna Shodai Hokage <Defense>invulnerável<Defense> por 1 turno. Essa habilidade <Defense>não<Defense> concede <Defense>defesa destrutível<Defense> durante <SkillName>'Birth of the Trees'<SkillName>.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Instant",
+                      "Helpful",
+                      "Shodai Hokage"
+                    ],
+                    "cooldown": 4,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        1,
+                        1
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ],
+                "icon": [
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "IF HASHIRAMA USES A NEW SKILL, HIS TEAM WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+                        "duration": "2 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "'TREE STRANGULATION' IS IMPROVED AND COSTS 1 LESS RANDOM CHAKRA.",
+                        "duration": "2 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "'BRANCH MANIPULATION' IS IMPROVED AND HAS NO COOLDOWN.",
+                        "duration": "2 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Cerberus Hydra",
+                    "effects": [
+                      {
+                        "text": "IF THIS CHARACTER USES A NEW SKILL THEY WILL TAKE 15 PIERCING DAMAGE.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Toad Oil Projectile",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 10 ADDITIONAL DAMAGE FROM 'KATON ENDAN' .",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "cd": [
+                  {
+                    "name": "Birth of the Trees",
+                    "val": 2,
+                    "valOg": 3
+                  },
+                  {
+                    "name": "Branch Manipulation",
+                    "val": 0,
+                    "valOg": 0
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Chiyo (S)",
+                "health": 25,
+                "skills": [
+                  {
+                    "outtagame": true,
+                    "cd_on": 0,
+                    "name": "White Secret Attack Rampage",
+                    "description": "Chiyo directs her puppets to devastate the battlefield, dealing 20 damage to a random enemy for 1 turn. The following turn, a second random enemy will also be dealt 20 damage. The second target is invisible. The next use of 'Sanbou Kyuukai' will deal 5 aditional damage. This skill stacks.",
+                    "descriptionBR": "Chiyo direciona seus fantoches para devastar o campo de batalha, causando 20 de dano a um inimigo aleatório por 1 turno. No próximo turno, um segundo inimigo aleatório também irá receber 20 de dano. O segundo alvo é invisível. O próximo uso de 'Sanbou Kyuukai' irá causar 5 de dano adicional. Essa habilidade acumula.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Physical",
+                      "Action",
+                      "Ranged",
+                      "Unique",
+                      "Harmful",
+                      "Helpful",
+                      "Chiyo (S)"
+                    ],
+                    "cooldown": 0,
+                    "target": {
+                      "10": [
+                        1,
+                        1
+                      ],
+                      "11": [
+                        1,
+                        1
+                      ],
+                      "12": [
+                        1,
+                        1
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": true,
+                    "cd_on": 0,
+                    "name": "Sanbou Kyuukai",
+                    "description": "This skill deals 20 piercing damage to one enemy and stuns their non-mental skills for 1 turn. Also for 1 turn, that enemy will receive 5 additional damage from all sources. This skill ignores invulnerability.",
+                    "descriptionBR": "Essa habilidade causa 20 de dano piercing a um inimigo e atordoa suas habilidades não-mental por 1 turno. Também por 1 turno, esse inimigo irá receber 5 de dano adicional de todas as fontes. Essa habilidade ignora invulnerabilidade.",
+                    "energy": [
+                      "Random",
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Ranged",
+                      "Unique",
+                      "Harmful",
+                      "Chiyo (S)"
+                    ],
+                    "cooldown": 2,
+                    "target": {
+                      "10": [
+                        1,
+                        0
+                      ],
+                      "11": [
+                        1,
+                        0
+                      ],
+                      "12": [
+                        1,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": true,
+                    "cd_on": 0,
+                    "name": "Ally Puppetry",
+                    "description": "Chiyo controls one ally for 3 turns. Each turn, that ally will nullify the first physical or chakra non-affliction skill used on them. During this time, their melee skills will deal 25% more damage. The following 2 turns, this skill will be replaced. This skill ends if Chiyo is killed.",
+                    "descriptionBR": "Chiyo controla um aliado por 3 turnos. A cada turno, esse aliado irá anular a primeira habilidade physical ou chakra não-affliction usada contra ele. Durante esse tempo, suas habilidades melee irão causar 25% a mais de dano. Nos próximos 2 turnos, essa habilidade será substituída. Essa habilidade termina se Chiyo for morta.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Unique",
+                      "Helpful",
+                      "Chiyo (S)"
+                    ],
+                    "cooldown": 2,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        1,
+                        0
+                      ],
+                      "01": [
+                        1,
+                        0
+                      ],
+                      "02": [
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "outtagame": true,
+                    "cd_on": 0,
+                    "name": "Chakra Shield",
+                    "description": "This skill makes Chiyo (S) <Defense>invulnerable<Defense> for 1 turn.",
+                    "descriptionBR": "Essa habilidade faz Chiyo (S) <Defense>invulnerável<Defense> por 1 turno.",
+                    "energy": [
+                      "Random"
+                    ],
+                    "classes": [
+                      "Chakra",
+                      "Instant",
+                      "Unique",
+                      "Helpful",
+                      "Chiyo (S)"
+                    ],
+                    "cooldown": 4,
+                    "target": {
+                      "10": [
+                        0,
+                        0
+                      ],
+                      "11": [
+                        0,
+                        0
+                      ],
+                      "12": [
+                        0,
+                        0
+                      ],
+                      "00": [
+                        0,
+                        0
+                      ],
+                      "01": [
+                        0,
+                        0
+                      ],
+                      "02": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "icon": [
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+                        "duration": "2 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "White Secret Attack Rampage",
+                    "effects": [
+                      {
+                        "text": "THE NEXT USE OF 'SANBOU KYUUKAI' WILL DEAL 5 ADDITIONAL DAMAGE.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 2,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Cerberus Hydra",
+                    "effects": [
+                      {
+                        "text": "IF THIS CHARACTER USES A NEW SKILL THEY WILL TAKE 15 PIERCING DAMAGE.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 0,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Toad Oil Projectile",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 10 ADDITIONAL DAMAGE FROM 'KATON ENDAN' .",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Shadow Sewing",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER'S PHYSICAL AND CHAKRA SKILLS ARE STUNNED.",
+                        "duration": "ENDS THIS TURN"
+                      },
+                      {
+                        "text": "SHADOW SEWING - HOLD MAY BE USED ON THAT ENEMY.",
+                        "duration": "1 TURN LEFT"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "azmel",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "cd": [
+                  {
+                    "name": "White Secret Attack Rampage",
+                    "val": 0,
+                    "valOg": 0
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "chakra": [
+              "Gen",
+              "Blood",
+              "Nin",
+              "Nin"
+            ],
+            "queue": [],
+            "avatar_temp": "https://i.imgur.com/MhMKfMr.jpeg",
+            "border_temp": "https://i.imgur.com/2O6uXW7.png",
+            "info": {
+              "win": 119,
+              "lose": 103,
+              "streak": 9,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 700,
+              "title": null,
+              "activeSkins": null,
+              "activeBorder": null
+            }
+          },
+          {
+            "playerId": "azmel",
+            "team": {
+              "char0": {
+                "name": "Animal Path Pein (S)",
+                "health": 65,
+                "icon": [
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                        "duration": "1 TURN LEFT"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Nara Shikamaru (S)",
+                "health": 65,
+                "icon": [
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                        "duration": "1 TURN LEFT"
+                      }
+                    ],
+                    "additionalEffects": [
+                      [
+                        {
+                          "text": "THIS CHARACTER'S HARMFUL SKILLS WILL COST 1 ADDITIONAL RANDOM CHAKRA.",
+                          "duration": "1 TURN LEFT"
+                        },
+                        {
+                          "text": "THIS CHARACTER'S SKILLS WILL HAVE 1 ADDITIONAL COOLDOWN.",
+                          "duration": "1 TURN LEFT"
+                        }
+                      ]
+                    ],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Shadow Sewing",
+                    "effects": [
+                      {
+                        "text": "THIS SKILL WILL BE REPLACED BY 'SHADOW SEWING - HOLD'.",
+                        "duration": "1 TURN LEFT"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "azmel",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Jiraiya (S)",
+                "health": 65,
+                "icon": [
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+                        "duration": "1 TURN LEFT"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Toad Oil Projectile",
+                    "effects": [
+                      {
+                        "text": "'TOAD OIL PROJECTILE' WILL BE REPLACED BY 'KATON ENDAN'.",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "White Secret Attack Rampage",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 20 DAMAGE.",
+                        "duration": "END THIS TURN"
+                      },
+                      {
+                        "text": "THIS SKILL HAS ENDED.",
+                        "duration": "END THIS TURN",
+                        "isNothing": true
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "mestsxxx",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/M02rmcQ.png",
+            "border_temp": null,
+            "info": {
+              "win": 126,
+              "lose": 87,
+              "streak": -1,
+              "xp": 29941,
+              "level": 38,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 212,
+              "title": null,
+              "activeSkins": [],
+              "activeBorder": null
+            }
+          }
+        ],
+        "turn": "mestsxxx",
+        "characters": [
+          {
+            "name": "Animal Path Pein (S)",
+            "description": "Animal Path Pein (S) is one of the six paths of Pein. This Path is able to summon a variety of different beasts for different purposes.",
+            "descriptionBR": "Animal Path Pein (S) é um dos seis caminhos de Pein. Este caminho é capaz de invocar uma variedade de bestas diferentes para diversos propósitos.",
+            "url": "https://i.imgur.com/1RJgcYj.png",
+            "themepic": "https://i.imgur.com/8ryFroR.jpg",
+            "skills": [
+              {
+                "name": "Cerberus Hydra",
+                "description": "Animal Path Pein summons a giant multiple headed dog, dealing 20 damage to all enemies. For 2 turns, any enemy that uses a skill will be dealt 15 piercing damage.",
+                "descriptionBR": "Animal Path Pein invoca um cão gigante de várias cabeças, causando 20 de dano a todos os inimigo. Por 2 turnos, qualquer inimigo que usar uma habilidade receberá 15 de dano perfurante.",
+                "energy": [
+                  "Blood",
+                  "Nin"
+                ],
+                "classes": [
+                  "Physical",
+                  "Melee",
+                  "Instant"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/Wo05Giy.jpg",
+                "themepic": "https://i.imgur.com/Wo05Giy.jpg"
+              },
+              {
+                "name": "Drill Bird",
+                "description": "Animal Path Pein summons a giant drill-beaked bird, dealing 20 damage to one enemy and 20 damage to another random enemy for 2 turns. The following turn, 'Cerberus Hydra' will cost 1 ninjutsu and 1 random chakra instead.",
+                "descriptionBR": "Animal Path Pein invoca um pássaro gigante com bico perfurante, causando 20 de dano a um inimigo e 20 de dano a um outro inimigo aleatório por 2 turnos. No próximo turno, 'Cerberus Hydra' irá custar 1 ninjutsu e 1 random chakra.",
+                "energy": [
+                  "Nin",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Ranged",
+                  "Action"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/0utvW5A.jpg",
+                "themepic": "https://i.imgur.com/0utvW5A.jpg"
+              },
+              {
+                "name": "Invisible Chameleon",
+                "description": "Animal Path Pein summons his chameleon, protecting himself or an ally. For 4 turns, that ally will ignore stun effects and gains 50% damage reduction. This skill is invisible.",
+                "descriptionBR": "Animal Path Pein invoca um camaleão, protegendo a si mesmo ou um aliado. Por 4 turnos, esse aliado irá ignorar efeitos de atordoamento e receberá 50% de redução de dano. Essa habilidade é invisível.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/1JrdMnL.jpg",
+                "themepic": "https://i.imgur.com/1JrdMnL.jpg"
+              },
+              {
+                "name": "Panda Defense",
+                "description": "This skill can be used on himself or an ally, making himself or that ally <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Animal Path Pein (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/FR1oFXS.jpg",
+                "themepic": "https://i.imgur.com/FR1oFXS.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Shodai Hokage",
+            "description": "The First Hokage and the founder of the Hidden Village of Konoha, Shodai Hokage has the ability to create and manipulate trees. This ability to give life shows the extent of his power.",
+            "descriptionBR": "O Primeiro Hokage e fundador da Vila Oculta de Konoha, Shodai Hokage tem a habilidade de criar e manipular árvores. Essa capacidade de dar vida mostra o quão poderoso ele é.",
+            "url": "https://i.imgur.com/4Qt9UaS.png",
+            "themepic": "https://i.imgur.com/n53EGmq.jpg",
+            "skills": [
+              {
+                "name": "Birth of the Trees",
+                "description": "Hashirama summons a giant field of trees. For 3 turns, any enemy that <Classes>uses a new harmful skill<Classes> will have the <Effects>cost of their harmful skills<Effects> <Effects>increased<Effects> by <Effects>1 random chakra<Effects> and <Effects>their cooldowns increased by 1<Effects> for 1 turn. The following 3 turns, if Hashirama <Effects>uses a new skill<Effects> his team will gain 5 <Defense>destructible defense<Defense>.",
+                "descriptionBR": "Hashirama invoca um enorme campo de árvores. Por 3 turnos, qualquer inimigo que <Classes>usar uma nova habilidade ofensiva<Classes> terá o <Effects>custo de suas habilidades ofensivas aumentado<Effects> em <Effects>1 chakra aleatório<Effects> e suas <Effects>recargas aumentadas em 1<Effects> por 1 turno. Nos 3 turnos seguintes, se Hashirama <Effects>usar uma nova habilidade<Effects>, sua equipe ganhará 5 <Defense>pontos de defesa destrutível<Defense>.",
+                "energy": [
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Ranged",
+                  "Unique"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/ztMMKn0.png",
+                "themepic": "https://i.imgur.com/g3VFlu5.jpg"
+              },
+              {
+                "name": "Tree Strangulation",
+                "description": "Hashirama catches and crushes one enemy in giant tree branches, <Damage>dealing 25 piercing damage<Damage> to that enemy and <Effects>stunning<Effects> their <Classes>physical and chakra<Classes> skills for 1 turn. During <SkillName>'Birth of the Trees'<SkillName>, this skill <Improvements>will cost 1 less random chakra<Improvements>.",
+                "descriptionBR": "Hashirama captura e esmaga um inimigo com galhos gigantes, <Damage>causando 25 de dano perfurante<Damage> e <Effects>atordoando<Effects> suas habilidades <Classes>Physical e Chakra<Classes> por 1 turno. Durante <SkillName>'Birth of the Trees'<SkillName>, essa skill custará 1 chakra aleatório a menos<Improvements>.",
+                "energy": [
+                  "Blood",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Ranged",
+                  "Unique"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/3ghIvfW.png",
+                "themepic": "https://i.imgur.com/FUbSre4.jpg"
+              },
+              {
+                "name": "Branch Manipulation",
+                "description": "Hashirama sends out his trees in all directions, <Damage>dealing 10 affliction damage<Damage> to all enemies and granting 25% <Defense>damage reduction<Defense> to himself and his allies. During <SkillName>'Birth of the Trees'<SkillName>, this skill will <Improvements>have no cooldown<Improvements>.",
+                "descriptionBR": "Hashirama envia suas árvores em todas as direções, <Damage>causando 10 de dano aflitivo<Damage> a todos os inimigos e concedendo 25% de <Defense>redução de dano<Defense> para si mesmo e aliados. Durante <SkillName>'Birth of the Trees'<SkillName>, essa habilidade <Improvements>não terá cooldown<Improvements>.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant",
+                  "Ranged",
+                  "Affliction",
+                  "Unique"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/2ZW1vwA.png",
+                "themepic": "https://i.imgur.com/uaUDetQ.jpg"
+              },
+              {
+                "name": "Deflection",
+                "description": "This skill makes Shodai Hokage invulnerable for 1 turn. This skill will <Defense>not<Defense> grant <Defense>destructible defense<Defense> during <SkillName>'Birth of the Trees'<SkillName>.",
+                "descriptionBR": "Essa skill torna Shodai Hokage <Defense>invulnerável<Defense> por 1 turno. Essa habilidade <Defense>não<Defense> concede <Defense>defesa destrutível<Defense> durante <SkillName>'Birth of the Trees'<SkillName>.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/RyqXqfk.png",
+                "themepic": "https://i.imgur.com/Dov8aW0.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Nara Shikamaru (S)",
+            "description": "Once known to be one of the laziest ninja, Shikamaru has worked tireless to become not only stronger, but a leader too. More than ever before, Shikamaru excels at coming up with long winded and convoluted plans meant to defeat any enemies in his path.",
+            "descriptionBR": "Antes conhecido como um dos ninjas mais preguiçosos, Shikamaru trabalhou incansavelmente para se tornar não apenas mais forte, mas também um líder. Mais do que nunca, Shikamaru se destaca ao criar planos longos e complexos para derrotar qualquer inimigo em seu caminho.",
+            "url": "https://i.imgur.com/DJ6gLqt.png",
+            "themepic": "https://i.imgur.com/ye2ieNu.jpg",
+            "skills": [
+              {
+                "name": "Shadow Sewing",
+                "description": "Shikamaru sends several tendrils of shadow to one enemy, <Damage>dealing 35 damage<Damage> to them and <Effects>stunning<Effects> their <Classes>Physical and Chakra<Classes> skills for 1 turn. Afterwards, this skill will be <Improvements>replaced<Improvements> by <SkillName>'Shadow Sewing - Hold'<SkillName> for 1 turn.",
+                "descriptionBR": "Shikamaru envia vários tentáculos de sombra para um inimigo, <Damage>causando 35 de dano<Damage> e <Effects>atordoando<Effects> as habilidades <Classes>Physical e Chakra<Classes> dele por 1 turno. Depois disso, esta habilidade será <Improvements>substituída<Improvements> por <SkillName>'Shadow Sewing - Hold'<SkillName> por 1 turno.",
+                "energy": [
+                  "Gen",
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/1eTGjYh.png",
+                "themepic": "https://i.imgur.com/EFQOCcj.jpg"
+              },
+              {
+                "name": "Long-Range Tactics",
+                "description": "Shikamaru goes long. For 4 turns, each time Shikamaru <Classes>uses a new harmful skill<Classes>, he will become <Defense>invulnerable<Defense> for 1 turn. If Shikamaru receives new <Classes>non-affliction damage<Classes>, this skill will be <Defense>ignored<Defense> for 1 turn. The following 4 turns, this skill will be <Improvements>replaced<Improvements> by <SkillName>'Final Explosion'<SkillName>.",
+                "descriptionBR": "Shikamaru vai de longe. Por 4 turnos, toda vez que Shikamaru  <Classes>usar uma novahabilidade ofensiva<Classes>, ele se tornará <Defense>invulnerável<Defense> por 1 turno. Se Shikamaru receber um novo <Classes>dano não aflitivo <Classes>, essa habilidade será <Defense>ignorada<Defense> por 1 turno. Nos 4 turnos seguintes, esta habilidade será <Improvements>substituída<Improvements> por <SkillName>'Final Explosion'<SkillName>.",
+                "energy": [
+                  "Tai"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 5,
+                "url": "https://i.imgur.com/SkoW7Eb.png",
+                "themepic": "https://i.imgur.com/fK5QssV.jpg"
+              },
+              {
+                "name": "Expert Analysis",
+                "description": "By carefully analyzing one enemy, Shikamaru figures out their weakness. For 3 turns, any time that enemy <Classes>uses a new skill<Classes> that enemy will be unable to become <Defense>invulnerable<Defense> or <Defense>reduce damage<Defense> and all <Classes>helpful counter<Classes> and <Classes>reflect<Classes> effects on them will be <Defense>ignored<Defense> for 1 turn. This skill is <Invisible>invisible<Invisible>",
+                "descriptionBR": "Ao analisar cuidadosamente um inimigo, Shikamaru descobre sua fraqueza. Por 3 turnos, sempre que esse inimigo <Classes>usar uma nova habilidade<Classes>, ele não poderá se tornar <Defense>invulnerável<Defense> ou <Defense>reduzir dano<Defense>, e todos os efeitos defensivos de <Classes>counterar<Classes> e <Classes>refletir<Classes> nele serão <Defense>ignorados<Defense> por 1 turno. Esta habilidade é <Invisible>invisível<Invisible>",
+                "energy": [],
+                "classes": [
+                  "Mental",
+                  "Ranged",
+                  "Instant"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/EeUkfpQ.png",
+                "themepic": "https://i.imgur.com/vQWUgWo.jpg"
+              },
+              {
+                "name": "Panicked Dodge",
+                "description": "This skill makes Nara Shikamaru (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Nara Shikamaru (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/tZe7d8i.png",
+                "themepic": "https://i.imgur.com/Emf0hZc.jpg"
+              },
+              {
+                "name": "Shadow Sewing - Hold",
+                "description": "Shikamaru continues to maintain his technique, <Effects>stunning<Effects> the <Effects>physical and chakra<Effects> skills of the enemy affected by <SkillName>'Shadow Sewing'<SkillName> or this skill for 1 turn and <Damage>dealing 20 damage<Damage> to them. After that, this skill remains active on the enemy.",
+                "descriptionBR": "Shikamaru continua mantendo sua técnica, <Effects>atordoando<Effects> as habilidades <Effects>Physical e Chakra<Effects> do inimigo afetado por <SkillName>'Shadow Sewing'<SkillName> ou esta habilidade por 1 turno e <Damage>causando 20 de dano<Damage> a ele. Depois disso, esta habilidade permanece ativa no inimigo.",
+                "energy": [
+                  "Gen"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/YRBb3D8.png",
+                "themepic": "https://i.imgur.com/Zv1hl0O.jpeg"
+              },
+              {
+                "name": "Final Explosion",
+                "description": "Using his shadow technique, his analysis and his range, Shikamaru traps one enemy in a pit, and blows them up. One enemy affected by <SkillName>'Shadow Sewing'<SkillName> or <SkillName>'Shadow Sewing - Hold'<SkillName> and <SkillName>'Expert Analysis'<SkillName> while Shikamaru is <Defense>invulnerable<Defense> through <SkillName>'Long-Range Tactics'<SkillName> will <Damage>receive 100 damage<Damage>.",
+                "descriptionBR": "Usando sua técnica de sombra, sua análise e seu alcance, Shikamaru prende um inimigo em uma armadilha e o explode. Um inimigo afetado por <SkillName>'Shadow Sewing'<SkillName> ou <SkillName>'Shadow Sewing - Hold'<SkillName> e <SkillName>'Expert Analysis'<SkillName>, enquanto Shikamaru estiver <Defense>invulnerável<Defense> por <SkillName>'Long-Range Tactics'<SkillName>, <Damage>receberá 100 de dano<Damage>.",
+                "energy": [
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Ranged",
+                  "Instant"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/m4z05zN.png",
+                "themepic": "https://i.imgur.com/0tvaRqr.jpeg"
+              }
+            ]
+          },
+          {
+            "name": "Jiraiya (S)",
+            "description": "Jiraiya (S) is one of the legendary Sannin that were trained by the third Hokage. Also known as the toad sage, he has been Uzumaki Naruto's teacher for the past few years.",
+            "descriptionBR": "Jiraiya (S) é um dos lendários Sannin treinados pelo terceiro Hokage. Também conhecido como o sábio dos sapos, ele tem sido o mestre de Uzumaki Naruto nos últimos anos.",
+            "url": "https://i.imgur.com/ZpGGXKN.png",
+            "themepic": "https://i.imgur.com/XE97bxE.jpg",
+            "skills": [
+              {
+                "name": "Toad Oil Projectile",
+                "description": "Jiraiya spits a very dense oil at all enemies, dealing 10 affliction damage to them. Permanently, all enemies will receive 10 additional damage from 'Katon Endan'. Enemies marked by 'Wild Lion Mane' will have their action and control skills ended. This skill is replaced by 'Katon Endan' after being used.",
+                "descriptionBR": "Jiraiya cospe um óleo muito denso em todos os inimigos, irá causar 10 de dano aflitivo a eles. Permanentemente, todos os inimigos irão receber 10 de dano adicional de 'Katon Endan'. Inimigos marcados por 'Wild Lion Mane' terão suas habilidades de Action e Control encerradas. Essa habilidade será substituída por 'Katon Endan' após ser usada.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Affliction",
+                  "Ranged",
+                  "Instant"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/sHIiYby.png",
+                "themepic": "https://i.imgur.com/gjGEbMs.png"
+              },
+              {
+                "name": "Jiraya's Rasengan",
+                "description": "Jiraya hits an opponent with his Rasengan, dealing 30 damage to them. For 1 turn, that enemy will deal 10 less non-affliction damage. If Used on an enemy marked by 'Wild Lion Mane', that enemy will take 10 additional damage. ",
+                "descriptionBR": "Jiraya atinge um oponente com seu Rasengan, causando 30 de dano. Por 1 turno, esse inimigo causará 10 de dano não aflitivo a menos. Se usado em um inimigo marcado por 'Wild Lion Mane', esse inimigo receberá 10 de dano adicional.",
+                "energy": [
+                  "Nin",
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Melee",
+                  "Instant"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/fMlBx5F.png",
+                "themepic": "https://i.imgur.com/fMlBx5F.png"
+              },
+              {
+                "name": "Wild Lion Mane",
+                "description": "Jiraiya will protect himself or an ally for 2 turns. If an enemy uses a new skill on that ally, they will take 10 piercing damage and will deal 15 less non-affliction damage for 1 turn. This skill is invisible.",
+                "descriptionBR": "Jiraiya protegerá a si mesmo ou a um aliado por 2 turnos. Se um inimigo usar uma nova habilidade nesse aliado, ele receberá 10 de dano perfurante e causará 15 de dano não aflitivo a menos por 1 turno. Esta habilidade é invisível.",
+                "energy": [
+                  "Nin"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 3,
+                "url": "https://i.imgur.com/yQaCntC.png",
+                "themepic": "https://i.imgur.com/29s7Mpl.jpg"
+              },
+              {
+                "name": "Summoning Gamaken",
+                "description": "This skill makes Jiraiya <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Jiraiya <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/IJBZdur.png",
+                "themepic": "https://i.imgur.com/iMdoRdI.jpg"
+              },
+              {
+                "name": "Katon Endan",
+                "description": "Jiraiya emits a jet of fire from his mouth, dealing 20 damage to one enemy. This skill is replaced by 'Toad Oil Projectile' after being used.",
+                "descriptionBR": "Jiraiya emite um jato de fogo pela boca, causando 20 de dano a um inimigo. Esta habilidade é substituída por 'Toad Oil Projectile' após ser usada.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/GDxz2bn.png",
+                "themepic": "https://i.imgur.com/XXJ4UvH.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Chiyo (S)",
+            "description": "The grandmother of Sasori(s) and elder ninja of the Sand Village, Chiyo is a well known and accomplished puppet master and builder.",
+            "descriptionBR": "Avó de Sasori (S) e ninja anciã da Vila da Areia, Chiyo é uma renomada e talentosa mestre de marionetes e construtora.",
+            "url": "https://i.imgur.com/Xwi4eLx.png",
+            "themepic": "https://i.imgur.com/WNPtn7n.jpg",
+            "skills": [
+              {
+                "name": "White Secret Attack Rampage",
+                "description": "Chiyo directs her puppets to devastate the battlefield, dealing 20 damage to a random enemy for 1 turn. The following turn, a second random enemy will also be dealt 20 damage. The second target is invisible. The next use of 'Sanbou Kyuukai' will deal 5 aditional damage. This skill stacks.",
+                "descriptionBR": "Chiyo direciona seus fantoches para devastar o campo de batalha, causando 20 de dano a um inimigo aleatório por 1 turno. No próximo turno, um segundo inimigo aleatório também irá receber 20 de dano. O segundo alvo é invisível. O próximo uso de 'Sanbou Kyuukai' irá causar 5 de dano adicional. Essa habilidade acumula.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Action",
+                  "Ranged",
+                  "Unique"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/6rGUR71.png",
+                "themepic": "https://i.imgur.com/3iDBLhW.jpg"
+              },
+              {
+                "name": "Sanbou Kyuukai",
+                "description": "This skill deals 20 piercing damage to one enemy and stuns their non-mental skills for 1 turn. Also for 1 turn, that enemy will receive 5 additional damage from all sources. This skill ignores invulnerability.",
+                "descriptionBR": "Essa habilidade causa 20 de dano piercing a um inimigo e atordoa suas habilidades não-mental por 1 turno. Também por 1 turno, esse inimigo irá receber 5 de dano adicional de todas as fontes. Essa habilidade ignora invulnerabilidade.",
+                "energy": [
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant",
+                  "Ranged",
+                  "Unique"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/nEG0auz.png",
+                "themepic": "https://i.imgur.com/61Jr2Nq.jpg"
+              },
+              {
+                "name": "Ally Puppetry",
+                "description": "Chiyo controls one ally for 3 turns. Each turn, that ally will nullify the first physical or chakra non-affliction skill used on them. During this time, their melee skills will deal 25% more damage. The following 2 turns, this skill will be replaced. This skill ends if Chiyo is killed.",
+                "descriptionBR": "Chiyo controla um aliado por 3 turnos. A cada turno, esse aliado irá anular a primeira habilidade physical ou chakra não-affliction usada contra ele. Durante esse tempo, suas habilidades melee irão causar 25% a mais de dano. Nos próximos 2 turnos, essa habilidade será substituída. Essa habilidade termina se Chiyo for morta.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 2,
+                "url": "https://i.imgur.com/bMu8gne.png",
+                "themepic": "https://i.imgur.com/op5ywuv.jpg"
+              },
+              {
+                "name": "Chakra Shield",
+                "description": "This skill makes Chiyo (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Chiyo (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/BdXtVD4.png",
+                "themepic": "https://i.imgur.com/FCTthAl.jpg"
+              },
+              {
+                "name": "One's Own Life Reincarnation",
+                "description": "Chiyo selects one ally, giving them all of her current remaining health. Afterwards, Chiyo will instantly die. The chosen ally gains 1 random chakra for the rest of the game. This skill can also be used on dead allies.",
+                "descriptionBR": "Chiyo seleciona um aliado, concedendo a ele toda a sua vida restante atual. Depois disso, Chiyo irá morrer instantaneamente. O aliado escolhido ganha 1 chakra aleatório pelo resto do jogo. Essa habilidade também pode ser usada em aliados mortos.",
+                "energy": [
+                  "Random",
+                  "Random",
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 0,
+                "url": "https://i.imgur.com/8tkBGN3.png"
+              }
+            ]
+          },
+          {
+            "name": "Darui (S)",
+            "description": "Darui (S) is a jounin of the Hidden Cloud Village and the right hand of the Yondaime Raikage. Despite his appearance Darui (S) is a formidable shinobi.",
+            "descriptionBR": "Darui (S) é um jounin da Vila da Nuvem Oculta e a mão direita do Yondaime Raikage. Apesar de sua aparência, Darui (S) é um shinobi formidável.",
+            "url": "https://i.imgur.com/4zQxemJ.png",
+            "themepic": "https://i.imgur.com/1m8IRd5.jpg",
+            "skills": [
+              {
+                "name": "Laser Circus",
+                "description": "Darui creates several beams and shoots his opponents, stunning one enemy's harmful skills for 1 turn. Afterwards, the main target takes 5 piercing damage and all other enemies take 15 piercing damage.",
+                "descriptionBR": "Darui cria diversos feixes e dispara contra seus oponentes, atordoando as habilidades ofensivas de um inimigo por 1 turno. Em seguida, o alvo principal recebe 5 de dano perfurante e todos os outros inimigos recebem 15 de dano perfurante.",
+                "energy": [
+                  "Nin"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/gnwtJrI.png",
+                "themepic": "https://i.imgur.com/OZP7Ht2.jpg"
+              },
+              {
+                "name": "Electric Water Encampment Wall",
+                "description": "Darui targets all enemies for 1 turn, any enemy that uses a new harmful skill will take 5 affliction damage. The following turn, all enemies affected by this skill will recelve 5 additional damage from 'Laser Circus' and 'Black Panther Lightning'. This skill cannot be countered.",
+                "descriptionBR": "Darui mira em todos os inimigos por 1 turno; qualquer inimigo que usar uma nova habilidade ofensiva receberá 5 de dano aflitivo. No turno seguinte, todos os inimigos afetados por esta habilidade receberão 5 de dano adicional de 'Laser Circus' e 'Black Panther Lightning'. Esta habilidade não pode ser counterada.",
+                "energy": [],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant",
+                  "Unique",
+                  "Affliction"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/arWmbIl.png",
+                "themepic": "https://i.imgur.com/DThqy0t.jpg"
+              },
+              {
+                "name": "Black Panther Lightning",
+                "description": "Darui generates a black panther lightning from his body and releases it at one enemy, dealing 35 piercing damage to them. For 1 turn, that enemy's skills will have 2 additional cooldown. This skill ignores invulnerability.",
+                "descriptionBR": "Darui gera uma pantera negra de raio a partir do seu corpo e a lança contra um inimigo, causando 35 de dano perfurante. Por 1 turno, as habilidades desse inimigo terão 2 de recarga adicional. Esta habilidade ignora invulnerabilidade.",
+                "energy": [
+                  "Blood",
+                  "Random"
+                ],
+                "classes": [
+                  "Chakra",
+                  "Ranged",
+                  "Instant",
+                  "Unique"
+                ],
+                "cooldown": 1,
+                "url": "https://i.imgur.com/lbXhosJ.png",
+                "themepic": "https://i.imgur.com/LaIHZZO.jpg"
+              },
+              {
+                "name": "Cleaver Sword Defense",
+                "description": "This skill makes Darui (S) <Defense>invulnerable<Defense> for 1 turn.",
+                "descriptionBR": "Essa habilidade faz Darui (S) <Defense>invulnerável<Defense> por 1 turno.",
+                "energy": [
+                  "Random"
+                ],
+                "classes": [
+                  "Physical",
+                  "Instant"
+                ],
+                "cooldown": 4,
+                "url": "https://i.imgur.com/GoWroAB.png",
+                "themepic": "https://i.imgur.com/qi34t8M.jpg"
+              }
+            ]
+          }
+        ],
+        "charImages": {
+          "facepics": {
+            "Animal Path Pein (S)": {
+              "src": "https://i.imgur.com/1RJgcYj.png",
+              "srcOldTheme": "https://i.imgur.com/8ryFroR.jpg"
+            },
+            "Shodai Hokage": {
+              "src": "https://i.imgur.com/4Qt9UaS.png",
+              "srcOldTheme": "https://i.imgur.com/n53EGmq.jpg"
+            },
+            "Nara Shikamaru (S)": {
+              "src": "https://i.imgur.com/DJ6gLqt.png",
+              "srcOldTheme": "https://i.imgur.com/ye2ieNu.jpg"
+            },
+            "Jiraiya (S)": {
+              "src": "https://i.imgur.com/ZpGGXKN.png",
+              "srcOldTheme": "https://i.imgur.com/XE97bxE.jpg"
+            },
+            "Chiyo (S)": {
+              "src": "https://i.imgur.com/Xwi4eLx.png",
+              "srcOldTheme": "https://i.imgur.com/WNPtn7n.jpg"
+            },
+            "Darui (S)": {
+              "src": "https://i.imgur.com/4zQxemJ.png",
+              "srcOldTheme": "https://i.imgur.com/1m8IRd5.jpg"
+            }
+          },
+          "skills": {
+            "Cerberus Hydra": {
+              "src": "https://i.imgur.com/Wo05Giy.jpg",
+              "srcOldTheme": "https://i.imgur.com/Wo05Giy.jpg"
+            },
+            "Drill Bird": {
+              "src": "https://i.imgur.com/0utvW5A.jpg",
+              "srcOldTheme": "https://i.imgur.com/0utvW5A.jpg"
+            },
+            "Invisible Chameleon": {
+              "src": "https://i.imgur.com/1JrdMnL.jpg",
+              "srcOldTheme": "https://i.imgur.com/1JrdMnL.jpg"
+            },
+            "Panda Defense": {
+              "src": "https://i.imgur.com/FR1oFXS.jpg",
+              "srcOldTheme": "https://i.imgur.com/FR1oFXS.jpg"
+            },
+            "Birth of the Trees": {
+              "src": "https://i.imgur.com/ztMMKn0.png",
+              "srcOldTheme": "https://i.imgur.com/g3VFlu5.jpg"
+            },
+            "Tree Strangulation": {
+              "src": "https://i.imgur.com/3ghIvfW.png",
+              "srcOldTheme": "https://i.imgur.com/FUbSre4.jpg"
+            },
+            "Branch Manipulation": {
+              "src": "https://i.imgur.com/2ZW1vwA.png",
+              "srcOldTheme": "https://i.imgur.com/uaUDetQ.jpg"
+            },
+            "Deflection": {
+              "src": "https://i.imgur.com/RyqXqfk.png",
+              "srcOldTheme": "https://i.imgur.com/Dov8aW0.jpg"
+            },
+            "Shadow Sewing": {
+              "src": "https://i.imgur.com/1eTGjYh.png",
+              "srcOldTheme": "https://i.imgur.com/EFQOCcj.jpg"
+            },
+            "Long-Range Tactics": {
+              "src": "https://i.imgur.com/SkoW7Eb.png",
+              "srcOldTheme": "https://i.imgur.com/fK5QssV.jpg"
+            },
+            "Expert Analysis": {
+              "src": "https://i.imgur.com/EeUkfpQ.png",
+              "srcOldTheme": "https://i.imgur.com/vQWUgWo.jpg"
+            },
+            "Panicked Dodge": {
+              "src": "https://i.imgur.com/tZe7d8i.png",
+              "srcOldTheme": "https://i.imgur.com/Emf0hZc.jpg"
+            },
+            "Shadow Sewing - Hold": {
+              "src": "https://i.imgur.com/YRBb3D8.png",
+              "srcOldTheme": "https://i.imgur.com/Zv1hl0O.jpeg"
+            },
+            "Final Explosion": {
+              "src": "https://i.imgur.com/m4z05zN.png",
+              "srcOldTheme": "https://i.imgur.com/0tvaRqr.jpeg"
+            },
+            "Toad Oil Projectile": {
+              "src": "https://i.imgur.com/sHIiYby.png",
+              "srcOldTheme": "https://i.imgur.com/gjGEbMs.png"
+            },
+            "Jiraya's Rasengan": {
+              "src": "https://i.imgur.com/fMlBx5F.png",
+              "srcOldTheme": "https://i.imgur.com/fMlBx5F.png"
+            },
+            "Wild Lion Mane": {
+              "src": "https://i.imgur.com/yQaCntC.png",
+              "srcOldTheme": "https://i.imgur.com/29s7Mpl.jpg"
+            },
+            "Summoning Gamaken": {
+              "src": "https://i.imgur.com/IJBZdur.png",
+              "srcOldTheme": "https://i.imgur.com/iMdoRdI.jpg"
+            },
+            "Katon Endan": {
+              "src": "https://i.imgur.com/GDxz2bn.png",
+              "srcOldTheme": "https://i.imgur.com/XXJ4UvH.jpg"
+            },
+            "White Secret Attack Rampage": {
+              "src": "https://i.imgur.com/6rGUR71.png",
+              "srcOldTheme": "https://i.imgur.com/3iDBLhW.jpg"
+            },
+            "Sanbou Kyuukai": {
+              "src": "https://i.imgur.com/nEG0auz.png",
+              "srcOldTheme": "https://i.imgur.com/61Jr2Nq.jpg"
+            },
+            "Ally Puppetry": {
+              "src": "https://i.imgur.com/bMu8gne.png",
+              "srcOldTheme": "https://i.imgur.com/op5ywuv.jpg"
+            },
+            "Chakra Shield": {
+              "src": "https://i.imgur.com/BdXtVD4.png",
+              "srcOldTheme": "https://i.imgur.com/FCTthAl.jpg"
+            },
+            "One's Own Life Reincarnation": {
+              "src": "https://i.imgur.com/8tkBGN3.png",
+              "srcOldTheme": null
+            },
+            "Laser Circus": {
+              "src": "https://i.imgur.com/gnwtJrI.png",
+              "srcOldTheme": "https://i.imgur.com/OZP7Ht2.jpg"
+            },
+            "Electric Water Encampment Wall": {
+              "src": "https://i.imgur.com/arWmbIl.png",
+              "srcOldTheme": "https://i.imgur.com/DThqy0t.jpg"
+            },
+            "Black Panther Lightning": {
+              "src": "https://i.imgur.com/lbXhosJ.png",
+              "srcOldTheme": "https://i.imgur.com/LaIHZZO.jpg"
+            },
+            "Cleaver Sword Defense": {
+              "src": "https://i.imgur.com/GoWroAB.png",
+              "srcOldTheme": "https://i.imgur.com/qi34t8M.jpg"
+            }
+          }
+        },
+        "shortcut_c": {
+          "Animal Path Pein (S)": "0",
+          "Shodai Hokage": "1",
+          "Nara Shikamaru (S)": "2",
+          "Jiraiya (S)": "3",
+          "Chiyo (S)": "4",
+          "Darui (S)": "5"
+        },
+        "shortcut_s": {
+          "Cerberus Hydra": [
+            "0",
+            "0"
+          ],
+          "Drill Bird": [
+            "0",
+            "1"
+          ],
+          "Invisible Chameleon": [
+            "0",
+            "2"
+          ],
+          "Panda Defense": [
+            "0",
+            "3"
+          ],
+          "Birth of the Trees": [
+            "1",
+            "0"
+          ],
+          "Tree Strangulation": [
+            "1",
+            "1"
+          ],
+          "Branch Manipulation": [
+            "1",
+            "2"
+          ],
+          "Deflection": [
+            "1",
+            "3"
+          ],
+          "Shadow Sewing": [
+            "2",
+            "0"
+          ],
+          "Long-Range Tactics": [
+            "2",
+            "1"
+          ],
+          "Expert Analysis": [
+            "2",
+            "2"
+          ],
+          "Panicked Dodge": [
+            "2",
+            "3"
+          ],
+          "Shadow Sewing - Hold": [
+            "2",
+            "4"
+          ],
+          "Final Explosion": [
+            "2",
+            "5"
+          ],
+          "Toad Oil Projectile": [
+            "3",
+            "0"
+          ],
+          "Jiraya's Rasengan": [
+            "3",
+            "1"
+          ],
+          "Wild Lion Mane": [
+            "3",
+            "2"
+          ],
+          "Summoning Gamaken": [
+            "3",
+            "3"
+          ],
+          "Katon Endan": [
+            "3",
+            "4"
+          ],
+          "White Secret Attack Rampage": [
+            "4",
+            "0"
+          ],
+          "Sanbou Kyuukai": [
+            "4",
+            "1"
+          ],
+          "Ally Puppetry": [
+            "4",
+            "2"
+          ],
+          "Chakra Shield": [
+            "4",
+            "3"
+          ],
+          "One's Own Life Reincarnation": [
+            "4",
+            "4"
+          ],
+          "Laser Circus": [
+            "5",
+            "0"
+          ],
+          "Electric Water Encampment Wall": [
+            "5",
+            "1"
+          ],
+          "Black Panther Lightning": [
+            "5",
+            "2"
+          ],
+          "Cleaver Sword Defense": [
+            "5",
+            "3"
+          ]
+        },
+        "turnKey": 5
+      }
+    }
+  }
+}

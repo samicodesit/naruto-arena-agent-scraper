@@ -1,0 +1,558 @@
+{
+  "request": {
+    "payload": {
+      "queue": [
+        {
+          "name": "Black Panther Lightning",
+          "menu_local": [
+            0,
+            0,
+            2
+          ],
+          "usedOn": {
+            "s": 1,
+            "i": 2
+          },
+          "new": true,
+          "assignedSkill": {
+            "char": 0,
+            "index": 2
+          }
+        }
+      ]
+    }
+  },
+  "response": {
+    "body": {
+      "content": {
+        "players": [
+          {
+            "playerId": "mestsxxx",
+            "team": {
+              "char0": {
+                "name": "Darui (S)",
+                "health": 50,
+                "icon": [
+                  {
+                    "name": "Toad Oil Projectile",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 10 ADDITIONAL DAMAGE FROM 'KATON ENDAN' .",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 2,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+                        "duration": "2 TURN LEFTS"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Wild Lion Mane",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL DEAL 15 LESS NON-AFFLICTION DAMAGE.",
+                        "duration": "1 TURN LEFT"
+                      },
+                      {
+                        "text": "THIS CHARACTER WILL RECEIVE AN ADDITIONAL 10 DAMAGE FROM 'JIRAYA'S RASENGAN'.",
+                        "duration": "ENDS THIS TURN"
+                      },
+                      {
+                        "text": "TOAD OIL PROJECTILE WILL END ANY CONTROL AND ACTION SKILL IF USED ON THIS ENEMY.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Shodai Hokage",
+                "health": 10,
+                "icon": [
+                  {
+                    "name": "Toad Oil Projectile",
+                    "effects": [
+                      {
+                        "text": "THIS CHARACTER WILL TAKE 10 ADDITIONAL DAMAGE FROM 'KATON ENDAN' .",
+                        "duration": "INFINITE"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 2,
+                    "stackEffects": [],
+                    "self": 2,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Birth of the Trees",
+                    "effects": [
+                      {
+                        "text": "IF HASHIRAMA USES A NEW SKILL, HIS TEAM WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+                        "duration": "2 TURN LEFTS"
+                      },
+                      {
+                        "text": "'TREE STRANGULATION' IS IMPROVED AND COSTS 1 LESS RANDOM CHAKRA.",
+                        "duration": "2 TURN LEFTS"
+                      },
+                      {
+                        "text": "'BRANCH MANIPULATION' IS IMPROVED AND HAS NO COOLDOWN.",
+                        "duration": "2 TURN LEFTS"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "mestsxxx",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Shadow Sewing",
+                    "effects": [
+                      {
+                        "text": "SHADOW SEWING - HOLD MAY BE USED ON THAT ENEMY.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Chiyo (S)",
+                "health": 0,
+                "icon": [],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/MhMKfMr.jpeg",
+            "border_temp": "https://i.imgur.com/2O6uXW7.png",
+            "info": {
+              "win": 119,
+              "lose": 103,
+              "streak": 9,
+              "xp": 26812,
+              "level": 36,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 700,
+              "title": null,
+              "activeSkins": null,
+              "activeBorder": null
+            }
+          },
+          {
+            "playerId": "azmel",
+            "team": {
+              "char0": {
+                "name": "Animal Path Pein (S)",
+                "health": 0,
+                "icon": [],
+                "customFacepic": null
+              },
+              "char1": {
+                "name": "Nara Shikamaru (S)",
+                "health": 55,
+                "icon": [
+                  {
+                    "name": "Long-Range Tactics",
+                    "effects": [
+                      {
+                        "text": "IF SHIKAMARU USES A NEW HARMFUL SKILL, HE WILL BECOME INVULNERABLE FOR 1 TURN.",
+                        "duration": "2 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "IF SHIKAMARU RECEIVES NEW HARMFUL NON-AFFLICTION DAMAGE, THIS SKILL WILL BE IGNORED FOR 1 TURN.",
+                        "duration": "2 TURN LEFTS (-)"
+                      },
+                      {
+                        "text": "THIS SKILL WILL BE REPLACED BY 'FINAL EXPLOSION'.",
+                        "duration": "2 TURN LEFTS (-)"
+                      }
+                    ],
+                    "additionalEffects": [
+                      [
+                        {
+                          "text": "THIS CHARACTER IS INVULNERABLE.",
+                          "duration": "ENDS THIS TURN"
+                        },
+                        {
+                          "text": "FINAL EXPLOSION MAY BE USED.",
+                          "duration": "ENDS THIS TURN"
+                        }
+                      ]
+                    ],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Shadow Sewing",
+                    "effects": [
+                      {
+                        "text": "THIS SKILL WILL BE REPLACED BY 'SHADOW SEWING - HOLD'.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "azmel",
+                    "animation": false,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  },
+                  {
+                    "name": "Expert Analysis",
+                    "effects": [
+                      {
+                        "text": "'EXPERT ANALYSIS' HAS BEEN TRIGGERED.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ],
+                    "additionalEffects": [],
+                    "stacks": 1,
+                    "stackEffects": [],
+                    "self": 1,
+                    "id": "azmel",
+                    "animation": true,
+                    "bord": null,
+                    "isEdoTenseiIcon": false
+                  }
+                ],
+                "customFacepic": null
+              },
+              "char2": {
+                "name": "Jiraiya (S)",
+                "health": 0,
+                "icon": [],
+                "customFacepic": null
+              }
+            },
+            "avatar_temp": "https://i.imgur.com/M02rmcQ.png",
+            "border_temp": null,
+            "info": {
+              "win": 126,
+              "lose": 87,
+              "streak": -1,
+              "xp": 29941,
+              "level": 38,
+              "rank": "Jinchuuriki",
+              "clan": "",
+              "ladderrank": 212,
+              "title": null,
+              "activeSkins": [],
+              "activeBorder": null
+            }
+          }
+        ],
+        "turn": "azmel",
+        "charImages": {
+          "facepics": {
+            "Animal Path Pein (S)": {
+              "src": "https://i.imgur.com/1RJgcYj.png",
+              "srcOldTheme": "https://i.imgur.com/8ryFroR.jpg"
+            },
+            "Nara Shikamaru (S)": {
+              "src": "https://i.imgur.com/DJ6gLqt.png",
+              "srcOldTheme": "https://i.imgur.com/ye2ieNu.jpg"
+            },
+            "Jiraiya (S)": {
+              "src": "https://i.imgur.com/ZpGGXKN.png",
+              "srcOldTheme": "https://i.imgur.com/XE97bxE.jpg"
+            },
+            "Darui (S)": {
+              "src": "https://i.imgur.com/4zQxemJ.png",
+              "srcOldTheme": "https://i.imgur.com/1m8IRd5.jpg"
+            },
+            "Shodai Hokage": {
+              "src": "https://i.imgur.com/4Qt9UaS.png",
+              "srcOldTheme": "https://i.imgur.com/n53EGmq.jpg"
+            },
+            "Chiyo (S)": {
+              "src": "https://i.imgur.com/Xwi4eLx.png",
+              "srcOldTheme": "https://i.imgur.com/WNPtn7n.jpg"
+            }
+          },
+          "skills": {
+            "Cerberus Hydra": {
+              "src": "https://i.imgur.com/Wo05Giy.jpg",
+              "srcOldTheme": "https://i.imgur.com/Wo05Giy.jpg"
+            },
+            "Drill Bird": {
+              "src": "https://i.imgur.com/0utvW5A.jpg",
+              "srcOldTheme": "https://i.imgur.com/0utvW5A.jpg"
+            },
+            "Invisible Chameleon": {
+              "src": "https://i.imgur.com/1JrdMnL.jpg",
+              "srcOldTheme": "https://i.imgur.com/1JrdMnL.jpg"
+            },
+            "Panda Defense": {
+              "src": "https://i.imgur.com/FR1oFXS.jpg",
+              "srcOldTheme": "https://i.imgur.com/FR1oFXS.jpg"
+            },
+            "Shadow Sewing": {
+              "src": "https://i.imgur.com/1eTGjYh.png",
+              "srcOldTheme": "https://i.imgur.com/EFQOCcj.jpg"
+            },
+            "Long-Range Tactics": {
+              "src": "https://i.imgur.com/SkoW7Eb.png",
+              "srcOldTheme": "https://i.imgur.com/fK5QssV.jpg"
+            },
+            "Expert Analysis": {
+              "src": "https://i.imgur.com/EeUkfpQ.png",
+              "srcOldTheme": "https://i.imgur.com/vQWUgWo.jpg"
+            },
+            "Panicked Dodge": {
+              "src": "https://i.imgur.com/tZe7d8i.png",
+              "srcOldTheme": "https://i.imgur.com/Emf0hZc.jpg"
+            },
+            "Shadow Sewing - Hold": {
+              "src": "https://i.imgur.com/YRBb3D8.png",
+              "srcOldTheme": "https://i.imgur.com/Zv1hl0O.jpeg"
+            },
+            "Final Explosion": {
+              "src": "https://i.imgur.com/m4z05zN.png",
+              "srcOldTheme": "https://i.imgur.com/0tvaRqr.jpeg"
+            },
+            "Toad Oil Projectile": {
+              "src": "https://i.imgur.com/sHIiYby.png",
+              "srcOldTheme": "https://i.imgur.com/gjGEbMs.png"
+            },
+            "Jiraya's Rasengan": {
+              "src": "https://i.imgur.com/fMlBx5F.png",
+              "srcOldTheme": "https://i.imgur.com/fMlBx5F.png"
+            },
+            "Wild Lion Mane": {
+              "src": "https://i.imgur.com/yQaCntC.png",
+              "srcOldTheme": "https://i.imgur.com/29s7Mpl.jpg"
+            },
+            "Summoning Gamaken": {
+              "src": "https://i.imgur.com/IJBZdur.png",
+              "srcOldTheme": "https://i.imgur.com/iMdoRdI.jpg"
+            },
+            "Katon Endan": {
+              "src": "https://i.imgur.com/GDxz2bn.png",
+              "srcOldTheme": "https://i.imgur.com/XXJ4UvH.jpg"
+            },
+            "Laser Circus": {
+              "src": "https://i.imgur.com/gnwtJrI.png",
+              "srcOldTheme": "https://i.imgur.com/OZP7Ht2.jpg"
+            },
+            "Electric Water Encampment Wall": {
+              "src": "https://i.imgur.com/arWmbIl.png",
+              "srcOldTheme": "https://i.imgur.com/DThqy0t.jpg"
+            },
+            "Black Panther Lightning": {
+              "src": "https://i.imgur.com/lbXhosJ.png",
+              "srcOldTheme": "https://i.imgur.com/LaIHZZO.jpg"
+            },
+            "Cleaver Sword Defense": {
+              "src": "https://i.imgur.com/GoWroAB.png",
+              "srcOldTheme": "https://i.imgur.com/qi34t8M.jpg"
+            },
+            "Birth of the Trees": {
+              "src": "https://i.imgur.com/ztMMKn0.png",
+              "srcOldTheme": "https://i.imgur.com/g3VFlu5.jpg"
+            },
+            "Tree Strangulation": {
+              "src": "https://i.imgur.com/3ghIvfW.png",
+              "srcOldTheme": "https://i.imgur.com/FUbSre4.jpg"
+            },
+            "Branch Manipulation": {
+              "src": "https://i.imgur.com/2ZW1vwA.png",
+              "srcOldTheme": "https://i.imgur.com/uaUDetQ.jpg"
+            },
+            "Deflection": {
+              "src": "https://i.imgur.com/RyqXqfk.png",
+              "srcOldTheme": "https://i.imgur.com/Dov8aW0.jpg"
+            },
+            "White Secret Attack Rampage": {
+              "src": "https://i.imgur.com/6rGUR71.png",
+              "srcOldTheme": "https://i.imgur.com/3iDBLhW.jpg"
+            },
+            "Sanbou Kyuukai": {
+              "src": "https://i.imgur.com/nEG0auz.png",
+              "srcOldTheme": "https://i.imgur.com/61Jr2Nq.jpg"
+            },
+            "Ally Puppetry": {
+              "src": "https://i.imgur.com/bMu8gne.png",
+              "srcOldTheme": "https://i.imgur.com/op5ywuv.jpg"
+            },
+            "Chakra Shield": {
+              "src": "https://i.imgur.com/BdXtVD4.png",
+              "srcOldTheme": "https://i.imgur.com/FCTthAl.jpg"
+            },
+            "One's Own Life Reincarnation": {
+              "src": "https://i.imgur.com/8tkBGN3.png",
+              "srcOldTheme": null
+            }
+          }
+        },
+        "shortcut_s": {
+          "Cerberus Hydra": [
+            "0",
+            "0"
+          ],
+          "Drill Bird": [
+            "0",
+            "1"
+          ],
+          "Invisible Chameleon": [
+            "0",
+            "2"
+          ],
+          "Panda Defense": [
+            "0",
+            "3"
+          ],
+          "Shadow Sewing": [
+            "1",
+            "0"
+          ],
+          "Long-Range Tactics": [
+            "1",
+            "1"
+          ],
+          "Expert Analysis": [
+            "1",
+            "2"
+          ],
+          "Panicked Dodge": [
+            "1",
+            "3"
+          ],
+          "Shadow Sewing - Hold": [
+            "1",
+            "4"
+          ],
+          "Final Explosion": [
+            "1",
+            "5"
+          ],
+          "Toad Oil Projectile": [
+            "2",
+            "0"
+          ],
+          "Jiraya's Rasengan": [
+            "2",
+            "1"
+          ],
+          "Wild Lion Mane": [
+            "2",
+            "2"
+          ],
+          "Summoning Gamaken": [
+            "2",
+            "3"
+          ],
+          "Katon Endan": [
+            "2",
+            "4"
+          ],
+          "Laser Circus": [
+            "3",
+            "0"
+          ],
+          "Electric Water Encampment Wall": [
+            "3",
+            "1"
+          ],
+          "Black Panther Lightning": [
+            "3",
+            "2"
+          ],
+          "Cleaver Sword Defense": [
+            "3",
+            "3"
+          ],
+          "Birth of the Trees": [
+            "4",
+            "0"
+          ],
+          "Tree Strangulation": [
+            "4",
+            "1"
+          ],
+          "Branch Manipulation": [
+            "4",
+            "2"
+          ],
+          "Deflection": [
+            "4",
+            "3"
+          ],
+          "White Secret Attack Rampage": [
+            "5",
+            "0"
+          ],
+          "Sanbou Kyuukai": [
+            "5",
+            "1"
+          ],
+          "Ally Puppetry": [
+            "5",
+            "2"
+          ],
+          "Chakra Shield": [
+            "5",
+            "3"
+          ],
+          "One's Own Life Reincarnation": [
+            "5",
+            "4"
+          ]
+        },
+        "turnKey": 12
+      }
+    }
+  }
+}
