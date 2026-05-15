@@ -1,0 +1,338 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0010_requestEndTurn.json",
+  "postFile": "0011_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Electric Water Encampment Wall",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Darui (S)",
+      "skillIndex": 1,
+      "resolvedSkillName": "Electric Water Encampment Wall",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 1,
+      "targetName": "Nara Shikamaru (S)",
+      "classes": [
+        "Chakra",
+        "Ranged",
+        "Instant",
+        "Unique",
+        "Affliction",
+        "Harmful",
+        "Darui (S)"
+      ],
+      "energy": [],
+      "description": "Darui targets all enemies for 1 turn, any enemy that uses a new harmful skill will take 5 affliction damage. The following turn, all enemies affected by this skill will recelve 5 additional damage from 'Laser Circus' and 'Black Panther Lightning'. This skill cannot be countered."
+    },
+    {
+      "index": 1,
+      "name": "Birth of the Trees",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Shodai Hokage",
+      "skillIndex": 0,
+      "resolvedSkillName": "Birth of the Trees",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 1,
+      "targetName": "Nara Shikamaru (S)",
+      "classes": [
+        "Physical",
+        "Instant",
+        "Ranged",
+        "Unique",
+        "Harmful",
+        "Helpful",
+        "Shodai Hokage"
+      ],
+      "energy": [
+        "Random",
+        "Random"
+      ],
+      "description": "Hashirama summons a giant field of trees. For 3 turns, any enemy that <Classes>uses a new harmful skill<Classes> will have the <Effects>cost of their harmful skills<Effects> <Effects>increased<Effects> by <Effects>1 random chakra<Effects> and <Effects>their cooldowns increased by 1<Effects> for 1 turn. The following 3 turns, if Hashirama <Effects>uses a new skill<Effects> his team will gain 5 <Defense>destructible defense<Defense>."
+    },
+    {
+      "index": 2,
+      "name": "White Secret Attack Rampage",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 2,
+      "casterName": "Chiyo (S)",
+      "skillIndex": 0,
+      "resolvedSkillName": "White Secret Attack Rampage",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 1,
+      "targetName": "Nara Shikamaru (S)",
+      "classes": [
+        "Physical",
+        "Action",
+        "Ranged",
+        "Unique",
+        "Harmful",
+        "Helpful",
+        "Chiyo (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Chiyo directs her puppets to devastate the battlefield, dealing 20 damage to a random enemy for 1 turn. The following turn, a second random enemy will also be dealt 20 damage. The second target is invisible. The next use of 'Sanbou Kyuukai' will deal 5 aditional damage. This skill stacks."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "before": 100,
+      "after": 80,
+      "delta": -20
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+            "duration": "3 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Shodai Hokage",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "IF HASHIRAMA USES A NEW SKILL, HIS TEAM WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "'TREE STRANGULATION' IS IMPROVED AND COSTS 1 LESS RANDOM CHAKRA.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "'BRANCH MANIPULATION' IS IMPROVED AND HAS NO COOLDOWN.",
+            "duration": "3 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Chiyo (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL GAIN 5 POINTS OF DESTRUCTIBLE DEFENSE IF HASHIRAMA USES A NEW SKILL.",
+            "duration": "3 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Chiyo (S)",
+      "effect": "White Secret Attack Rampage",
+      "detail": {
+        "name": "White Secret Attack Rampage",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THE NEXT USE OF 'SANBOU KYUUKAI' WILL DEAL 5 ADDITIONAL DAMAGE.",
+            "duration": "INFINITE"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 0,
+      "character": "Animal Path Pein (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+            "duration": "3 TURN LEFTS (-)"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "Electric Water Encampment Wall",
+      "detail": {
+        "name": "Electric Water Encampment Wall",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THEY WILL TAKE 5 AFFLICTION DAMAGE.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER WILL TAKE 5 ADDITIONAL DAMAGE FROM 'LASER CIRCUS' AND 'BLACK PANTHER LIGHTNING' .",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "White Secret Attack Rampage",
+      "detail": {
+        "name": "White Secret Attack Rampage",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 20 DAMAGE.",
+            "duration": "1 TURN LEFT"
+          },
+          {
+            "text": "THIS SKILL HAS BEEN USED.",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Blood",
+        "Blood",
+        "Nin"
+      ],
+      "after": []
+    }
+  ]
+}

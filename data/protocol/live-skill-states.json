@@ -1,0 +1,663 @@
+{
+  "generatedAt": "2026-05-14T09:59:08.140Z",
+  "source": "/home/mests/projects/naruto-arena-agent-scraper/data/protocol/battle-states.json",
+  "recordCount": 1,
+  "records": [
+    {
+      "index": 19,
+      "capturedAt": "2026-05-14T09:58:36.993Z",
+      "requestAction": "requestEndTurn",
+      "responseAction": "endTurn",
+      "turn": "mestsxxx",
+      "players": [
+        {
+          "playerId": "mestsxxx",
+          "chars": [
+            {
+              "slot": "char0",
+              "name": "Uzumaki Naruto (S)",
+              "health": 95,
+              "skills": [
+                {
+                  "slot": 0,
+                  "name": "Oodama Rasengan",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Tai",
+                    "Nin"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Melee",
+                    "Instant",
+                    "Affliction*",
+                    "Harmful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 0,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 1,
+                  "name": "Shadow Clones: Rasengan",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Action",
+                    "Melee",
+                    "Harmful",
+                    "Helpful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 2,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      1
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 2,
+                  "name": "Kyuubi Boost",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Unique",
+                    "Affliction",
+                    "Helpful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 3,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      1,
+                      1
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 3,
+                  "name": "Shadow Clone Save",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Helpful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 4,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      1,
+                      1
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "slot": "char1",
+              "name": "Tsuchikage (S)",
+              "health": 95,
+              "skills": [
+                {
+                  "slot": 0,
+                  "name": "Detachment of Primitive World",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Gen"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Ranged",
+                    "Instant",
+                    "Unique",
+                    "Affliction",
+                    "Harmful",
+                    "Helpful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 1,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 1,
+                  "name": "Super-Weighted Boulder Technique",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [],
+                  "classes": [
+                    "Chakra",
+                    "Melee",
+                    "Instant",
+                    "Harmful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 2,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 2,
+                  "name": "Rock Fist",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Blood",
+                    "Random"
+                  ],
+                  "classes": [
+                    "Physical",
+                    "Melee",
+                    "Instant",
+                    "Harmful",
+                    "Helpful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 1,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 3,
+                  "name": "Effortless Flight",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Helpful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 4,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "slot": "char2",
+              "name": "Kisame Body Double (S)",
+              "health": 95,
+              "skills": [
+                {
+                  "slot": 0,
+                  "name": "Explosive Water Shock Wave",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Blood"
+                  ],
+                  "classes": [
+                    "Physical",
+                    "Instant",
+                    "Ranged",
+                    "Affliction",
+                    "Helpful",
+                    "Harmful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 3,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      1
+                    ],
+                    "11": [
+                      1,
+                      1
+                    ],
+                    "12": [
+                      1,
+                      1
+                    ],
+                    "00": [
+                      1,
+                      1
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      1,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "slot": 1,
+                  "name": "Water Prison Technique",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Blood"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Affliction",
+                    "Instant",
+                    "Melee",
+                    "Harmful",
+                    "Helpful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 1,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      1
+                    ]
+                  }
+                },
+                {
+                  "slot": 2,
+                  "name": "Five Man-Eating Sharks",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Nin",
+                    "Random"
+                  ],
+                  "classes": [
+                    "Physical",
+                    "Action",
+                    "Ranged",
+                    "Harmful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 0,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "slot": 3,
+                  "name": "Kisame Body Double (S) Water Clone",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Helpful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 4,
+                  "targets": [
+                    "10",
+                    "11",
+                    "12",
+                    "00",
+                    "01",
+                    "02"
+                  ],
+                  "targetMap": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

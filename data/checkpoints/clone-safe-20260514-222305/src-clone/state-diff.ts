@@ -10,7 +10,6 @@ import type {
   SpecificChakra
 } from "./types.js";
 import { executeTurn } from "./turn-engine.js";
-import { withReplayObservedTargets } from "./replay-observed-overrides.js";
 
 type CharacterComparable = {
   key: string;
@@ -39,7 +38,7 @@ const postRecord = readJson(path.join(sessionDir, postFile));
 
 const preContent = preRecord.response.body.content;
 const postContent = postRecord.response.body.content;
-const queue = withReplayObservedTargets(preContent, postContent, postRecord.request.payload.queue ?? []);
+const queue = postRecord.request.payload.queue ?? [];
 
 const battle = battleFromServerContent(preContent);
 const executed = executeTurn(battle, battle.turnPlayerId, queue);

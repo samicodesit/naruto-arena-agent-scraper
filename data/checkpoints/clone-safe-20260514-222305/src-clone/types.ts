@@ -99,13 +99,6 @@ export type ProtocolQueueItem = {
   new?: true;
   assignedSkill?: { char: Slot; index: number };
   encryptItem?: string;
-  replayTargetOverride?: { playerId: string; slot: Slot };
-  replayEffectTargetOverrides?: Array<{
-    effectName: string;
-    relation: "caster" | "casterAlly" | "target" | "targetAlly" | string;
-    playerId: string;
-    slot: Slot;
-  }>;
 };
 
 export type QueueValidationResult = {

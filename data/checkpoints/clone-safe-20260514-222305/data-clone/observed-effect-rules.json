@@ -1,0 +1,410 @@
+{
+  "generatedAt": "2026-05-14T19:14:51.969Z",
+  "sourceMechanicsFile": "data/clone/observed-mechanics.json",
+  "skillCount": 8,
+  "skills": {
+    "Water Prison Technique": {
+      "skillName": "Water Prison Technique",
+      "observedOccurrences": 2,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Water Prison Technique",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0021_requestEndTurn__0022_passTurn.json",
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 2,
+              "character": "Kisame Body Double (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Water Prison Technique",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 2,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            },
+            {
+              "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0021_requestEndTurn__0022_passTurn.json",
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 0,
+              "character": "Kimimaro"
+            },
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Oodama Rasengan": {
+      "skillName": "Oodama Rasengan",
+      "observedOccurrences": 3,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Oodama Rasengan",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0021_requestEndTurn__0022_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 0,
+              "character": "Kimimaro"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Detachment of Primitive World": {
+      "skillName": "Detachment of Primitive World",
+      "observedOccurrences": 3,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Detachment of Primitive World",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0025_requestEndTurn__0026_passTurn.json",
+            "0040_requestEndTurn__0041_passTurn.json",
+            "0052_requestEndTurn__0053_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Detachment of Primitive World",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0025_requestEndTurn__0026_passTurn.json",
+            "0040_requestEndTurn__0041_passTurn.json",
+            "0052_requestEndTurn__0053_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            },
+            {
+              "playerId": "luzidtraum",
+              "slot": 1,
+              "character": "Yakushi Kabuto"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Effortless Flight": {
+      "skillName": "Effortless Flight",
+      "observedOccurrences": 1,
+      "files": [
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Effortless Flight",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER IS INVULNERABLE.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Shadow Clones: Rasengan": {
+      "skillName": "Shadow Clones: Rasengan",
+      "observedOccurrences": 2,
+      "files": [
+        "0029_requestEndTurn__0030_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Shadow Clones: Rasengan",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            }
+          ]
+        },
+        {
+          "relation": "target",
+          "effectName": "Shadow Clones: Rasengan",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+              "duration": "1 TURN LEFT"
+            },
+            {
+              "text": "THIS SKILL CAN BE INTERRUPTED.",
+              "duration": "1 TURN LEFT"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0029_requestEndTurn__0030_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": [
+        {
+          "relation": "encrypted_continuation_related",
+          "effectName": "Shadow Clones: Rasengan",
+          "observedInFiles": [
+            "0040_requestEndTurn__0041_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            },
+            {
+              "playerId": "luzidtraum",
+              "slot": 2,
+              "character": "Naraka Path Pein (S)"
+            }
+          ]
+        }
+      ]
+    },
+    "Rock Fist": {
+      "skillName": "Rock Fist",
+      "observedOccurrences": 1,
+      "files": [
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Rock Fist",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 1,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 15 POINTS OF DESTRUCTIBLE DEFENSE.",
+              "duration": "INFINITE"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0047_requestEndTurn__0048_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 1,
+              "character": "Tsuchikage (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Kyuubi Boost": {
+      "skillName": "Kyuubi Boost",
+      "observedOccurrences": 1,
+      "files": [
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "caster",
+          "effectName": "Kyuubi Boost",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+              "duration": "3 TURN LEFTS"
+            },
+            {
+              "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+              "duration": "3 TURN LEFTS"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0047_requestEndTurn__0048_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "mestsxxx",
+              "slot": 0,
+              "character": "Uzumaki Naruto (S)"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    },
+    "Three-Tail: Claw Smash": {
+      "skillName": "Three-Tail: Claw Smash",
+      "observedOccurrences": 1,
+      "files": [
+        "0056_requestEndTurn__0057_passTurn.json"
+      ],
+      "addEffects": [
+        {
+          "relation": "target",
+          "effectName": "Three-Tail: Claw Smash",
+          "sourcePlayerIdFromServer": "mestsxxx",
+          "sourceSlotFromServer": 0,
+          "durationTexts": [
+            {
+              "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+              "duration": "END THIS TURN"
+            }
+          ],
+          "stacks": 1,
+          "observedInFiles": [
+            "0056_requestEndTurn__0057_passTurn.json"
+          ],
+          "observedOn": [
+            {
+              "playerId": "luzidtraum",
+              "slot": 1,
+              "character": "Yakushi Kabuto"
+            }
+          ]
+        }
+      ],
+      "removeEffects": []
+    }
+  }
+}

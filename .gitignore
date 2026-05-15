@@ -1,0 +1,26 @@
+.auth/
+node_modules/
+data/**/*.html
+data/**/*.png
+data/**/*.tmp
+.env
+
+# Local captured game traffic. May contain opaque server tokens.
+data/traffic/
+data/protocol/samples/
+
+# local/runtime
+node_modules
+.env
+.env.*
+.DS_Store
+*.log
+dist
+build
+coverage
+
+# handoff/debug artifacts
+*.tar.gz
+*.patch
+*:Zone.Identifier
+src/clone/*.bak*

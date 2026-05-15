@@ -1,0 +1,24 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0046_requestEndTurn.json",
+  "postFile": "0047_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [],
+  "hpDeltas": [],
+  "effectsAdded": [],
+  "effectsRemoved": [],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Tai",
+        "Nin",
+        "Gen",
+        "Nin",
+        "Blood"
+      ],
+      "after": []
+    }
+  ]
+}

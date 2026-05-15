@@ -165,32 +165,15 @@ function ingestChakraForItem(rec: any, file: string, item: any, observation: any
 function relationToItem(effect: any, item: any): string {
   if (item.kind === "encrypted_continuation") return "encrypted_continuation_related";
 
-  const effectPlayerId = String(effect.playerId ?? "");
-  const effectSlot = Number(effect.slot);
-
-  const casterPlayerId = String(item.casterPlayerId ?? "");
-  const casterSlot = Number(item.casterSlot);
-
-  const targetPlayerId = String(item.targetPlayerId ?? "");
-  const targetSlot = Number(item.targetSlot);
-
-  if (effectPlayerId === casterPlayerId && effectSlot === casterSlot) {
+  if (effect.playerId === item.casterPlayerId && Number(effect.slot) === Number(item.casterSlot)) {
     return "caster";
   }
 
-  if (effectPlayerId === casterPlayerId && effectSlot !== casterSlot) {
-    return "casterAlly";
-  }
-
-  if (effectPlayerId === targetPlayerId && effectSlot === targetSlot) {
+  if (effect.playerId === item.targetPlayerId && Number(effect.slot) === Number(item.targetSlot)) {
     return "target";
   }
 
-  if (effectPlayerId === targetPlayerId && effectSlot !== targetSlot) {
-    return "targetAlly";
-  }
-
-  return "unclassifiedOther";
+  return "other";
 }
 
 function unique(values: any[]): any[] {

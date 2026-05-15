@@ -162,18 +162,6 @@ export function resolveQueueSkill(
       }
     });
 
-
-      applyObservedEffectRules({
-        battle,
-        playerId,
-        caster,
-        casterSlot: assigned.char as Slot,
-        skill,
-        target: null,
-        effectTargetOverrides: item.replayEffectTargetOverrides ?? []
-      });
-      // OBSERVED_EFFECTS_SELF_HEALTH_LOSS_ONLY
-
     return { ok: true, skillName: skill.name, notes: [`applied_${selfHealthLoss.amount}_self_health_loss`] };
   }
 
@@ -186,8 +174,7 @@ export function resolveQueueSkill(
         caster,
         casterSlot: assigned.char as Slot,
         skill,
-        target: noDamageTarget,
-        effectTargetOverrides: item.replayEffectTargetOverrides ?? []
+        target: noDamageTarget
       });
       // OBSERVED_EFFECTS_NO_DAMAGE
 
@@ -213,11 +200,7 @@ export function resolveQueueSkill(
     return { ok: false, skillName: skill.name, notes: ["target_not_resolved"] };
   }
 
-  const damageTargets = resolveDamageTargets(battle, playerId, item, skill.name, target);
-
-  for (const damageTarget of damageTargets) {
-    damageCharacter(battle, damageTarget.player.playerId, damageTarget.slot, damage.amount, skill.name);
-  }
+  damageCharacter(battle, target.player.playerId, target.slot, damage.amount, skill.name);
 
     applyObservedEffectRules({
       battle,
@@ -225,31 +208,9 @@ export function resolveQueueSkill(
       caster,
       casterSlot: assigned.char as Slot,
       skill,
-      target,
-      effectTargetOverrides: item.replayEffectTargetOverrides ?? []
+      target
     });
     // OBSERVED_EFFECTS_DIRECT_DAMAGE
-
-    if (skill.name === "Oodama Rasengan" && hasKyuubiRageStacks(caster, 3)) {
-      const beforeEffects = caster.effects.length;
-      caster.effects = caster.effects.filter((effect) => effect.name !== "Kyuubi Boost");
-
-      if (caster.effects.length !== beforeEffects) {
-        battle.history.push({
-          turnNumber: battle.turnNumber,
-          playerId,
-          event: "effectRemoved",
-          payload: {
-            reason: "oodama_consumes_kyuubi_boost_at_3_rage_stacks",
-            casterSlot: assigned.char,
-            casterName: caster.name,
-            effectName: "Kyuubi Boost"
-          }
-        });
-      }
-    }
-    // OBSERVED_OODAMA_REMOVES_KYUUBI_BOOST_AT_3_RAGE_STACKS
-
 
 
     applyKnownPostSkillEffects(battle, playerId, caster, assigned.char as Slot, skill, target);
@@ -463,54 +424,11 @@ function extractEffectDamage(text: string): { amount: number; type: "normal" | "
   return { amount, type };
 }
 
-function resolveDamageTargets(
-  battle: CloneBattleState,
-  playerId: string,
-  item: ProtocolQueueItem,
-  skillName: string,
-  resolvedTarget: { player: ClonePlayerState; character: CloneCharacterState; slot: Slot }
-): Array<{ player: ClonePlayerState; character: CloneCharacterState; slot: Slot }> {
-  if (!isObservedAllEnemiesDamageSkill(skillName)) {
-    return [resolvedTarget];
-  }
-
-  const opponent = getOpponent(battle, playerId);
-
-  return opponent.team.map((character) => ({
-    player: opponent,
-    character,
-    slot: character.slot
-  }));
-}
-
-function isObservedAllEnemiesDamageSkill(skillName: string): boolean {
-  // Verified from server output in 2026-05-14T21-34-39-137Z:
-  // 0016_requestEndTurn.json -> 0017_passTurn.json
-  // Branch Manipulation dealt 10 affliction damage to all 3 enemies.
-  return skillName === "Branch Manipulation";
-}
-
 function resolveTarget(
   battle: CloneBattleState,
   playerId: string,
   item: ProtocolQueueItem
 ): { player: ClonePlayerState; character: CloneCharacterState; slot: Slot } | null {
-  const replayTargetOverride = item.replayTargetOverride;
-
-  if (replayTargetOverride) {
-    const overridePlayer = battle.players.find((player) => player.playerId === replayTargetOverride.playerId);
-    const overrideSlot = replayTargetOverride.slot;
-    const overrideCharacter = overridePlayer?.team[overrideSlot];
-
-    if (overridePlayer && overrideCharacter) {
-      return {
-        player: overridePlayer,
-        character: overrideCharacter,
-        slot: overrideSlot
-      };
-    }
-  }
-
   if (!item.usedOn) return null;
 
   const casterPlayer = getPlayer(battle, playerId);
@@ -596,16 +514,4 @@ function extractSelfHealthLoss(description: string): { amount: number } | null {
 
 function stripTags(value: string): string {
   return value.replace(/<[^>]+>/g, "");
-}
-
-
-function hasKyuubiRageStacks(character: CloneCharacterState, stacks: number): boolean {
-  const needle = `NARUTO HAS ${stacks} KYUUBI RAGE STACK`;
-
-  return character.effects.some((effect) => {
-    return (
-      effect.name === "Passive: Three Tails Release" &&
-      effect.text.some((line) => line.toUpperCase().includes(needle))
-    );
-  });
 }

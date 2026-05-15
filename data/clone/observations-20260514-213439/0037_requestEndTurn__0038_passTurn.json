@@ -1,0 +1,170 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T21-34-39-137Z",
+  "preFile": "0037_requestEndTurn.json",
+  "postFile": "0038_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Black Panther Lightning",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Darui (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Black Panther Lightning",
+      "targetSide": 1,
+      "targetPlayerId": "azmel",
+      "targetSlot": 2,
+      "targetName": "Jiraiya (S)",
+      "classes": [
+        "Chakra",
+        "Ranged",
+        "Instant",
+        "Unique",
+        "Harmful",
+        "Darui (S)"
+      ],
+      "energy": [
+        "Blood",
+        "Random"
+      ],
+      "description": "Darui generates a black panther lightning from his body and releases it at one enemy, dealing 35 piercing damage to them. For 1 turn, that enemy's skills will have 2 additional cooldown. This skill ignores invulnerability."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "before": 55,
+      "after": 50,
+      "delta": -5
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "before": 35,
+      "after": 0,
+      "delta": -35
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Wild Lion Mane",
+      "detail": {
+        "name": "Wild Lion Mane",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL DEAL 15 LESS NON-AFFLICTION DAMAGE.",
+            "duration": "1 TURN LEFT"
+          },
+          {
+            "text": "THIS CHARACTER WILL RECEIVE AN ADDITIONAL 10 DAMAGE FROM 'JIRAYA'S RASENGAN'.",
+            "duration": "ENDS THIS TURN"
+          },
+          {
+            "text": "TOAD OIL PROJECTILE WILL END ANY CONTROL AND ACTION SKILL IF USED ON THIS ENEMY.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 1,
+      "character": "Nara Shikamaru (S)",
+      "effect": "Expert Analysis",
+      "detail": {
+        "name": "Expert Analysis",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "'EXPERT ANALYSIS' HAS BEEN TRIGGERED.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Darui (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 5 POINTS OF DESTRUCTIBLE DEFENSE.",
+            "duration": "INFINITE"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "Birth of the Trees",
+      "detail": {
+        "name": "Birth of the Trees",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "IF THIS CHARACTER USES A NEW HARMFUL SKILL, THE COST OF THEIR HARMFUL SKILLS WILL BE INCREASED BY 1 RANDOM AND THEIR COOLDOWNS WILL BE INCREASED BY 1 FOR 1 TURN.",
+            "duration": "2 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "azmel",
+      "slot": 2,
+      "character": "Jiraiya (S)",
+      "effect": "Toad Oil Projectile",
+      "detail": {
+        "name": "Toad Oil Projectile",
+        "sourcePlayerId": "azmel",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "'TOAD OIL PROJECTILE' WILL BE REPLACED BY 'KATON ENDAN'.",
+            "duration": "INFINITE"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Tai",
+        "Gen",
+        "Tai",
+        "Nin",
+        "Blood"
+      ],
+      "after": []
+    }
+  ]
+}

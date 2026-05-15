@@ -1,0 +1,1322 @@
+{
+  "generatedAt": "2026-05-14T09:59:07.789Z",
+  "sessionDir": "/home/mests/projects/naruto-arena-agent-scraper/data/traffic/2026-05-14T09-57-27-164Z",
+  "count": 4,
+  "records": [
+    {
+      "index": 6,
+      "capturedAt": "2026-05-14T09:57:49.310Z",
+      "requestAction": "passTurn",
+      "responseAction": "endTurn",
+      "turn": "ghokame-kak",
+      "turnKey": 1,
+      "winner": null,
+      "loser": null,
+      "result": null,
+      "gameType": null,
+      "isFinished": false,
+      "submittedQueue": [],
+      "removedChakra": [],
+      "players": [
+        {
+          "playerIndex": 0,
+          "playerId": "mestsxxx",
+          "info": {
+            "win": 119,
+            "lose": 103,
+            "streak": 9,
+            "xp": 26812,
+            "level": 36,
+            "rank": "Jinchuuriki",
+            "clan": "",
+            "ladderrank": 697,
+            "title": null,
+            "activeSkins": null,
+            "activeBorder": null
+          },
+          "chakra": [],
+          "team": [
+            {
+              "slot": "char0",
+              "exists": true,
+              "name": "Uzumaki Naruto (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Passive: Three Tails Release",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "mestsxxx",
+                  "effects": [
+                    {
+                      "text": "NARUTO HAS 0 KYUUBI RAGE STACK.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char1",
+              "exists": true,
+              "name": "Tsuchikage (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [],
+              "skills": []
+            },
+            {
+              "slot": "char2",
+              "exists": true,
+              "name": "Kisame Body Double (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [],
+              "skills": []
+            }
+          ]
+        },
+        {
+          "playerIndex": 1,
+          "playerId": "ghokame-kak",
+          "info": {
+            "win": 136,
+            "lose": 169,
+            "streak": -2,
+            "xp": 29085,
+            "level": 37,
+            "rank": "Jinchuuriki",
+            "clan": "",
+            "ladderrank": 220,
+            "title": null,
+            "activeSkins": null,
+            "activeBorder": null
+          },
+          "chakra": [],
+          "team": [
+            {
+              "slot": "char0",
+              "exists": true,
+              "name": "Chiyo (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [],
+              "skills": []
+            },
+            {
+              "slot": "char1",
+              "exists": true,
+              "name": "Killer Bee (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [],
+              "skills": []
+            },
+            {
+              "slot": "char2",
+              "exists": true,
+              "name": "Hoshigaki Kisame (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [],
+              "skills": []
+            }
+          ]
+        }
+      ],
+      "rawContentKeys": [
+        "players",
+        "turn",
+        "charImages",
+        "shortcut_s",
+        "turnKey"
+      ]
+    },
+    {
+      "index": 19,
+      "capturedAt": "2026-05-14T09:58:36.993Z",
+      "requestAction": "requestEndTurn",
+      "responseAction": "endTurn",
+      "turn": "mestsxxx",
+      "turnKey": 2,
+      "winner": null,
+      "loser": null,
+      "result": null,
+      "gameType": null,
+      "isFinished": false,
+      "submittedQueue": [],
+      "removedChakra": [],
+      "players": [
+        {
+          "playerIndex": 0,
+          "playerId": "mestsxxx",
+          "info": {
+            "win": 119,
+            "lose": 103,
+            "streak": 9,
+            "xp": 26812,
+            "level": 36,
+            "rank": "Jinchuuriki",
+            "clan": "",
+            "ladderrank": 697,
+            "title": null,
+            "activeSkins": null,
+            "activeBorder": null
+          },
+          "chakra": [
+            "Blood",
+            "Tai",
+            "Gen",
+            "Blood"
+          ],
+          "team": [
+            {
+              "slot": "char0",
+              "exists": true,
+              "name": "Uzumaki Naruto (S)",
+              "health": 95,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Passive: Three Tails Release",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "mestsxxx",
+                  "effects": [
+                    {
+                      "text": "NARUTO HAS 0 KYUUBI RAGE STACK.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                },
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": [
+                {
+                  "slot": 0,
+                  "name": "Oodama Rasengan",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Tai",
+                    "Nin"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Melee",
+                    "Instant",
+                    "Affliction*",
+                    "Harmful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 0,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "Naruto uses a greater version of Rasengan, dealing 40 piercing damage to one enemy ignoring invulnerability. During 'Kyuubi Boost', this skill will stun that enemy's non-mental skills for 1 turn. Afterwards, Naruto takes 5 affliction damage*. During 'Passive: Three Tails Release', this skill will be replaced.",
+                  "descriptionBR": "Naruto usa uma versão maior do Rasengan, causando 40 de dano perfurante a um inimigo ignorando invulnerabilidade. Durante 'Kyuubi Boost', esta habilidade atordoará as habilidades não mentais desse inimigo por 1 turno. Depois, Naruto recebe 5 de dano aflitivo*. Durante 'Passive: Three Tails Release', esta habilidade será substituída.",
+                  "url": null
+                },
+                {
+                  "slot": 1,
+                  "name": "Shadow Clones: Rasengan",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Action",
+                    "Melee",
+                    "Harmful",
+                    "Helpful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 2,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      1
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "The following turn, Naruto will deal 20 piercing damage to one enemy. During this time, Naruto will ignore all harmful effects. During 'Passive: Three Tails Release', this skill will be replaced. This skill is invisible.",
+                  "descriptionBR": "No turno seguinte, Naruto causará 20 de dano perfurante a um inimigo. Durante esse tempo, Naruto ignorará todos os efeitos prejudiciais. Durante 'Passive: Three Tails Release', esta habilidade será substituída. Esta habilidade é invisível.",
+                  "url": null
+                },
+                {
+                  "slot": 2,
+                  "name": "Kyuubi Boost",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Unique",
+                    "Affliction",
+                    "Helpful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 3,
+                  "target": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      1,
+                      1
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'.",
+                  "descriptionBR": "Naruto perde 10 de vida e por 3 turnos ganha 10 pontos de redução de dano. Nos próximos 3 turnos, ele ignorará efeitos de atordoamento e esta habilidade se tornará 'Kyuubi Empowered Rasengan'. Não pode ser usado durante 'Passive: Three Tails Transformation'.",
+                  "url": null
+                },
+                {
+                  "slot": 3,
+                  "name": "Shadow Clone Save",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Helpful",
+                    "Uzumaki Naruto (S)"
+                  ],
+                  "cooldown": 4,
+                  "target": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      1,
+                      1
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "This skill makes Uzumaki Naruto (S) <Defense>invulnerable<Defense> for 1 turn.",
+                  "descriptionBR": "Essa habilidade faz Uzumaki Naruto (S) <Defense>invulnerável<Defense> por 1 turno.",
+                  "url": null
+                }
+              ]
+            },
+            {
+              "slot": "char1",
+              "exists": true,
+              "name": "Tsuchikage (S)",
+              "health": 95,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": [
+                {
+                  "slot": 0,
+                  "name": "Detachment of Primitive World",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Gen"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Ranged",
+                    "Instant",
+                    "Unique",
+                    "Affliction",
+                    "Harmful",
+                    "Helpful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 1,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "Ohnoki isolates an enemy with his dust release, dealing 10 affliction damage to them. For 1 turn, that enemy will be invulnerable to helpful skills and their harmful skills will be stunned. The following turn, this skill will be replaced by 'Dust Implode'.",
+                  "descriptionBR": "Ohnoki isola um inimigo com sua liberação de poeira, causando 10 de dano aflitivo. Por 1 turno, esse inimigo ficará invulnerável a habilidades benéficas e suas habilidades ofensivas serão atordoadas. No turno seguinte, esta habilidade será substituída por 'Dust Implode'.",
+                  "url": null
+                },
+                {
+                  "slot": 1,
+                  "name": "Super-Weighted Boulder Technique",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [],
+                  "classes": [
+                    "Chakra",
+                    "Melee",
+                    "Instant",
+                    "Harmful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 2,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "Onhoki touches an enemy and makes them much heavier. For 2 turns, the cost of their harmful skills will be increased by 1 random. This skill ends if that enemy uses a new harmful skill.",
+                  "descriptionBR": "Ohnoki toca um inimigo e o torna muito mais pesado. Por 2 turnos, o custo de suas habilidades ofensivas será aumentado em 1 chakra aleatório. Essa habilidade termina se esse inimigo usar uma nova habilidade ofensiva.",
+                  "url": null
+                },
+                {
+                  "slot": 2,
+                  "name": "Rock Fist",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Blood",
+                    "Random"
+                  ],
+                  "classes": [
+                    "Physical",
+                    "Melee",
+                    "Instant",
+                    "Harmful",
+                    "Helpful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 1,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "Increasing his striking power with Rock Fist, Ohnoki deals 30 damage to one enemy. Afterwards, Ohnoki gains 15 permanent destructible defense.",
+                  "descriptionBR": "Aumentando seu poder de ataque com o Punho de Pedra, Ohnoki causa 30 de dano a um inimigo. Em seguida, Ohnoki ganha 15 de defesa destrutível permanente.",
+                  "url": null
+                },
+                {
+                  "slot": 3,
+                  "name": "Effortless Flight",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Helpful",
+                    "Tsuchikage (S)"
+                  ],
+                  "cooldown": 4,
+                  "target": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "This skill makes Tsuchikage (S) <Defense>invulnerable<Defense> for 1 turn.",
+                  "descriptionBR": "Essa habilidade faz Tsuchikage (S) <Defense>invulnerável<Defense> por 1 turno.",
+                  "url": null
+                }
+              ]
+            },
+            {
+              "slot": "char2",
+              "exists": true,
+              "name": "Kisame Body Double (S)",
+              "health": 95,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": [
+                {
+                  "slot": 0,
+                  "name": "Explosive Water Shock Wave",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Blood"
+                  ],
+                  "classes": [
+                    "Physical",
+                    "Instant",
+                    "Ranged",
+                    "Affliction",
+                    "Helpful",
+                    "Harmful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 3,
+                  "target": {
+                    "10": [
+                      1,
+                      1
+                    ],
+                    "11": [
+                      1,
+                      1
+                    ],
+                    "12": [
+                      1,
+                      1
+                    ],
+                    "00": [
+                      1,
+                      1
+                    ],
+                    "01": [
+                      1,
+                      1
+                    ],
+                    "02": [
+                      1,
+                      1
+                    ]
+                  },
+                  "description": "Kisame Body Double (S) fills the battlefield with water. For 3 turns, all allies including Kisame will lose one less chakra if a chakra removal or stealing skill is used on them. For 3 turns, all enemies who use a skill will have the cooldown of that skill increased by 1 turn.*",
+                  "descriptionBR": "Kisame Body Double (S) enche o campo de batalha com água. Por 3 turnos, todos os aliados, incluindo Kisame, perderão 1 chakra a menos se uma habilidade de remoção ou roubo de chakra for usada neles. Por 3 turnos, todos os inimigos que usarem uma habilidade terão o tempo de recarga dessa habilidade aumentado em 1 turno.",
+                  "url": null
+                },
+                {
+                  "slot": 1,
+                  "name": "Water Prison Technique",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Blood"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Affliction",
+                    "Instant",
+                    "Melee",
+                    "Harmful",
+                    "Helpful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 1,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      1
+                    ]
+                  },
+                  "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra.",
+                  "descriptionBR": "Usando uma bolha de água, Kisame atordoa as habilidades físicas ou à distância de um inimigo por 1 turno. Durante esse tempo, o inimigo recebe 15 de dano aflitivo* e se torna invulnerável a habilidades aliadas, e Kisame ganha 15 pontos de redução de dano. Durante Onda de Choque de Água Explosiva, esta habilidade custa 1 chakra aleatório.",
+                  "url": null
+                },
+                {
+                  "slot": 2,
+                  "name": "Five Man-Eating Sharks",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Nin",
+                    "Random"
+                  ],
+                  "classes": [
+                    "Physical",
+                    "Action",
+                    "Ranged",
+                    "Harmful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 0,
+                  "target": {
+                    "10": [
+                      1,
+                      0
+                    ],
+                    "11": [
+                      1,
+                      0
+                    ],
+                    "12": [
+                      1,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      0,
+                      0
+                    ]
+                  },
+                  "description": "Kisame Body Double summons five sharks of water who attack one enemy dealing 25 damage for 2 turns. During Explosive Water Shock Wave this skill costs 1 ninjutsu chakra.",
+                  "descriptionBR": "O Corpo Duplo de Kisame invoca cinco tubarões de água que atacam um inimigo causando 25 de dano por 2 turnos. Durante Onda de Choque de Água Explosiva, esta habilidade custa 1 chakra de ninjutsu.",
+                  "url": null
+                },
+                {
+                  "slot": 3,
+                  "name": "Kisame Body Double (S) Water Clone",
+                  "outtagame": false,
+                  "cd_on": 0,
+                  "energy": [
+                    "Random"
+                  ],
+                  "classes": [
+                    "Chakra",
+                    "Instant",
+                    "Helpful",
+                    "Kisame Body Double (S)"
+                  ],
+                  "cooldown": 4,
+                  "target": {
+                    "10": [
+                      0,
+                      0
+                    ],
+                    "11": [
+                      0,
+                      0
+                    ],
+                    "12": [
+                      0,
+                      0
+                    ],
+                    "00": [
+                      0,
+                      0
+                    ],
+                    "01": [
+                      0,
+                      0
+                    ],
+                    "02": [
+                      1,
+                      1
+                    ]
+                  },
+                  "description": "This skill makes Kisame Body Double (S) <Defense>invulnerable<Defense> for 1 turn.",
+                  "descriptionBR": "Essa habilidade faz Kisame Body Double (S) <Defense>invulnerável<Defense> por 1 turno.",
+                  "url": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "playerIndex": 1,
+          "playerId": "ghokame-kak",
+          "info": {
+            "win": 136,
+            "lose": 169,
+            "streak": -2,
+            "xp": 29085,
+            "level": 37,
+            "rank": "Jinchuuriki",
+            "clan": "",
+            "ladderrank": 220,
+            "title": null,
+            "activeSkins": null,
+            "activeBorder": null
+          },
+          "chakra": [],
+          "team": [
+            {
+              "slot": "char0",
+              "exists": true,
+              "name": "Chiyo (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Ally Puppetry",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS SKILL WILL BE REPLACED BY 'ONE'S OWN LIFE REINCARNATION'.",
+                      "duration": "2 TURN LEFTS",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char1",
+              "exists": true,
+              "name": "Killer Bee (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Kenjutsu",
+                  "stacks": 1,
+                  "self": 1,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "IF AN ENEMY USES A NEW HARMFUL NON-MENTAL DAMAGING SKILL BEE, THEY WILL TAKE 10 PIERCING DAMAGE.",
+                      "duration": "4 TURN LEFTS",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "'BUZZ SAW' WILL DEAL 10 ADDITIONAL DAMAGE.",
+                      "duration": "4 TURN LEFTS",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "'KENJUTSU' WILL BE REPLACED BY 'FINAL KENJUTSU'.",
+                      "duration": "4 TURN LEFTS",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                },
+                {
+                  "name": "Ally Puppetry",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "EACH TURN, THAT ALLY WILL NULLIFY THE FIRST HARMFUL PHYSICAL OR CHAKRA NON-AFFLICTION SKILL USED ON THEM.",
+                      "duration": "2 TURN LEFTS",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "THIS CHARACTER'S MELEE SKILLS ARE IMPROVED AND WILL DEAL 25% MORE DAMAGE.",
+                      "duration": "2 TURN LEFTS",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [
+                    [
+                      {
+                        "text": "THIS CHARACTER WILL NULLIFY THE FIRST HARMFUL PHYSICAL OR CHAKRA NON-AFFLICTION SKILL USED ON THEM.",
+                        "duration": "ENDS THIS TURN"
+                      }
+                    ]
+                  ],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char2",
+              "exists": true,
+              "name": "Hoshigaki Kisame (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "HUNGRY SHARKS ARE HUNTING THEIR PREY.",
+                      "duration": "INFINITE",
+                      "isNothing": true
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ],
+      "rawContentKeys": [
+        "players",
+        "turn",
+        "characters",
+        "charImages",
+        "shortcut_c",
+        "shortcut_s",
+        "turnKey"
+      ]
+    },
+    {
+      "index": 20,
+      "capturedAt": "2026-05-14T09:58:47.976Z",
+      "requestAction": "passTurn",
+      "responseAction": "endTurn",
+      "turn": "ghokame-kak",
+      "turnKey": 3,
+      "winner": null,
+      "loser": null,
+      "result": null,
+      "gameType": null,
+      "isFinished": false,
+      "submittedQueue": [
+        {
+          "name": "Kyuubi Boost",
+          "menu_local": [
+            0,
+            0,
+            2
+          ],
+          "usedOn": {
+            "s": 0,
+            "i": 0
+          },
+          "new": true,
+          "assignedSkill": {
+            "char": 0,
+            "index": 2
+          },
+          "hasEncryptItem": false
+        }
+      ],
+      "removedChakra": [
+        "Blood"
+      ],
+      "players": [
+        {
+          "playerIndex": 0,
+          "playerId": "mestsxxx",
+          "info": {
+            "win": 119,
+            "lose": 103,
+            "streak": 9,
+            "xp": 26812,
+            "level": 36,
+            "rank": "Jinchuuriki",
+            "clan": "",
+            "ladderrank": 697,
+            "title": null,
+            "activeSkins": null,
+            "activeBorder": null
+          },
+          "chakra": [],
+          "team": [
+            {
+              "slot": "char0",
+              "exists": true,
+              "name": "Uzumaki Naruto (S)",
+              "health": 85,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Passive: Three Tails Release",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "mestsxxx",
+                  "effects": [
+                    {
+                      "text": "NARUTO HAS 0 KYUUBI RAGE STACK.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                },
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                },
+                {
+                  "name": "Kyuubi Boost",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "mestsxxx",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+                      "duration": "3 TURN LEFTS",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+                      "duration": "3 TURN LEFTS",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+                      "duration": "3 TURN LEFTS",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+                      "duration": "3 TURN LEFTS",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char1",
+              "exists": true,
+              "name": "Tsuchikage (S)",
+              "health": 95,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char2",
+              "exists": true,
+              "name": "Kisame Body Double (S)",
+              "health": 95,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                      "duration": "INFINITE",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            }
+          ]
+        },
+        {
+          "playerIndex": 1,
+          "playerId": "ghokame-kak",
+          "info": {
+            "win": 136,
+            "lose": 169,
+            "streak": -2,
+            "xp": 29085,
+            "level": 37,
+            "rank": "Jinchuuriki",
+            "clan": "",
+            "ladderrank": 220,
+            "title": null,
+            "activeSkins": null,
+            "activeBorder": null
+          },
+          "chakra": [],
+          "team": [
+            {
+              "slot": "char0",
+              "exists": true,
+              "name": "Chiyo (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Ally Puppetry",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "THIS SKILL WILL BE REPLACED BY 'ONE'S OWN LIFE REINCARNATION'.",
+                      "duration": "2 TURN LEFTS (-)",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char1",
+              "exists": true,
+              "name": "Killer Bee (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Kenjutsu",
+                  "stacks": 1,
+                  "self": 1,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "IF AN ENEMY USES A NEW HARMFUL NON-MENTAL DAMAGING SKILL BEE, THEY WILL TAKE 10 PIERCING DAMAGE.",
+                      "duration": "4 TURN LEFTS (-)",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "'BUZZ SAW' WILL DEAL 10 ADDITIONAL DAMAGE.",
+                      "duration": "4 TURN LEFTS (-)",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "'KENJUTSU' WILL BE REPLACED BY 'FINAL KENJUTSU'.",
+                      "duration": "4 TURN LEFTS (-)",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                },
+                {
+                  "name": "Ally Puppetry",
+                  "stacks": 1,
+                  "self": 0,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "EACH TURN, THAT ALLY WILL NULLIFY THE FIRST HARMFUL PHYSICAL OR CHAKRA NON-AFFLICTION SKILL USED ON THEM.",
+                      "duration": "2 TURN LEFTS (-)",
+                      "isNothing": false
+                    },
+                    {
+                      "text": "THIS CHARACTER'S MELEE SKILLS ARE IMPROVED AND WILL DEAL 25% MORE DAMAGE.",
+                      "duration": "2 TURN LEFTS (-)",
+                      "isNothing": false
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            },
+            {
+              "slot": "char2",
+              "exists": true,
+              "name": "Hoshigaki Kisame (S)",
+              "health": 100,
+              "customFacepic": null,
+              "icons": [
+                {
+                  "name": "Hungry Sharks",
+                  "stacks": 1,
+                  "self": 2,
+                  "id": "ghokame-kak",
+                  "effects": [
+                    {
+                      "text": "HUNGRY SHARKS ARE HUNTING THEIR PREY.",
+                      "duration": "INFINITE",
+                      "isNothing": true
+                    }
+                  ],
+                  "additionalEffects": [],
+                  "stackEffects": []
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ],
+      "rawContentKeys": [
+        "players",
+        "turn",
+        "charImages",
+        "shortcut_s",
+        "turnKey"
+      ]
+    },
+    {
+      "index": 22,
+      "capturedAt": "2026-05-14T09:58:53.344Z",
+      "requestAction": "surrender",
+      "responseAction": "endGame",
+      "turn": null,
+      "winner": null,
+      "loser": "player",
+      "result": "lose",
+      "gameType": "Quick",
+      "isFinished": true,
+      "submittedQueue": [],
+      "removedChakra": [],
+      "players": [],
+      "rawContentKeys": [
+        "var_type",
+        "endGame"
+      ]
+    }
+  ]
+}

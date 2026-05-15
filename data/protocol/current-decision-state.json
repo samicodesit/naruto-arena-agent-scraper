@@ -1,0 +1,3688 @@
+{
+  "generatedAt": "2026-05-14T10:16:06.301Z",
+  "source": "data/protocol/battle-states.json",
+  "record": {
+    "index": 19,
+    "capturedAt": "2026-05-14T09:58:36.993Z",
+    "requestAction": "requestEndTurn",
+    "responseAction": "endTurn",
+    "turn": "mestsxxx",
+    "turnKey": 2,
+    "result": null,
+    "gameType": null
+  },
+  "targetLegend": {
+    "10": "enemy char0",
+    "11": "enemy char1",
+    "12": "enemy char2",
+    "00": "own char0",
+    "01": "own char1",
+    "02": "own char2",
+    "value": "[clickableOrValid, affectedOrHighlighted] — current working interpretation"
+  },
+  "currentPlayer": {
+    "playerId": "mestsxxx",
+    "chakra": [
+      "Blood",
+      "Tai",
+      "Gen",
+      "Blood"
+    ],
+    "info": {
+      "win": 119,
+      "lose": 103,
+      "streak": 9,
+      "xp": 26812,
+      "level": 36,
+      "rank": "Jinchuuriki",
+      "clan": "",
+      "ladderrank": 697,
+      "title": null,
+      "activeSkins": null,
+      "activeBorder": null
+    },
+    "team": [
+      {
+        "slot": "char0",
+        "slotIndex": 0,
+        "name": "Uzumaki Naruto (S)",
+        "health": 95,
+        "isDead": false,
+        "customFacepic": null,
+        "effects": [
+          {
+            "name": "Passive: Three Tails Release",
+            "stacks": 1,
+            "sourcePlayerId": "mestsxxx",
+            "self": 0,
+            "effects": [
+              {
+                "text": "NARUTO HAS 0 KYUUBI RAGE STACK.",
+                "duration": "INFINITE",
+                "isNothing": false
+              },
+              {
+                "text": "EACH TIME NARUTO USES 'OODAMA RASENGAN' OR 'KYUUBI EMPOWERED RASENGAN', HE WILL GAIN 1 KYUUBI RAGE STACK.",
+                "duration": "INFINITE",
+                "isNothing": false
+              }
+            ]
+          },
+          {
+            "name": "Hungry Sharks",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 2,
+            "effects": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                "duration": "INFINITE",
+                "isNothing": false
+              }
+            ]
+          }
+        ],
+        "skills": {
+          "castableNow": [
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 1,
+              "name": "Shadow Clones: Rasengan",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Action",
+                "Melee",
+                "Harmful",
+                "Helpful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 2,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  1
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "description": "The following turn, Naruto will deal 20 piercing damage to one enemy. During this time, Naruto will ignore all harmful effects. During 'Passive: Three Tails Release', this skill will be replaced. This skill is invisible."
+            },
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 2,
+              "name": "Kyuubi Boost",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Unique",
+                "Affliction",
+                "Helpful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 3,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  1,
+                  1
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'."
+            },
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 3,
+              "name": "Shadow Clone Save",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Helpful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 4,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  1,
+                  1
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "This skill makes Uzumaki Naruto (S) <Defense>invulnerable<Defense> for 1 turn."
+            }
+          ],
+          "notAffordableNow": [
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 0,
+              "name": "Oodama Rasengan",
+              "state": "not_affordable",
+              "serverAvailable": true,
+              "affordable": false,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Tai",
+                "Nin"
+              ],
+              "missingEnergy": [
+                "Nin"
+              ],
+              "classes": [
+                "Chakra",
+                "Melee",
+                "Instant",
+                "Affliction*",
+                "Harmful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 0,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [],
+              "description": "Naruto uses a greater version of Rasengan, dealing 40 piercing damage to one enemy ignoring invulnerability. During 'Kyuubi Boost', this skill will stun that enemy's non-mental skills for 1 turn. Afterwards, Naruto takes 5 affliction damage*. During 'Passive: Three Tails Release', this skill will be replaced."
+            }
+          ],
+          "unavailable": [],
+          "all": [
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 0,
+              "name": "Oodama Rasengan",
+              "state": "not_affordable",
+              "serverAvailable": true,
+              "affordable": false,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Tai",
+                "Nin"
+              ],
+              "missingEnergy": [
+                "Nin"
+              ],
+              "classes": [
+                "Chakra",
+                "Melee",
+                "Instant",
+                "Affliction*",
+                "Harmful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 0,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [],
+              "description": "Naruto uses a greater version of Rasengan, dealing 40 piercing damage to one enemy ignoring invulnerability. During 'Kyuubi Boost', this skill will stun that enemy's non-mental skills for 1 turn. Afterwards, Naruto takes 5 affliction damage*. During 'Passive: Three Tails Release', this skill will be replaced."
+            },
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 1,
+              "name": "Shadow Clones: Rasengan",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Action",
+                "Melee",
+                "Harmful",
+                "Helpful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 2,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  1
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "description": "The following turn, Naruto will deal 20 piercing damage to one enemy. During this time, Naruto will ignore all harmful effects. During 'Passive: Three Tails Release', this skill will be replaced. This skill is invisible."
+            },
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 2,
+              "name": "Kyuubi Boost",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Unique",
+                "Affliction",
+                "Helpful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 3,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  1,
+                  1
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'."
+            },
+            {
+              "characterSlot": "char0",
+              "characterSlotIndex": 0,
+              "skillSlot": 3,
+              "name": "Shadow Clone Save",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Helpful",
+                "Uzumaki Naruto (S)"
+              ],
+              "cooldown": 4,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  1,
+                  1
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "This skill makes Uzumaki Naruto (S) <Defense>invulnerable<Defense> for 1 turn."
+            }
+          ]
+        }
+      },
+      {
+        "slot": "char1",
+        "slotIndex": 1,
+        "name": "Tsuchikage (S)",
+        "health": 95,
+        "isDead": false,
+        "customFacepic": null,
+        "effects": [
+          {
+            "name": "Hungry Sharks",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 2,
+            "effects": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                "duration": "INFINITE",
+                "isNothing": false
+              }
+            ]
+          }
+        ],
+        "skills": {
+          "castableNow": [
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 0,
+              "name": "Detachment of Primitive World",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Gen"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Ranged",
+                "Instant",
+                "Unique",
+                "Affliction",
+                "Harmful",
+                "Helpful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 1,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Ohnoki isolates an enemy with his dust release, dealing 10 affliction damage to them. For 1 turn, that enemy will be invulnerable to helpful skills and their harmful skills will be stunned. The following turn, this skill will be replaced by 'Dust Implode'."
+            },
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 1,
+              "name": "Super-Weighted Boulder Technique",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Melee",
+                "Instant",
+                "Harmful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 2,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [],
+              "description": "Onhoki touches an enemy and makes them much heavier. For 2 turns, the cost of their harmful skills will be increased by 1 random. This skill ends if that enemy uses a new harmful skill."
+            },
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 2,
+              "name": "Rock Fist",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Blood",
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Physical",
+                "Melee",
+                "Instant",
+                "Harmful",
+                "Helpful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 1,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Increasing his striking power with Rock Fist, Ohnoki deals 30 damage to one enemy. Afterwards, Ohnoki gains 15 permanent destructible defense."
+            },
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 3,
+              "name": "Effortless Flight",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Helpful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 4,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "This skill makes Tsuchikage (S) <Defense>invulnerable<Defense> for 1 turn."
+            }
+          ],
+          "notAffordableNow": [],
+          "unavailable": [],
+          "all": [
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 0,
+              "name": "Detachment of Primitive World",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Gen"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Ranged",
+                "Instant",
+                "Unique",
+                "Affliction",
+                "Harmful",
+                "Helpful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 1,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Ohnoki isolates an enemy with his dust release, dealing 10 affliction damage to them. For 1 turn, that enemy will be invulnerable to helpful skills and their harmful skills will be stunned. The following turn, this skill will be replaced by 'Dust Implode'."
+            },
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 1,
+              "name": "Super-Weighted Boulder Technique",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Melee",
+                "Instant",
+                "Harmful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 2,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [],
+              "description": "Onhoki touches an enemy and makes them much heavier. For 2 turns, the cost of their harmful skills will be increased by 1 random. This skill ends if that enemy uses a new harmful skill."
+            },
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 2,
+              "name": "Rock Fist",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Blood",
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Physical",
+                "Melee",
+                "Instant",
+                "Harmful",
+                "Helpful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 1,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Increasing his striking power with Rock Fist, Ohnoki deals 30 damage to one enemy. Afterwards, Ohnoki gains 15 permanent destructible defense."
+            },
+            {
+              "characterSlot": "char1",
+              "characterSlotIndex": 1,
+              "skillSlot": 3,
+              "name": "Effortless Flight",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Helpful",
+                "Tsuchikage (S)"
+              ],
+              "cooldown": 4,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "This skill makes Tsuchikage (S) <Defense>invulnerable<Defense> for 1 turn."
+            }
+          ]
+        }
+      },
+      {
+        "slot": "char2",
+        "slotIndex": 2,
+        "name": "Kisame Body Double (S)",
+        "health": 95,
+        "isDead": false,
+        "customFacepic": null,
+        "effects": [
+          {
+            "name": "Hungry Sharks",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 2,
+            "effects": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 5 PIERCING DAMAGE.",
+                "duration": "INFINITE",
+                "isNothing": false
+              }
+            ]
+          }
+        ],
+        "skills": {
+          "castableNow": [
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 0,
+              "name": "Explosive Water Shock Wave",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Blood"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Physical",
+                "Instant",
+                "Ranged",
+                "Affliction",
+                "Helpful",
+                "Harmful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 3,
+              "targetMap": {
+                "10": [
+                  1,
+                  1
+                ],
+                "11": [
+                  1,
+                  1
+                ],
+                "12": [
+                  1,
+                  1
+                ],
+                "00": [
+                  1,
+                  1
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  1,
+                  1
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Kisame Body Double (S) fills the battlefield with water. For 3 turns, all allies including Kisame will lose one less chakra if a chakra removal or stealing skill is used on them. For 3 turns, all enemies who use a skill will have the cooldown of that skill increased by 1 turn.*"
+            },
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 1,
+              "name": "Water Prison Technique",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Blood"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Affliction",
+                "Instant",
+                "Melee",
+                "Harmful",
+                "Helpful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 1,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  1
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra."
+            },
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 3,
+              "name": "Kisame Body Double (S) Water Clone",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Helpful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 4,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  1,
+                  1
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "This skill makes Kisame Body Double (S) <Defense>invulnerable<Defense> for 1 turn."
+            }
+          ],
+          "notAffordableNow": [
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 2,
+              "name": "Five Man-Eating Sharks",
+              "state": "not_affordable",
+              "serverAvailable": true,
+              "affordable": false,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Nin",
+                "Random"
+              ],
+              "missingEnergy": [
+                "Nin"
+              ],
+              "classes": [
+                "Physical",
+                "Action",
+                "Ranged",
+                "Harmful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 0,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [],
+              "description": "Kisame Body Double summons five sharks of water who attack one enemy dealing 25 damage for 2 turns. During Explosive Water Shock Wave this skill costs 1 ninjutsu chakra."
+            }
+          ],
+          "unavailable": [],
+          "all": [
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 0,
+              "name": "Explosive Water Shock Wave",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Blood"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Physical",
+                "Instant",
+                "Ranged",
+                "Affliction",
+                "Helpful",
+                "Harmful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 3,
+              "targetMap": {
+                "10": [
+                  1,
+                  1
+                ],
+                "11": [
+                  1,
+                  1
+                ],
+                "12": [
+                  1,
+                  1
+                ],
+                "00": [
+                  1,
+                  1
+                ],
+                "01": [
+                  1,
+                  1
+                ],
+                "02": [
+                  1,
+                  1
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "00",
+                  "side": "own",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "01",
+                  "side": "own",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "Kisame Body Double (S) fills the battlefield with water. For 3 turns, all allies including Kisame will lose one less chakra if a chakra removal or stealing skill is used on them. For 3 turns, all enemies who use a skill will have the cooldown of that skill increased by 1 turn.*"
+            },
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 1,
+              "name": "Water Prison Technique",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Blood"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Affliction",
+                "Instant",
+                "Melee",
+                "Harmful",
+                "Helpful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 1,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  1
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    0,
+                    1
+                  ]
+                }
+              ],
+              "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra."
+            },
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 2,
+              "name": "Five Man-Eating Sharks",
+              "state": "not_affordable",
+              "serverAvailable": true,
+              "affordable": false,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Nin",
+                "Random"
+              ],
+              "missingEnergy": [
+                "Nin"
+              ],
+              "classes": [
+                "Physical",
+                "Action",
+                "Ranged",
+                "Harmful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 0,
+              "targetMap": {
+                "10": [
+                  1,
+                  0
+                ],
+                "11": [
+                  1,
+                  0
+                ],
+                "12": [
+                  1,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  0,
+                  0
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "10",
+                  "side": "enemy",
+                  "slot": 0,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "11",
+                  "side": "enemy",
+                  "slot": 1,
+                  "value": [
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "12",
+                  "side": "enemy",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [],
+              "description": "Kisame Body Double summons five sharks of water who attack one enemy dealing 25 damage for 2 turns. During Explosive Water Shock Wave this skill costs 1 ninjutsu chakra."
+            },
+            {
+              "characterSlot": "char2",
+              "characterSlotIndex": 2,
+              "skillSlot": 3,
+              "name": "Kisame Body Double (S) Water Clone",
+              "state": "castable",
+              "serverAvailable": true,
+              "affordable": true,
+              "outtagame": false,
+              "cd_on": 0,
+              "energy": [
+                "Random"
+              ],
+              "missingEnergy": [],
+              "classes": [
+                "Chakra",
+                "Instant",
+                "Helpful",
+                "Kisame Body Double (S)"
+              ],
+              "cooldown": 4,
+              "targetMap": {
+                "10": [
+                  0,
+                  0
+                ],
+                "11": [
+                  0,
+                  0
+                ],
+                "12": [
+                  0,
+                  0
+                ],
+                "00": [
+                  0,
+                  0
+                ],
+                "01": [
+                  0,
+                  0
+                ],
+                "02": [
+                  1,
+                  1
+                ]
+              },
+              "selectableTargets": [
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "affectedOrHighlightedTargets": [
+                {
+                  "key": "02",
+                  "side": "own",
+                  "slot": 2,
+                  "value": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "description": "This skill makes Kisame Body Double (S) <Defense>invulnerable<Defense> for 1 turn."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "opponent": {
+    "playerId": "ghokame-kak",
+    "chakra": [],
+    "info": {
+      "win": 136,
+      "lose": 169,
+      "streak": -2,
+      "xp": 29085,
+      "level": 37,
+      "rank": "Jinchuuriki",
+      "clan": "",
+      "ladderrank": 220,
+      "title": null,
+      "activeSkins": null,
+      "activeBorder": null
+    },
+    "team": [
+      {
+        "slot": "char0",
+        "slotIndex": 0,
+        "name": "Chiyo (S)",
+        "health": 100,
+        "isDead": false,
+        "customFacepic": null,
+        "effects": [
+          {
+            "name": "Ally Puppetry",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 0,
+            "effects": [
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'ONE'S OWN LIFE REINCARNATION'.",
+                "duration": "2 TURN LEFTS",
+                "isNothing": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "char1",
+        "slotIndex": 1,
+        "name": "Killer Bee (S)",
+        "health": 100,
+        "isDead": false,
+        "customFacepic": null,
+        "effects": [
+          {
+            "name": "Kenjutsu",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 1,
+            "effects": [
+              {
+                "text": "IF AN ENEMY USES A NEW HARMFUL NON-MENTAL DAMAGING SKILL BEE, THEY WILL TAKE 10 PIERCING DAMAGE.",
+                "duration": "4 TURN LEFTS",
+                "isNothing": false
+              },
+              {
+                "text": "'BUZZ SAW' WILL DEAL 10 ADDITIONAL DAMAGE.",
+                "duration": "4 TURN LEFTS",
+                "isNothing": false
+              },
+              {
+                "text": "'KENJUTSU' WILL BE REPLACED BY 'FINAL KENJUTSU'.",
+                "duration": "4 TURN LEFTS",
+                "isNothing": false
+              }
+            ]
+          },
+          {
+            "name": "Ally Puppetry",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 0,
+            "effects": [
+              {
+                "text": "EACH TURN, THAT ALLY WILL NULLIFY THE FIRST HARMFUL PHYSICAL OR CHAKRA NON-AFFLICTION SKILL USED ON THEM.",
+                "duration": "2 TURN LEFTS",
+                "isNothing": false
+              },
+              {
+                "text": "THIS CHARACTER'S MELEE SKILLS ARE IMPROVED AND WILL DEAL 25% MORE DAMAGE.",
+                "duration": "2 TURN LEFTS",
+                "isNothing": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "char2",
+        "slotIndex": 2,
+        "name": "Hoshigaki Kisame (S)",
+        "health": 100,
+        "isDead": false,
+        "customFacepic": null,
+        "effects": [
+          {
+            "name": "Hungry Sharks",
+            "stacks": 1,
+            "sourcePlayerId": "ghokame-kak",
+            "self": 2,
+            "effects": [
+              {
+                "text": "HUNGRY SHARKS ARE HUNTING THEIR PREY.",
+                "duration": "INFINITE",
+                "isNothing": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "actionCandidates": [
+    {
+      "label": "Uzumaki Naruto (S) -> Shadow Clones: Rasengan -> 10",
+      "caster": {
+        "characterName": "Uzumaki Naruto (S)",
+        "char": 0
+      },
+      "skill": {
+        "name": "Shadow Clones: Rasengan",
+        "index": 1,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Action",
+          "Melee",
+          "Harmful",
+          "Helpful",
+          "Uzumaki Naruto (S)"
+        ]
+      },
+      "target": {
+        "key": "10",
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Shadow Clones: Rasengan",
+        "menu_local": [
+          0,
+          0,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 0,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Uzumaki Naruto (S) -> Shadow Clones: Rasengan -> 11",
+      "caster": {
+        "characterName": "Uzumaki Naruto (S)",
+        "char": 0
+      },
+      "skill": {
+        "name": "Shadow Clones: Rasengan",
+        "index": 1,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Action",
+          "Melee",
+          "Harmful",
+          "Helpful",
+          "Uzumaki Naruto (S)"
+        ]
+      },
+      "target": {
+        "key": "11",
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Shadow Clones: Rasengan",
+        "menu_local": [
+          0,
+          0,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 0,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Uzumaki Naruto (S) -> Shadow Clones: Rasengan -> 12",
+      "caster": {
+        "characterName": "Uzumaki Naruto (S)",
+        "char": 0
+      },
+      "skill": {
+        "name": "Shadow Clones: Rasengan",
+        "index": 1,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Action",
+          "Melee",
+          "Harmful",
+          "Helpful",
+          "Uzumaki Naruto (S)"
+        ]
+      },
+      "target": {
+        "key": "12",
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Shadow Clones: Rasengan",
+        "menu_local": [
+          0,
+          0,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 0,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Uzumaki Naruto (S) -> Kyuubi Boost -> 00",
+      "caster": {
+        "characterName": "Uzumaki Naruto (S)",
+        "char": 0
+      },
+      "skill": {
+        "name": "Kyuubi Boost",
+        "index": 2,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Instant",
+          "Unique",
+          "Affliction",
+          "Helpful",
+          "Uzumaki Naruto (S)"
+        ]
+      },
+      "target": {
+        "key": "00",
+        "usedOn": {
+          "s": 0,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Kyuubi Boost",
+        "menu_local": [
+          0,
+          0,
+          2
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 0,
+          "index": 2
+        }
+      }
+    },
+    {
+      "label": "Uzumaki Naruto (S) -> Shadow Clone Save -> 00",
+      "caster": {
+        "characterName": "Uzumaki Naruto (S)",
+        "char": 0
+      },
+      "skill": {
+        "name": "Shadow Clone Save",
+        "index": 3,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Instant",
+          "Helpful",
+          "Uzumaki Naruto (S)"
+        ]
+      },
+      "target": {
+        "key": "00",
+        "usedOn": {
+          "s": 0,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Shadow Clone Save",
+        "menu_local": [
+          0,
+          0,
+          3
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 0,
+          "index": 3
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Detachment of Primitive World -> 10",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Detachment of Primitive World",
+        "index": 0,
+        "energy": [
+          "Gen"
+        ],
+        "classes": [
+          "Chakra",
+          "Ranged",
+          "Instant",
+          "Unique",
+          "Affliction",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "10",
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Detachment of Primitive World",
+        "menu_local": [
+          0,
+          1,
+          0
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Detachment of Primitive World -> 11",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Detachment of Primitive World",
+        "index": 0,
+        "energy": [
+          "Gen"
+        ],
+        "classes": [
+          "Chakra",
+          "Ranged",
+          "Instant",
+          "Unique",
+          "Affliction",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "11",
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Detachment of Primitive World",
+        "menu_local": [
+          0,
+          1,
+          0
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Detachment of Primitive World -> 12",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Detachment of Primitive World",
+        "index": 0,
+        "energy": [
+          "Gen"
+        ],
+        "classes": [
+          "Chakra",
+          "Ranged",
+          "Instant",
+          "Unique",
+          "Affliction",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "12",
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Detachment of Primitive World",
+        "menu_local": [
+          0,
+          1,
+          0
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Detachment of Primitive World -> 01",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Detachment of Primitive World",
+        "index": 0,
+        "energy": [
+          "Gen"
+        ],
+        "classes": [
+          "Chakra",
+          "Ranged",
+          "Instant",
+          "Unique",
+          "Affliction",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "01",
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Detachment of Primitive World",
+        "menu_local": [
+          0,
+          1,
+          0
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Super-Weighted Boulder Technique -> 10",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Super-Weighted Boulder Technique",
+        "index": 1,
+        "energy": [],
+        "classes": [
+          "Chakra",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "10",
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Super-Weighted Boulder Technique",
+        "menu_local": [
+          0,
+          1,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Super-Weighted Boulder Technique -> 11",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Super-Weighted Boulder Technique",
+        "index": 1,
+        "energy": [],
+        "classes": [
+          "Chakra",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "11",
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Super-Weighted Boulder Technique",
+        "menu_local": [
+          0,
+          1,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Super-Weighted Boulder Technique -> 12",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Super-Weighted Boulder Technique",
+        "index": 1,
+        "energy": [],
+        "classes": [
+          "Chakra",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "12",
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Super-Weighted Boulder Technique",
+        "menu_local": [
+          0,
+          1,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Rock Fist -> 10",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Rock Fist",
+        "index": 2,
+        "energy": [
+          "Blood",
+          "Random"
+        ],
+        "classes": [
+          "Physical",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "10",
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Rock Fist",
+        "menu_local": [
+          0,
+          1,
+          2
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 2
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Rock Fist -> 11",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Rock Fist",
+        "index": 2,
+        "energy": [
+          "Blood",
+          "Random"
+        ],
+        "classes": [
+          "Physical",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "11",
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Rock Fist",
+        "menu_local": [
+          0,
+          1,
+          2
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 2
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Rock Fist -> 12",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Rock Fist",
+        "index": 2,
+        "energy": [
+          "Blood",
+          "Random"
+        ],
+        "classes": [
+          "Physical",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "12",
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Rock Fist",
+        "menu_local": [
+          0,
+          1,
+          2
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 2
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Rock Fist -> 01",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Rock Fist",
+        "index": 2,
+        "energy": [
+          "Blood",
+          "Random"
+        ],
+        "classes": [
+          "Physical",
+          "Melee",
+          "Instant",
+          "Harmful",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "01",
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Rock Fist",
+        "menu_local": [
+          0,
+          1,
+          2
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 2
+        }
+      }
+    },
+    {
+      "label": "Tsuchikage (S) -> Effortless Flight -> 01",
+      "caster": {
+        "characterName": "Tsuchikage (S)",
+        "char": 1
+      },
+      "skill": {
+        "name": "Effortless Flight",
+        "index": 3,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Instant",
+          "Helpful",
+          "Tsuchikage (S)"
+        ]
+      },
+      "target": {
+        "key": "01",
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Effortless Flight",
+        "menu_local": [
+          0,
+          1,
+          3
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 1,
+          "index": 3
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Explosive Water Shock Wave -> 10",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Explosive Water Shock Wave",
+        "index": 0,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Physical",
+          "Instant",
+          "Ranged",
+          "Affliction",
+          "Helpful",
+          "Harmful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "10",
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Explosive Water Shock Wave",
+        "menu_local": [
+          0,
+          2,
+          0
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Explosive Water Shock Wave -> 11",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Explosive Water Shock Wave",
+        "index": 0,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Physical",
+          "Instant",
+          "Ranged",
+          "Affliction",
+          "Helpful",
+          "Harmful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "11",
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Explosive Water Shock Wave",
+        "menu_local": [
+          0,
+          2,
+          0
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Explosive Water Shock Wave -> 12",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Explosive Water Shock Wave",
+        "index": 0,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Physical",
+          "Instant",
+          "Ranged",
+          "Affliction",
+          "Helpful",
+          "Harmful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "12",
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Explosive Water Shock Wave",
+        "menu_local": [
+          0,
+          2,
+          0
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Explosive Water Shock Wave -> 00",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Explosive Water Shock Wave",
+        "index": 0,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Physical",
+          "Instant",
+          "Ranged",
+          "Affliction",
+          "Helpful",
+          "Harmful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "00",
+        "usedOn": {
+          "s": 0,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Explosive Water Shock Wave",
+        "menu_local": [
+          0,
+          2,
+          0
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Explosive Water Shock Wave -> 01",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Explosive Water Shock Wave",
+        "index": 0,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Physical",
+          "Instant",
+          "Ranged",
+          "Affliction",
+          "Helpful",
+          "Harmful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "01",
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Explosive Water Shock Wave",
+        "menu_local": [
+          0,
+          2,
+          0
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Explosive Water Shock Wave -> 02",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Explosive Water Shock Wave",
+        "index": 0,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Physical",
+          "Instant",
+          "Ranged",
+          "Affliction",
+          "Helpful",
+          "Harmful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "02",
+        "usedOn": {
+          "s": 0,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Explosive Water Shock Wave",
+        "menu_local": [
+          0,
+          2,
+          0
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 0
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Water Prison Technique -> 10",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Water Prison Technique",
+        "index": 1,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Chakra",
+          "Affliction",
+          "Instant",
+          "Melee",
+          "Harmful",
+          "Helpful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "10",
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        }
+      },
+      "queueItem": {
+        "name": "Water Prison Technique",
+        "menu_local": [
+          0,
+          2,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 0
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Water Prison Technique -> 11",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Water Prison Technique",
+        "index": 1,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Chakra",
+          "Affliction",
+          "Instant",
+          "Melee",
+          "Harmful",
+          "Helpful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "11",
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        }
+      },
+      "queueItem": {
+        "name": "Water Prison Technique",
+        "menu_local": [
+          0,
+          2,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 1
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Water Prison Technique -> 12",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Water Prison Technique",
+        "index": 1,
+        "energy": [
+          "Blood"
+        ],
+        "classes": [
+          "Chakra",
+          "Affliction",
+          "Instant",
+          "Melee",
+          "Harmful",
+          "Helpful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "12",
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Water Prison Technique",
+        "menu_local": [
+          0,
+          2,
+          1
+        ],
+        "usedOn": {
+          "s": 1,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 1
+        }
+      }
+    },
+    {
+      "label": "Kisame Body Double (S) -> Kisame Body Double (S) Water Clone -> 02",
+      "caster": {
+        "characterName": "Kisame Body Double (S)",
+        "char": 2
+      },
+      "skill": {
+        "name": "Kisame Body Double (S) Water Clone",
+        "index": 3,
+        "energy": [
+          "Random"
+        ],
+        "classes": [
+          "Chakra",
+          "Instant",
+          "Helpful",
+          "Kisame Body Double (S)"
+        ]
+      },
+      "target": {
+        "key": "02",
+        "usedOn": {
+          "s": 0,
+          "i": 2
+        }
+      },
+      "queueItem": {
+        "name": "Kisame Body Double (S) Water Clone",
+        "menu_local": [
+          0,
+          2,
+          3
+        ],
+        "usedOn": {
+          "s": 0,
+          "i": 2
+        },
+        "new": true,
+        "assignedSkill": {
+          "char": 2,
+          "index": 3
+        }
+      }
+    }
+  ]
+}

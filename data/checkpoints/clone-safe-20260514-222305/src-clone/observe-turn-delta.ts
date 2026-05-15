@@ -323,7 +323,7 @@ function printList(values: any[], format: (value: any) => string): void {
 }
 
 function writeObservation(obs: any): void {
-  const outDir = process.env.OBS_DIR ?? path.join("data", "clone", "observations");
+  const outDir = path.join("data", "clone", "observations");
   fs.mkdirSync(outDir, { recursive: true });
 
   const file = path.join(outDir, `${preFile.replace(".json", "")}__${postFile.replace(".json", "")}.json`);

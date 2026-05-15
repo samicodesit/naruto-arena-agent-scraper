@@ -1,0 +1,178 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T09-12-13-865Z",
+  "preFile": "0021_requestEndTurn.json",
+  "postFile": "0022_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Water Prison Technique",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 2,
+      "casterName": "Kisame Body Double (S)",
+      "skillIndex": 1,
+      "resolvedSkillName": "Water Prison Technique",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 0,
+      "targetName": "Kimimaro",
+      "classes": [
+        "Chakra",
+        "Affliction",
+        "Instant",
+        "Melee",
+        "Kisame Body Double (S)",
+        "Harmful",
+        "Helpful",
+        "Kisame Body Double (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra."
+    },
+    {
+      "index": 1,
+      "name": "Oodama Rasengan",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Uzumaki Naruto (S)",
+      "skillIndex": 0,
+      "resolvedSkillName": "Oodama Rasengan",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 0,
+      "targetName": "Kimimaro",
+      "classes": [
+        "Chakra",
+        "Melee",
+        "Instant",
+        "Affliction*",
+        "Uzumaki Naruto (S)",
+        "Harmful",
+        "Uzumaki Naruto (S)"
+      ],
+      "energy": [
+        "Tai",
+        "Nin"
+      ],
+      "description": "Naruto uses a greater version of Rasengan, dealing 40 piercing damage to one enemy ignoring invulnerability. During 'Kyuubi Boost', this skill will stun that enemy's non-mental skills for 1 turn. Afterwards, Naruto takes 5 affliction damage*. During 'Passive: Three Tails Release', this skill will be replaced."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "before": 80,
+      "after": 75,
+      "delta": -5
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "before": 95,
+      "after": 40,
+      "delta": -55
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Kisame Body Double (S)",
+      "effect": "Water Prison Technique",
+      "detail": {
+        "name": "Water Prison Technique",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "effect": "Oodama Rasengan",
+      "detail": {
+        "name": "Oodama Rasengan",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "effect": "Water Prison Technique",
+      "detail": {
+        "name": "Water Prison Technique",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Dance of the Clematis",
+      "detail": {
+        "name": "Dance of the Clematis",
+        "sourcePlayerId": "luzidtraum",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER IS STUNNED.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Blood",
+        "Gen",
+        "Nin",
+        "Blood",
+        "Tai"
+      ],
+      "after": []
+    }
+  ]
+}

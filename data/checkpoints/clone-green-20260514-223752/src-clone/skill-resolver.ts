@@ -169,8 +169,7 @@ export function resolveQueueSkill(
         caster,
         casterSlot: assigned.char as Slot,
         skill,
-        target: null,
-        effectTargetOverrides: item.replayEffectTargetOverrides ?? []
+        target: null
       });
       // OBSERVED_EFFECTS_SELF_HEALTH_LOSS_ONLY
 
@@ -186,8 +185,7 @@ export function resolveQueueSkill(
         caster,
         casterSlot: assigned.char as Slot,
         skill,
-        target: noDamageTarget,
-        effectTargetOverrides: item.replayEffectTargetOverrides ?? []
+        target: noDamageTarget
       });
       // OBSERVED_EFFECTS_NO_DAMAGE
 
@@ -213,11 +211,7 @@ export function resolveQueueSkill(
     return { ok: false, skillName: skill.name, notes: ["target_not_resolved"] };
   }
 
-  const damageTargets = resolveDamageTargets(battle, playerId, item, skill.name, target);
-
-  for (const damageTarget of damageTargets) {
-    damageCharacter(battle, damageTarget.player.playerId, damageTarget.slot, damage.amount, skill.name);
-  }
+  damageCharacter(battle, target.player.playerId, target.slot, damage.amount, skill.name);
 
     applyObservedEffectRules({
       battle,
@@ -225,8 +219,7 @@ export function resolveQueueSkill(
       caster,
       casterSlot: assigned.char as Slot,
       skill,
-      target,
-      effectTargetOverrides: item.replayEffectTargetOverrides ?? []
+      target
     });
     // OBSERVED_EFFECTS_DIRECT_DAMAGE
 
@@ -463,54 +456,11 @@ function extractEffectDamage(text: string): { amount: number; type: "normal" | "
   return { amount, type };
 }
 
-function resolveDamageTargets(
-  battle: CloneBattleState,
-  playerId: string,
-  item: ProtocolQueueItem,
-  skillName: string,
-  resolvedTarget: { player: ClonePlayerState; character: CloneCharacterState; slot: Slot }
-): Array<{ player: ClonePlayerState; character: CloneCharacterState; slot: Slot }> {
-  if (!isObservedAllEnemiesDamageSkill(skillName)) {
-    return [resolvedTarget];
-  }
-
-  const opponent = getOpponent(battle, playerId);
-
-  return opponent.team.map((character) => ({
-    player: opponent,
-    character,
-    slot: character.slot
-  }));
-}
-
-function isObservedAllEnemiesDamageSkill(skillName: string): boolean {
-  // Verified from server output in 2026-05-14T21-34-39-137Z:
-  // 0016_requestEndTurn.json -> 0017_passTurn.json
-  // Branch Manipulation dealt 10 affliction damage to all 3 enemies.
-  return skillName === "Branch Manipulation";
-}
-
 function resolveTarget(
   battle: CloneBattleState,
   playerId: string,
   item: ProtocolQueueItem
 ): { player: ClonePlayerState; character: CloneCharacterState; slot: Slot } | null {
-  const replayTargetOverride = item.replayTargetOverride;
-
-  if (replayTargetOverride) {
-    const overridePlayer = battle.players.find((player) => player.playerId === replayTargetOverride.playerId);
-    const overrideSlot = replayTargetOverride.slot;
-    const overrideCharacter = overridePlayer?.team[overrideSlot];
-
-    if (overridePlayer && overrideCharacter) {
-      return {
-        player: overridePlayer,
-        character: overrideCharacter,
-        slot: overrideSlot
-      };
-    }
-  }
-
   if (!item.usedOn) return null;
 
   const casterPlayer = getPlayer(battle, playerId);

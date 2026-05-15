@@ -1,0 +1,2986 @@
+# Naruto-Arena Classic — In-Game Protocol
+
+> Generated from locally recorded `/api/handleingame` traffic while manually playing.
+
+- Generated at: 2026-05-14T09:59:07.428Z
+- Session dir: `data/traffic/2026-05-14T09-57-27-164Z`
+- Total records: 24
+- Started at: 2026-05-14T09:57:31.120Z
+- Ended at: 2026-05-14T09:58:56.900Z
+
+## Action Counts
+
+| Action | Count | First | Last | Statuses | Payload variants | Response variants |
+|---|---:|---:|---:|---|---:|---:|
+| `checkIfConfirmedBattle` | 1 | 4 | 4 | 200:1 | 1 | 1 |
+| `checkIfInBattle` | 1 | 3 | 3 | 200:1 | 1 | 1 |
+| `connectBattle` | 1 | 5 | 5 | 200:1 | 1 | 1 |
+| `connectSelection` | 2 | 1 | 24 | 200:2 | 1 | 1 |
+| `passTurn` | 2 | 6 | 20 | 200:2 | 2 | 2 |
+| `requestEndTurn` | 15 | 7 | 23 | 200:15 | 1 | 3 |
+| `searchGame` | 1 | 2 | 2 | 200:1 | 1 | 1 |
+| `surrender` | 1 | 22 | 22 | 200:1 | 1 | 1 |
+
+## Compressed Action Sequence
+
+```txt
+connectSelection
+searchGame
+checkIfInBattle
+checkIfConfirmedBattle
+connectBattle
+passTurn
+requestEndTurn × 13
+passTurn
+requestEndTurn
+surrender
+requestEndTurn
+connectSelection
+```
+
+## Chronological Records
+
+| # | Time | Action | Status | Page |
+|---:|---|---|---:|---|
+| 1 | 2026-05-14T09:57:31.120Z | `connectSelection` | 200 | https://www.naruto-arena.site/ingame |
+| 2 | 2026-05-14T09:57:33.358Z | `searchGame` | 200 | https://www.naruto-arena.site/ingame |
+| 3 | 2026-05-14T09:57:38.825Z | `checkIfInBattle` | 200 | https://www.naruto-arena.site/ingame |
+| 4 | 2026-05-14T09:57:45.494Z | `checkIfConfirmedBattle` | 200 | https://www.naruto-arena.site/ingame |
+| 5 | 2026-05-14T09:57:45.873Z | `connectBattle` | 200 | https://www.naruto-arena.site/ingame |
+| 6 | 2026-05-14T09:57:49.310Z | `passTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 7 | 2026-05-14T09:57:52.947Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 8 | 2026-05-14T09:57:56.608Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 9 | 2026-05-14T09:58:00.340Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 10 | 2026-05-14T09:58:04.004Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 11 | 2026-05-14T09:58:07.672Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 12 | 2026-05-14T09:58:11.329Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 13 | 2026-05-14T09:58:14.972Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 14 | 2026-05-14T09:58:18.706Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 15 | 2026-05-14T09:58:22.358Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 16 | 2026-05-14T09:58:26.029Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 17 | 2026-05-14T09:58:29.663Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 18 | 2026-05-14T09:58:33.306Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 19 | 2026-05-14T09:58:36.993Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 20 | 2026-05-14T09:58:47.976Z | `passTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 21 | 2026-05-14T09:58:51.635Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 22 | 2026-05-14T09:58:53.344Z | `surrender` | 200 | https://www.naruto-arena.site/ingame |
+| 23 | 2026-05-14T09:58:55.298Z | `requestEndTurn` | 200 | https://www.naruto-arena.site/ingame |
+| 24 | 2026-05-14T09:58:56.900Z | `connectSelection` | 200 | https://www.naruto-arena.site/ingame |
+
+## Action Schemas
+
+## `checkIfConfirmedBattle`
+
+- Count: 1
+- First record: 4
+- Last record: 4
+- Statuses: 200:1
+- Request payload variants: 1
+- Response body variants: 1
+- Sample file: `data/protocol/samples/checkIfConfirmedBattle.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string"
+  }
+}
+```
+
+## `checkIfInBattle`
+
+- Count: 1
+- First record: 3
+- Last record: 3
+- Statuses: 200:1
+- Request payload variants: 1
+- Response body variants: 1
+- Sample file: `data/protocol/samples/checkIfInBattle.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "languagePreference": "string"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string"
+  }
+}
+```
+
+## `connectBattle`
+
+- Count: 1
+- First record: 5
+- Last record: 5
+- Statuses: 200:1
+- Request payload variants: 1
+- Response body variants: 1
+- Sample file: `data/protocol/samples/connectBattle.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "languagePreference": "string"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "content": {
+      "type": "object",
+      "keys": {
+        "username": "boolean",
+        "battleState": {
+          "type": "object",
+          "keys": {
+            "players": {
+              "type": "array",
+              "length": 2,
+              "item": {
+                "type": "object",
+                "keys": {
+                  "playerId": "string",
+                  "team": "object_max_depth",
+                  "chakra": {
+                    "type": "array",
+                    "length": 1,
+                    "item": "max_depth"
+                  },
+                  "queue": {
+                    "type": "array",
+                    "length": 0,
+                    "item": "max_depth"
+                  },
+                  "avatar_temp": "string",
+                  "border_temp": "string",
+                  "info": "object_max_depth"
+                }
+              }
+            },
+            "turn": "string",
+            "characters": {
+              "type": "array",
+              "length": 6,
+              "item": {
+                "type": "object",
+                "keys": {
+                  "name": "string",
+                  "description": "string",
+                  "url": "string",
+                  "themepic": "string",
+                  "skills": {
+                    "type": "array",
+                    "length": 8,
+                    "item": "max_depth"
+                  },
+                  "descriptionBR": "string"
+                }
+              }
+            },
+            "charImages": {
+              "type": "object",
+              "keys": {
+                "facepics": {
+                  "type": "object",
+                  "keys": {
+                    "Uzumaki Naruto (S)": "object_max_depth",
+                    "Tsuchikage (S)": "object_max_depth",
+                    "Kisame Body Double (S)": "object_max_depth",
+                    "Chiyo (S)": "object_max_depth",
+                    "Killer Bee (S)": "object_max_depth",
+                    "Hoshigaki Kisame (S)": "object_max_depth"
+                  }
+                },
+                "skills": {
+                  "type": "object",
+                  "keys": {
+                    "Oodama Rasengan": "object_max_depth",
+                    "Shadow Clones: Rasengan": "object_max_depth",
+                    "Kyuubi Boost": "object_max_depth",
+                    "Shadow Clone Save": "object_max_depth",
+                    "Kyuubi Empowered Rasengan": "object_max_depth",
+                    "Passive: Three Tails Release": "object_max_depth",
+                    "Three-Tail: Claw Smash": "object_max_depth",
+                    "Three-Tail: Chakra Shockwave": "object_max_depth",
+                    "Detachment of Primitive World": "object_max_depth",
+                    "Super-Weighted Boulder Technique": "object_max_depth",
+                    "Rock Fist": "object_max_depth",
+                    "Effortless Flight": "object_max_depth",
+                    "Dust Implode": "object_max_depth",
+                    "Explosive Water Shock Wave": "object_max_depth",
+                    "Water Prison Technique": "object_max_depth",
+                    "Five Man-Eating Sharks": "object_max_depth",
+                    "Kisame Body Double (S) Water Clone": "object_max_depth",
+                    "White Secret Attack Rampage": "object_max_depth",
+                    "Sanbou Kyuukai": "object_max_depth",
+                    "Ally Puppetry": "object_max_depth",
+                    "Chakra Shield": "object_max_depth",
+                    "One's Own Life Reincarnation": "object_max_depth",
+                    "Kenjutsu": "object_max_depth",
+                    "Buzz Saw": "object_max_depth",
+                    "Chakra Stream": "object_max_depth",
+                    "Strong Defense": "object_max_depth",
+                    "Final Kenjutsu": "object_max_depth",
+                    "Hungry Sharks": "object_max_depth",
+                    "Shark Bomb": "object_max_depth",
+                    "Samehada Guard": "object_max_depth",
+                    "Water Isolation": "object_max_depth"
+                  }
+                }
+              }
+            },
+            "shortcut_c": {
+              "type": "object",
+              "keys": {
+                "Uzumaki Naruto (S)": "string",
+                "Tsuchikage (S)": "string",
+                "Kisame Body Double (S)": "string",
+                "Chiyo (S)": "string",
+                "Killer Bee (S)": "string",
+                "Hoshigaki Kisame (S)": "string"
+              }
+            },
+            "shortcut_s": {
+              "type": "object",
+              "keys": {
+                "Oodama Rasengan": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Shadow Clones: Rasengan": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Kyuubi Boost": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Shadow Clone Save": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Kyuubi Empowered Rasengan": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Passive: Three Tails Release": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Three-Tail: Claw Smash": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Three-Tail: Chakra Shockwave": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Detachment of Primitive World": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Super-Weighted Boulder Technique": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Rock Fist": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Effortless Flight": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Dust Implode": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Explosive Water Shock Wave": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Water Prison Technique": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Five Man-Eating Sharks": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Kisame Body Double (S) Water Clone": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "White Secret Attack Rampage": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Sanbou Kyuukai": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Ally Puppetry": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Chakra Shield": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "One's Own Life Reincarnation": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Kenjutsu": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Buzz Saw": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Chakra Stream": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Strong Defense": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Final Kenjutsu": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Hungry Sharks": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Shark Bomb": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Samehada Guard": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                },
+                "Water Isolation": {
+                  "type": "array",
+                  "length": 2,
+                  "item": "string"
+                }
+              }
+            },
+            "turnKey": "number",
+            "ablyId": "string"
+          }
+        },
+        "customBackgroundBattle": "string"
+      }
+    }
+  }
+}
+```
+
+## `connectSelection`
+
+- Count: 2
+- First record: 1
+- Last record: 24
+- Statuses: 200:2
+- Request payload variants: 1
+- Response body variants: 1
+- Sample file: `data/protocol/samples/connectSelection.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "languagePreference": "string"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "content": {
+      "type": "object",
+      "keys": {
+        "username": "string",
+        "characters": {
+          "type": "array",
+          "length": 200,
+          "item": {
+            "type": "object",
+            "keys": {
+              "name": "string",
+              "url": "string",
+              "themepic": "string",
+              "description": "string",
+              "descriptionBR": "string",
+              "skills": {
+                "type": "array",
+                "length": 5,
+                "item": "object_max_depth"
+              }
+            }
+          }
+        },
+        "charImages": {
+          "type": "object",
+          "keys": {
+            "facepics": {
+              "type": "object",
+              "keys": {
+                "Uzumaki Naruto": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Haruno Sakura": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Uchiha Sasuke": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Inuzuka Kiba": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Aburame Shino": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hyuuga Hinata": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Nara Shikamaru": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Akimichi Chouji": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yamanaka Ino": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Tenten": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hyuuga Neji": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Rock Lee": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Gaara of the Desert": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Kankuro": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Temari": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Tsuchi Kin": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Abumi Zaku": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Kinuta Dosu": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Haku": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Young Kakashi": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Uchiha Obito": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Nohara Rin": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hyuuga Hanabi": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Demon Brothers": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Momochi Zabuza": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Oboro": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Shigure": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Shiore Orochimaru": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "render": "null"
+                  }
+                },
+                "Jiroubou": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Kidoumaru": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Sakon": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Tayuya": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Kimimaro": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Touji Mizuki": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Umino Iruka": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Akadou Yoroi": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Tsurugi Misumi": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Mitarashi Anko": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Shizune": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yakushi Kabuto": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hatake Kakashi": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yuhi Kurenai": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Sarutobi Asuma": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Maito Gai": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Namikaze Minato": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Uzumaki Kushina": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Gekko Hayate": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Baki": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Orochimaru": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Jiraiya": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Tsunade": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Sandaime Hokage": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Shodai Hokage": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Nidaime Hokage": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yondaime Hokage": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Gaara Rehabilitated": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Drunken Lee": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Cursed Seal Mizuki": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Kyuubi Naruto": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Cursed Seal Sasuke": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Shukaku Gaara": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hoshigaki Kisame": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Uchiha Itachi": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "render": "null"
+                  }
+                },
+                "Uzumaki Naruto (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Haruno Sakura (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Sai (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Inuzuka Kiba (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Aburame Shino (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hyuuga Hinata (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Nara Shikamaru (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Akimichi Chouji (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yamanaka Ino (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Tenten (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hyuuga Neji (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Rock Lee (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Hatake Kakashi (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yamato (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Maito Gai (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Sarutobi Asuma (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "Yamashiro Aoba (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "render": "null"
+                  }
+                },
+                "__truncatedKeys": "120 more keys"
+              }
+            },
+            "skills": {
+              "type": "object",
+              "keys": {
+                "Uzumaki Naruto Combo": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Rasengan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Shadow Clones": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Sexy Technique": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Passive: Kyuubi's Chakra Awakening": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "bord": "null"
+                  }
+                },
+                "KO Punch": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Cure": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Inner Sakura": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Sakura Replacement Technique": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Lion Combo": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Chidori": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Sharingan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Swift Block": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Passive: Cursed Seal Awakening": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "bord": "null"
+                  }
+                },
+                "Garouga": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Double Headed Wolf": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Dynamic Air Marking": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Smoke Bomb": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Chakra Leach": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Female Bug": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Bug Wall": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Bug Clone": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Hinata Gentle Fist": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Eight Trigrams 64 Palms Protection": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Byakugan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Hinata Block": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Meditate": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Shadow-Neck Bind": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Shadow Imitation": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Shikamaru Hide": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Partial Double Size": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Meat Tank": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Akimichi Pills": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Effortless Block": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Passive: Butterfly Mode": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "bord": "null"
+                  }
+                },
+                "Mind Body Disturbance": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Change of Heart": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Chakra Hair Strand Trap": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Ino Block": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Art of the Valentine": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Twin Rising Dragons": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Twin Rising Dragons Trap": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Twin Rising Dragons Full Release": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Spiked Boulder Shield": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Neji Gentle Fist": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Eight Trigram Heavenly Spin": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Eight Trigram Sixty-Four Palms": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Neji Byakugan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "High Speed Taijutsu": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Front Lotus": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Fifth Gate Opening": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Evasion": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Fiery Spirit": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Final Lotus": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Desert Graveyard": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Desert Coffin": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Third Eye": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Sand Shield": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Black Secret Machine One Shot": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Poison Bomb": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Puppet Preparation": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Puppet Replacement Technique": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Cutting Whirlwind": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Summoning Quick Beheading Dance": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Dust Wind": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Fan Defence Technique": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Illusion Bell Needles": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Needle and Bell Trap": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Unnerving Bells": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Sharp Analysis": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Air Cutter": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Wall of Air": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Extreme Air Cutter": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Airwave Deflection": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Resonating Echo Drill": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Sound Manipulation": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Melody Arm Tuning": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Dosu Hide": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Water Needles": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "Acupuncture": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string",
+                    "bord": "null"
+                  }
+                },
+                "__truncatedKeys": "817 more keys"
+              }
+            }
+          }
+        },
+        "shortcut_c": {
+          "type": "object",
+          "keys": {
+            "Uzumaki Naruto": "string",
+            "Haruno Sakura": "string",
+            "Uchiha Sasuke": "string",
+            "Inuzuka Kiba": "string",
+            "Aburame Shino": "string",
+            "Hyuuga Hinata": "string",
+            "Nara Shikamaru": "string",
+            "Akimichi Chouji": "string",
+            "Yamanaka Ino": "string",
+            "Tenten": "string",
+            "Hyuuga Neji": "string",
+            "Rock Lee": "string",
+            "Gaara of the Desert": "string",
+            "Kankuro": "string",
+            "Temari": "string",
+            "Tsuchi Kin": "string",
+            "Abumi Zaku": "string",
+            "Kinuta Dosu": "string",
+            "Haku": "string",
+            "Young Kakashi": "string",
+            "Uchiha Obito": "string",
+            "Nohara Rin": "string",
+            "Hyuuga Hanabi": "string",
+            "Demon Brothers": "string",
+            "Momochi Zabuza": "string",
+            "Oboro": "string",
+            "Shigure": "string",
+            "Shiore Orochimaru": "string",
+            "Jiroubou": "string",
+            "Kidoumaru": "string",
+            "Sakon": "string",
+            "Tayuya": "string",
+            "Kimimaro": "string",
+            "Touji Mizuki": "string",
+            "Umino Iruka": "string",
+            "Akadou Yoroi": "string",
+            "Tsurugi Misumi": "string",
+            "Mitarashi Anko": "string",
+            "Shizune": "string",
+            "Yakushi Kabuto": "string",
+            "Hatake Kakashi": "string",
+            "Yuhi Kurenai": "string",
+            "Sarutobi Asuma": "string",
+            "Maito Gai": "string",
+            "Namikaze Minato": "string",
+            "Uzumaki Kushina": "string",
+            "Gekko Hayate": "string",
+            "Baki": "string",
+            "Orochimaru": "string",
+            "Jiraiya": "string",
+            "Tsunade": "string",
+            "Sandaime Hokage": "string",
+            "Shodai Hokage": "string",
+            "Nidaime Hokage": "string",
+            "Yondaime Hokage": "string",
+            "Gaara Rehabilitated": "string",
+            "Drunken Lee": "string",
+            "Cursed Seal Mizuki": "string",
+            "Kyuubi Naruto": "string",
+            "Cursed Seal Sasuke": "string",
+            "Shukaku Gaara": "string",
+            "Hoshigaki Kisame": "string",
+            "Uchiha Itachi": "string",
+            "Uzumaki Naruto (S)": "string",
+            "Haruno Sakura (S)": "string",
+            "Sai (S)": "string",
+            "Inuzuka Kiba (S)": "string",
+            "Aburame Shino (S)": "string",
+            "Hyuuga Hinata (S)": "string",
+            "Nara Shikamaru (S)": "string",
+            "Akimichi Chouji (S)": "string",
+            "Yamanaka Ino (S)": "string",
+            "Tenten (S)": "string",
+            "Hyuuga Neji (S)": "string",
+            "Rock Lee (S)": "string",
+            "Hatake Kakashi (S)": "string",
+            "Yamato (S)": "string",
+            "Maito Gai (S)": "string",
+            "Sarutobi Asuma (S)": "string",
+            "Yamashiro Aoba (S)": "string",
+            "__truncatedKeys": "120 more keys"
+          }
+        },
+        "shortcut_s": {
+          "type": "object",
+          "keys": {
+            "Uzumaki Naruto Combo": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Rasengan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shadow Clones": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sexy Technique": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Passive: Kyuubi's Chakra Awakening": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "KO Punch": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Cure": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Inner Sakura": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sakura Replacement Technique": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Lion Combo": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Chidori": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sharingan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Swift Block": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Passive: Cursed Seal Awakening": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Garouga": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Double Headed Wolf": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Dynamic Air Marking": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Smoke Bomb": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Chakra Leach": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Female Bug": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Bug Wall": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Bug Clone": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Hinata Gentle Fist": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Eight Trigrams 64 Palms Protection": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Byakugan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Hinata Block": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Meditate": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shadow-Neck Bind": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shadow Imitation": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shikamaru Hide": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Partial Double Size": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Meat Tank": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Akimichi Pills": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Effortless Block": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Passive: Butterfly Mode": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Mind Body Disturbance": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Change of Heart": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Chakra Hair Strand Trap": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Ino Block": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Art of the Valentine": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Twin Rising Dragons": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Twin Rising Dragons Trap": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Twin Rising Dragons Full Release": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Spiked Boulder Shield": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Neji Gentle Fist": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Eight Trigram Heavenly Spin": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Eight Trigram Sixty-Four Palms": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Neji Byakugan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "High Speed Taijutsu": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Front Lotus": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Fifth Gate Opening": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Evasion": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Fiery Spirit": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Final Lotus": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Desert Graveyard": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Desert Coffin": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Third Eye": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sand Shield": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Black Secret Machine One Shot": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Poison Bomb": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Puppet Preparation": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Puppet Replacement Technique": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Cutting Whirlwind": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Summoning Quick Beheading Dance": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Dust Wind": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Fan Defence Technique": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Illusion Bell Needles": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Needle and Bell Trap": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Unnerving Bells": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sharp Analysis": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Air Cutter": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Wall of Air": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Extreme Air Cutter": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Airwave Deflection": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Resonating Echo Drill": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sound Manipulation": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Melody Arm Tuning": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Dosu Hide": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Water Needles": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Acupuncture": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "__truncatedKeys": "817 more keys"
+          }
+        },
+        "LOCKED_CHARS": {
+          "type": "array",
+          "length": 178,
+          "item": "string"
+        },
+        "lockedChars": {
+          "type": "array",
+          "length": 2,
+          "item": "string"
+        },
+        "win": "number",
+        "lose": "number",
+        "xp": "number",
+        "level": "number",
+        "rank": "string",
+        "streak": "number",
+        "customAvatar": "string",
+        "customBorder": "string",
+        "customBackgroundSelection": "string",
+        "customBackgroundBattle": "string",
+        "lastTeamUser": {
+          "type": "array",
+          "length": 3,
+          "item": "string"
+        },
+        "isLadderAvailable": "boolean",
+        "patreonNumberUnlockable": "number",
+        "teamSaved": {
+          "type": "array",
+          "length": 75,
+          "item": {
+            "type": "array",
+            "length": 3,
+            "item": "string"
+          }
+        },
+        "missingBorders": {
+          "type": "array",
+          "length": 43,
+          "item": {
+            "type": "object",
+            "keys": {
+              "id": "string",
+              "url": "string"
+            }
+          }
+        },
+        "userLadderrank": "number"
+      }
+    }
+  }
+}
+```
+
+## `passTurn`
+
+- Count: 2
+- First record: 6
+- Last record: 20
+- Statuses: 200:2
+- Request payload variants: 2
+- Response body variants: 2
+- Sample file: `data/protocol/samples/passTurn.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "queue": {
+      "type": "array",
+      "length": 0,
+      "item": "undefined"
+    },
+    "exchangeInformation": {
+      "type": "array",
+      "length": 0,
+      "item": "undefined"
+    },
+    "removedChakra": {
+      "type": "array",
+      "length": 0,
+      "item": "undefined"
+    },
+    "languagePreference": "string",
+    "recyleKeys": "boolean"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "content": {
+      "type": "object",
+      "keys": {
+        "players": {
+          "type": "array",
+          "length": 2,
+          "item": {
+            "type": "object",
+            "keys": {
+              "playerId": "string",
+              "team": {
+                "type": "object",
+                "keys": {
+                  "char0": "object_max_depth",
+                  "char1": "object_max_depth",
+                  "char2": "object_max_depth"
+                }
+              },
+              "avatar_temp": "string",
+              "border_temp": "string",
+              "info": {
+                "type": "object",
+                "keys": {
+                  "win": "number",
+                  "lose": "number",
+                  "streak": "number",
+                  "xp": "number",
+                  "level": "number",
+                  "rank": "string",
+                  "clan": "string",
+                  "ladderrank": "number",
+                  "title": "null",
+                  "activeSkins": "null",
+                  "activeBorder": "null"
+                }
+              }
+            }
+          }
+        },
+        "turn": "string",
+        "charImages": {
+          "type": "object",
+          "keys": {
+            "facepics": {
+              "type": "object",
+              "keys": {
+                "Uzumaki Naruto (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Tsuchikage (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Kisame Body Double (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Chiyo (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Killer Bee (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Hoshigaki Kisame (S)": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                }
+              }
+            },
+            "skills": {
+              "type": "object",
+              "keys": {
+                "Oodama Rasengan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Shadow Clones: Rasengan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Kyuubi Boost": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Shadow Clone Save": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Kyuubi Empowered Rasengan": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Passive: Three Tails Release": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Three-Tail: Claw Smash": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Three-Tail: Chakra Shockwave": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Detachment of Primitive World": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Super-Weighted Boulder Technique": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Rock Fist": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Effortless Flight": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Dust Implode": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Explosive Water Shock Wave": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Water Prison Technique": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Five Man-Eating Sharks": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Kisame Body Double (S) Water Clone": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "White Secret Attack Rampage": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Sanbou Kyuukai": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Ally Puppetry": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Chakra Shield": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "One's Own Life Reincarnation": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Kenjutsu": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Buzz Saw": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Chakra Stream": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Strong Defense": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Final Kenjutsu": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "string"
+                  }
+                },
+                "Hungry Sharks": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Shark Bomb": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Samehada Guard": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                },
+                "Water Isolation": {
+                  "type": "object",
+                  "keys": {
+                    "src": "string",
+                    "srcOldTheme": "null"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "shortcut_s": {
+          "type": "object",
+          "keys": {
+            "Oodama Rasengan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shadow Clones: Rasengan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Kyuubi Boost": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shadow Clone Save": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Kyuubi Empowered Rasengan": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Passive: Three Tails Release": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Three-Tail: Claw Smash": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Three-Tail: Chakra Shockwave": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Detachment of Primitive World": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Super-Weighted Boulder Technique": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Rock Fist": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Effortless Flight": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Dust Implode": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Explosive Water Shock Wave": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Water Prison Technique": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Five Man-Eating Sharks": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Kisame Body Double (S) Water Clone": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "White Secret Attack Rampage": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Sanbou Kyuukai": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Ally Puppetry": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Chakra Shield": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "One's Own Life Reincarnation": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Kenjutsu": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Buzz Saw": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Chakra Stream": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Strong Defense": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Final Kenjutsu": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Hungry Sharks": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Shark Bomb": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Samehada Guard": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            },
+            "Water Isolation": {
+              "type": "array",
+              "length": 2,
+              "item": "string"
+            }
+          }
+        },
+        "turnKey": "number"
+      }
+    }
+  }
+}
+```
+
+## `requestEndTurn`
+
+- Count: 15
+- First record: 7
+- Last record: 23
+- Statuses: 200:15
+- Request payload variants: 1
+- Response body variants: 3
+- Sample file: `data/protocol/samples/requestEndTurn.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "languagePreference": "string"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "message": "string"
+  }
+}
+```
+
+## `searchGame`
+
+- Count: 1
+- First record: 2
+- Last record: 2
+- Statuses: 200:1
+- Request payload variants: 1
+- Response body variants: 1
+- Sample file: `data/protocol/samples/searchGame.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "gameType": "string",
+    "team": {
+      "type": "array",
+      "length": 3,
+      "item": "string"
+    }
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+"string"
+```
+
+## `surrender`
+
+- Count: 1
+- First record: 22
+- Last record: 22
+- Statuses: 200:1
+- Request payload variants: 1
+- Response body variants: 1
+- Sample file: `data/protocol/samples/surrender.sample.json`
+
+### Request Payload Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string"
+  }
+}
+```
+
+### Response Body Schema
+
+```json
+{
+  "type": "object",
+  "keys": {
+    "action": "string",
+    "content": {
+      "type": "object",
+      "keys": {
+        "var_type": "string",
+        "endGame": "string"
+      }
+    }
+  }
+}
+```
+
+## Current Interpretation
+
+- `connectSelection` appears to initialize or refresh the selection/character database state.
+- `searchGame` appears to start matchmaking.
+- `checkIfInBattle` appears to check whether matchmaking has produced a battle.
+- `connectBattle` appears to initialize battle state after a match is found.
+- `passTurn` appears during opponent/player turn progression.
+- `requestEndTurn` appears repeatedly and likely handles both selected actions and turn-state updates. Inspect payload variants to distinguish submit vs poll/update.
+
+## Next Analysis Needed
+
+1. Inspect `requestEndTurn` variants.
+2. Identify exact battle-state fields for HP, chakra, cooldowns, active effects, selected skills, and turn owner.
+3. Identify exact payload shape for skill selection, target selection, chakra spending, and final turn confirmation.
+4. Record one more match where you deliberately use: no-skill pass, one skill, multiple skills, random chakra spending, and surrender if possible.

@@ -1,0 +1,310 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T09-12-13-865Z",
+  "preFile": "0029_requestEndTurn.json",
+  "postFile": "0030_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Water Prison Technique",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 2,
+      "casterName": "Kisame Body Double (S)",
+      "skillIndex": 1,
+      "resolvedSkillName": "Water Prison Technique",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 2,
+      "targetName": "Naraka Path Pein (S)",
+      "classes": [
+        "Chakra",
+        "Affliction",
+        "Instant",
+        "Melee",
+        "Harmful",
+        "Helpful",
+        "Kisame Body Double (S)"
+      ],
+      "energy": [
+        "Blood"
+      ],
+      "description": "Using a bubble of water, Kisame stuns the physical or ranged skills of one enemy for 1 turn. During this time the enemy takes 15 affliction damage* and becomes invulnerable to friendly skills, and Kisame gains 15 points of damage reduction. During Explosive Water Shock Wave this skill costs 1 random chakra."
+    },
+    {
+      "index": 1,
+      "name": "Effortless Flight",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Tsuchikage (S)",
+      "skillIndex": 3,
+      "resolvedSkillName": "Effortless Flight",
+      "targetSide": 0,
+      "targetPlayerId": "mestsxxx",
+      "targetSlot": 1,
+      "targetName": "Tsuchikage (S)",
+      "classes": [
+        "Chakra",
+        "Instant",
+        "Helpful",
+        "Tsuchikage (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "This skill makes Tsuchikage (S) <Defense>invulnerable<Defense> for 1 turn."
+    },
+    {
+      "index": 2,
+      "name": "Shadow Clones: Rasengan",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Uzumaki Naruto (S)",
+      "skillIndex": 1,
+      "resolvedSkillName": "Shadow Clones: Rasengan",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 2,
+      "targetName": "Naraka Path Pein (S)",
+      "classes": [
+        "Chakra",
+        "Action",
+        "Melee",
+        "Harmful",
+        "Helpful",
+        "Uzumaki Naruto (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "The following turn, Naruto will deal 20 piercing damage to one enemy. During this time, Naruto will ignore all harmful effects. During 'Passive: Three Tails Release', this skill will be replaced. This skill is invisible."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "before": 90,
+      "after": 75,
+      "delta": -15
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Shadow Clones: Rasengan",
+      "detail": {
+        "name": "Shadow Clones: Rasengan",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Effortless Flight",
+      "detail": {
+        "name": "Effortless Flight",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 2,
+      "character": "Kisame Body Double (S)",
+      "effect": "Water Prison Technique",
+      "detail": {
+        "name": "Water Prison Technique",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "effect": "Shadow Clones: Rasengan",
+      "detail": {
+        "name": "Shadow Clones: Rasengan",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+            "duration": "1 TURN LEFT"
+          },
+          {
+            "text": "THIS SKILL CAN BE INTERRUPTED.",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "effect": "Water Prison Technique",
+      "detail": {
+        "name": "Water Prison Technique",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Kyuubi Boost",
+      "detail": {
+        "name": "Kyuubi Boost",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Detachment of Primitive World",
+      "detail": {
+        "name": "Detachment of Primitive World",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Mystical Palm Technique",
+      "detail": {
+        "name": "Mystical Palm Technique",
+        "sourcePlayerId": "luzidtraum",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER WILL TAKE 10 ADDITIONAL DAMAGE FROM MELEE SKILLS.",
+            "duration": "ENDS THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER'S HARMFUL SKILLS WILL COST 1 ADDITIONAL RANDOM CHAKRA.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "effect": "Detachment of Primitive World",
+      "detail": {
+        "name": "Detachment of Primitive World",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Blood",
+        "Gen",
+        "Gen",
+        "Nin",
+        "Nin"
+      ],
+      "after": []
+    }
+  ]
+}

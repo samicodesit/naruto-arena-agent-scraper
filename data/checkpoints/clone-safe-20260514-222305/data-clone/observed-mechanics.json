@@ -1,0 +1,1463 @@
+{
+  "generatedAt": "2026-05-14T19:12:32.180Z",
+  "source": "data/clone/observations",
+  "files": [
+    "0021_requestEndTurn__0022_passTurn.json",
+    "0025_requestEndTurn__0026_passTurn.json",
+    "0029_requestEndTurn__0030_passTurn.json",
+    "0040_requestEndTurn__0041_passTurn.json",
+    "0047_requestEndTurn__0048_passTurn.json",
+    "0052_requestEndTurn__0053_passTurn.json",
+    "0056_requestEndTurn__0057_passTurn.json"
+  ],
+  "skills": {
+    "Water Prison Technique": {
+      "skillName": "Water Prison Technique",
+      "occurrences": 2,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Affliction",
+            "Instant",
+            "Melee",
+            "Kisame Body Double (S)",
+            "Harmful",
+            "Helpful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Affliction",
+            "Instant",
+            "Melee",
+            "Harmful",
+            "Helpful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Blood"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Kisame Body Double (S)",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 0,
+          "character": "Kimimaro",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 2,
+          "character": "Kisame Body Double (S)",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 15 POINTS OF DAMAGE REDUCTION.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Water Prison Technique",
+          "detail": {
+            "name": "Water Prison Technique",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 2,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S PHYSICAL AND RANGED SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO FRIENDLY SKILLS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -55,
+          "before": 95,
+          "after": 40,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Oodama Rasengan"
+          ]
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -15,
+          "before": 90,
+          "after": 75,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Shadow Clones: Rasengan"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Oodama Rasengan": {
+      "skillName": "Oodama Rasengan",
+      "occurrences": 3,
+      "files": [
+        "0021_requestEndTurn__0022_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Affliction*",
+            "Uzumaki Naruto (S)",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Tai",
+            "Nin"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Affliction*",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Tai",
+            "Nin"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Affliction*",
+            "Uzumaki Naruto (S)",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Tai",
+            "Nin"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 0,
+          "character": "Kimimaro",
+          "effect": "Oodama Rasengan",
+          "detail": {
+            "name": "Oodama Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -55,
+          "before": 95,
+          "after": 40,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Oodama Rasengan"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -60,
+          "before": 75,
+          "after": 15,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Oodama Rasengan"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -40,
+          "before": 40,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Oodama Rasengan"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -5,
+          "before": 80,
+          "after": 75
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -5,
+          "before": 55,
+          "after": 50
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0021_requestEndTurn__0022_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Nin",
+            "Gen",
+            "Tai",
+            "Gen"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Detachment of Primitive World": {
+      "skillName": "Detachment of Primitive World",
+      "occurrences": 3,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json",
+        "0052_requestEndTurn__0053_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Gen"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Gen"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Ranged",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Gen"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 1,
+          "character": "Yakushi Kabuto",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Detachment of Primitive World",
+          "detail": {
+            "name": "Detachment of Primitive World",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -10,
+          "before": 100,
+          "after": 90,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Detachment of Primitive World"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "observedTurnDelta": -10,
+          "before": 100,
+          "after": 90,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Detachment of Primitive World"
+          ]
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -10,
+          "before": 15,
+          "after": 5,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Detachment of Primitive World"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0052_requestEndTurn__0053_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Nin",
+            "Gen",
+            "Tai",
+            "Gen"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Kyuubi Empowered Rasengan": {
+      "skillName": "Kyuubi Empowered Rasengan",
+      "occurrences": 1,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Chakra",
+            "Melee",
+            "Instant",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Nin"
+          ]
+        }
+      ],
+      "effectAdds": [],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -40,
+          "before": 40,
+          "after": 0,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Kyuubi Empowered Rasengan",
+            "Five Man-Eating Sharks"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Five Man-Eating Sharks": {
+      "skillName": "Five Man-Eating Sharks",
+      "occurrences": 3,
+      "files": [
+        "0025_requestEndTurn__0026_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json",
+        "0056_requestEndTurn__0057_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Kisame Body Double (S)",
+            "Harmful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Nin"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Harmful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Nin",
+            "Random"
+          ]
+        },
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 2,
+          "casterName": "Kisame Body Double (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Physical",
+            "Action",
+            "Ranged",
+            "Harmful",
+            "Kisame Body Double (S)"
+          ],
+          "energy": [
+            "Nin",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -40,
+          "before": 40,
+          "after": 0,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Kyuubi Empowered Rasengan",
+            "Five Man-Eating Sharks"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 0,
+          "targetName": "Kimimaro",
+          "observedTurnDelta": -25,
+          "before": 25,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Five Man-Eating Sharks"
+          ]
+        },
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -5,
+          "before": 5,
+          "after": 0,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Five Man-Eating Sharks"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0025_requestEndTurn__0026_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Blood",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Nin",
+            "Nin",
+            "Blood",
+            "Tai"
+          ],
+          "after": []
+        },
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Tai",
+            "Nin",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Effortless Flight": {
+      "skillName": "Effortless Flight",
+      "occurrences": 1,
+      "files": [
+        "0029_requestEndTurn__0030_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 1,
+          "targetName": "Tsuchikage (S)",
+          "classes": [
+            "Chakra",
+            "Instant",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Effortless Flight",
+          "detail": {
+            "name": "Effortless Flight",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER IS INVULNERABLE.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Shadow Clones: Rasengan": {
+      "skillName": "Shadow Clones: Rasengan",
+      "occurrences": 2,
+      "files": [
+        "0029_requestEndTurn__0030_passTurn.json",
+        "0040_requestEndTurn__0041_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "classes": [
+            "Chakra",
+            "Action",
+            "Melee",
+            "Harmful",
+            "Helpful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "kind": "encrypted_continuation",
+          "casterPlayerId": null,
+          "casterSlot": null,
+          "casterName": null,
+          "targetPlayerId": null,
+          "targetSlot": null,
+          "targetName": null,
+          "classes": [],
+          "energy": []
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+                "duration": "1 TURN LEFT"
+              },
+              {
+                "text": "THIS SKILL CAN BE INTERRUPTED.",
+                "duration": "1 TURN LEFT"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "relation": "encrypted_continuation_related",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL HARMFUL EFFECTS.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        },
+        {
+          "file": "0040_requestEndTurn__0041_passTurn.json",
+          "relation": "encrypted_continuation_related",
+          "playerId": "luzidtraum",
+          "slot": 2,
+          "character": "Naraka Path Pein (S)",
+          "effect": "Shadow Clones: Rasengan",
+          "detail": {
+            "name": "Shadow Clones: Rasengan",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER WILL TAKE 20 PIERCING DAMAGE THE FOLLOWING TURN.",
+                "duration": "END THIS TURN"
+              },
+              {
+                "text": "THIS SKILL CAN BE INTERRUPTED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 2,
+          "targetName": "Naraka Path Pein (S)",
+          "observedTurnDelta": -15,
+          "before": 90,
+          "after": 75,
+          "attribution": "ambiguous_multi_skill_same_target",
+          "sameTargetSkills": [
+            "Water Prison Technique",
+            "Shadow Clones: Rasengan"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0029_requestEndTurn__0030_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Blood",
+            "Gen",
+            "Gen",
+            "Nin",
+            "Nin"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Rock Fist": {
+      "skillName": "Rock Fist",
+      "occurrences": 1,
+      "files": [
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 1,
+          "casterName": "Tsuchikage (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "classes": [
+            "Physical",
+            "Melee",
+            "Instant",
+            "Harmful",
+            "Helpful",
+            "Tsuchikage (S)"
+          ],
+          "energy": [
+            "Blood",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 1,
+          "character": "Tsuchikage (S)",
+          "effect": "Rock Fist",
+          "detail": {
+            "name": "Rock Fist",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 1,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 15 POINTS OF DESTRUCTIBLE DEFENSE.",
+                "duration": "INFINITE"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "observedTurnDelta": -30,
+          "before": 90,
+          "after": 60,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Rock Fist"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [],
+      "chakraChanges": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Kyuubi Boost": {
+      "skillName": "Kyuubi Boost",
+      "occurrences": 1,
+      "files": [
+        "0047_requestEndTurn__0048_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "classes": [
+            "Chakra",
+            "Instant",
+            "Unique",
+            "Affliction",
+            "Helpful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "relation": "caster",
+          "playerId": "mestsxxx",
+          "slot": 0,
+          "character": "Uzumaki Naruto (S)",
+          "effect": "Kyuubi Boost",
+          "detail": {
+            "name": "Kyuubi Boost",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+                "duration": "3 TURN LEFTS"
+              },
+              {
+                "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+                "duration": "3 TURN LEFTS"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "targetPlayerId": "mestsxxx",
+          "targetSlot": 0,
+          "targetName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 65,
+          "after": 55,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Kyuubi Boost"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -10,
+          "before": 65,
+          "after": 55
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0047_requestEndTurn__0048_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Tai",
+            "Gen",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    },
+    "Three-Tail: Claw Smash": {
+      "skillName": "Three-Tail: Claw Smash",
+      "occurrences": 1,
+      "files": [
+        "0056_requestEndTurn__0057_passTurn.json"
+      ],
+      "observedQueueForms": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "kind": "assigned_skill",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "classes": [
+            "Physical",
+            "Melee",
+            "Instant",
+            "Harmful",
+            "Uzumaki Naruto (S)"
+          ],
+          "energy": [
+            "Random",
+            "Random"
+          ]
+        }
+      ],
+      "effectAdds": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "relation": "target",
+          "playerId": "luzidtraum",
+          "slot": 1,
+          "character": "Yakushi Kabuto",
+          "effect": "Three-Tail: Claw Smash",
+          "detail": {
+            "name": "Three-Tail: Claw Smash",
+            "sourcePlayerId": "mestsxxx",
+            "sourceSlot": 0,
+            "durationTexts": [
+              {
+                "text": "THIS CHARACTER'S NON-MENTAL SKILLS ARE STUNNED.",
+                "duration": "END THIS TURN"
+              }
+            ],
+            "stacks": 1
+          }
+        }
+      ],
+      "effectRemovals": [],
+      "hpDeltasInTargetTurns": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "targetPlayerId": "luzidtraum",
+          "targetSlot": 1,
+          "targetName": "Yakushi Kabuto",
+          "observedTurnDelta": -40,
+          "before": 95,
+          "after": 55,
+          "attribution": "clean_single_skill_target",
+          "sameTargetSkills": [
+            "Three-Tail: Claw Smash"
+          ]
+        }
+      ],
+      "hpDeltasOnCaster": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "casterPlayerId": "mestsxxx",
+          "casterSlot": 0,
+          "casterName": "Uzumaki Naruto (S)",
+          "observedTurnDelta": -5,
+          "before": 50,
+          "after": 45
+        }
+      ],
+      "chakraChanges": [
+        {
+          "file": "0056_requestEndTurn__0057_passTurn.json",
+          "playerId": "mestsxxx",
+          "before": [
+            "Gen",
+            "Tai",
+            "Nin",
+            "Blood"
+          ],
+          "after": []
+        }
+      ],
+      "notes": []
+    }
+  }
+}

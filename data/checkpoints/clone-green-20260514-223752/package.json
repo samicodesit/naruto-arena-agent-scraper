@@ -1,0 +1,38 @@
+{
+  "name": "naruto-arena-agent-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "auth": "tsx src/init-auth.ts",
+    "doctor": "tsx src/doctor.ts",
+    "record:traffic": "tsx src/record-ingame-traffic.ts",
+    "analyze:traffic": "tsx src/analyze-traffic.ts",
+    "extract:battle": "tsx src/extract-battle-states.ts",
+    "snapshot:battle": "tsx src/print-battle-snapshot.ts",
+    "decision:state": "tsx src/build-decision-state.ts",
+    "fetch:ingame": "tsx src/fetch-ingame-state.ts",
+    "import:ingame": "tsx src/import-ingame-state.ts",
+    "build:md": "tsx src/build-markdown.ts",
+    "sync": "npm run fetch:ingame && npm run import:ingame && npm run build:md",
+    "crawl:links": "tsx src/crawl-character-links.ts",
+    "legacy:crawl:chars": "tsx src/crawl-character-pages.ts",
+    "extract:live-skills": "tsx src/extract-live-skill-state.ts",
+    "queue:candidates": "tsx src/build-queue-candidates.ts",
+    "clone:smoke": "tsx src/clone/smoke-test.ts",
+    "clone:replay": "tsx src/clone/replay-recorded-turn.ts",
+    "clone:replay-suite": "tsx src/clone/replay-suite.ts",
+    "clone:state-diff": "tsx src/clone/state-diff.ts",
+    "clone:observe": "tsx src/clone/observe-turn-delta.ts",
+    "clone:mechanics": "tsx src/clone/build-observed-mechanics.ts",
+    "clone:effect-rules": "tsx src/clone/build-observed-effect-rules.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.54.0",
+    "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}

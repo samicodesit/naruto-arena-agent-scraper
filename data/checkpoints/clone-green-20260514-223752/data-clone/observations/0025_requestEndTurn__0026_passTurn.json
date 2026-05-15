@@ -1,0 +1,169 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T09-12-13-865Z",
+  "preFile": "0025_requestEndTurn.json",
+  "postFile": "0026_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Detachment of Primitive World",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Tsuchikage (S)",
+      "skillIndex": 0,
+      "resolvedSkillName": "Detachment of Primitive World",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 2,
+      "targetName": "Naraka Path Pein (S)",
+      "classes": [
+        "Chakra",
+        "Ranged",
+        "Instant",
+        "Unique",
+        "Affliction",
+        "Harmful",
+        "Helpful",
+        "Tsuchikage (S)"
+      ],
+      "energy": [
+        "Gen"
+      ],
+      "description": "Ohnoki isolates an enemy with his dust release, dealing 10 affliction damage to them. For 1 turn, that enemy will be invulnerable to helpful skills and their harmful skills will be stunned. The following turn, this skill will be replaced by 'Dust Implode'."
+    },
+    {
+      "index": 1,
+      "name": "Kyuubi Empowered Rasengan",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Uzumaki Naruto (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Kyuubi Empowered Rasengan",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 0,
+      "targetName": "Kimimaro",
+      "classes": [
+        "Chakra",
+        "Melee",
+        "Instant",
+        "Harmful",
+        "Uzumaki Naruto (S)"
+      ],
+      "energy": [
+        "Nin"
+      ],
+      "description": "Naruto uses a Rasengan empowered by the Kyuubi chakra, dealing 25 damage to one enemy and stunning their non-mental skills for 1 turn."
+    },
+    {
+      "index": 2,
+      "name": "Five Man-Eating Sharks",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 2,
+      "casterName": "Kisame Body Double (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Five Man-Eating Sharks",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 0,
+      "targetName": "Kimimaro",
+      "classes": [
+        "Physical",
+        "Action",
+        "Ranged",
+        "Kisame Body Double (S)",
+        "Harmful",
+        "Kisame Body Double (S)"
+      ],
+      "energy": [
+        "Nin"
+      ],
+      "description": "Kisame Body Double summons five sharks of water who attack one enemy dealing 25 damage for 2 turns. During Explosive Water Shock Wave this skill costs 1 ninjutsu chakra."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "luzidtraum",
+      "slot": 0,
+      "character": "Kimimaro",
+      "before": 40,
+      "after": 0,
+      "delta": -40
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "before": 100,
+      "after": 90,
+      "delta": -10
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Detachment of Primitive World",
+      "detail": {
+        "name": "Detachment of Primitive World",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "effect": "Detachment of Primitive World",
+      "detail": {
+        "name": "Detachment of Primitive World",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+            "duration": "1 TURN LEFT"
+          },
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+            "duration": "1 TURN LEFT"
+          },
+          {
+            "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+            "duration": "1 TURN LEFT"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Gen",
+        "Blood",
+        "Gen",
+        "Nin",
+        "Nin"
+      ],
+      "after": []
+    }
+  ]
+}

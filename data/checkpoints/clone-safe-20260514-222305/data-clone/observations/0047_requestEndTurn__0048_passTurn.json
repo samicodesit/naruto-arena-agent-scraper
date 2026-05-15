@@ -1,0 +1,207 @@
+{
+  "sessionDir": "data/traffic/2026-05-14T09-12-13-865Z",
+  "preFile": "0047_requestEndTurn.json",
+  "postFile": "0048_passTurn.json",
+  "turnPlayerId": "mestsxxx",
+  "queue": [
+    {
+      "index": 0,
+      "name": "Rock Fist",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 1,
+      "casterName": "Tsuchikage (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Rock Fist",
+      "targetSide": 1,
+      "targetPlayerId": "luzidtraum",
+      "targetSlot": 1,
+      "targetName": "Yakushi Kabuto",
+      "classes": [
+        "Physical",
+        "Melee",
+        "Instant",
+        "Harmful",
+        "Helpful",
+        "Tsuchikage (S)"
+      ],
+      "energy": [
+        "Blood",
+        "Random"
+      ],
+      "description": "Increasing his striking power with Rock Fist, Ohnoki deals 30 damage to one enemy. Afterwards, Ohnoki gains 15 permanent destructible defense."
+    },
+    {
+      "index": 1,
+      "name": "Kyuubi Boost",
+      "kind": "assigned_skill",
+      "casterPlayerId": "mestsxxx",
+      "casterSide": 0,
+      "casterSlot": 0,
+      "casterName": "Uzumaki Naruto (S)",
+      "skillIndex": 2,
+      "resolvedSkillName": "Kyuubi Boost",
+      "targetSide": 0,
+      "targetPlayerId": "mestsxxx",
+      "targetSlot": 0,
+      "targetName": "Uzumaki Naruto (S)",
+      "classes": [
+        "Chakra",
+        "Instant",
+        "Unique",
+        "Affliction",
+        "Helpful",
+        "Uzumaki Naruto (S)"
+      ],
+      "energy": [
+        "Random"
+      ],
+      "description": "Naruto loses 10 health and for 3 turns gains 10 points of damage reduction. The following 3 turns, he will ignore stun effects and this skill becomes 'Kyuubi Empowered Rasengan'. Cannot be used during 'Passive: Three Tails Transformation'."
+    }
+  ],
+  "hpDeltas": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "before": 65,
+      "after": 55,
+      "delta": -10
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 1,
+      "character": "Yakushi Kabuto",
+      "before": 90,
+      "after": 60,
+      "delta": -30
+    }
+  ],
+  "effectsAdded": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 0,
+      "character": "Uzumaki Naruto (S)",
+      "effect": "Kyuubi Boost",
+      "detail": {
+        "name": "Kyuubi Boost",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 0,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 10 POINTS OF DAMAGE REDUCTION.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "THIS CHARACTER WILL IGNORE ALL STUN EFFECTS.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "'OODAMA RASENGAN' IS IMPROVED AND WILL STUN AN ENEMY'S NON-MENTAL SKILLS FOR 1 TURN.",
+            "duration": "3 TURN LEFTS"
+          },
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'KYUUBI EMPOWERED RASENGAN'.",
+            "duration": "3 TURN LEFTS"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Rock Fist",
+      "detail": {
+        "name": "Rock Fist",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER HAS 15 POINTS OF DESTRUCTIBLE DEFENSE.",
+            "duration": "INFINITE"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "effectsRemoved": [
+    {
+      "playerId": "mestsxxx",
+      "slot": 1,
+      "character": "Tsuchikage (S)",
+      "effect": "Detachment of Primitive World",
+      "detail": {
+        "name": "Detachment of Primitive World",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS SKILL WILL BE REPLACED BY 'DUST IMPLODE'.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 1,
+      "character": "Yakushi Kabuto",
+      "effect": "Detachment of Primitive World",
+      "detail": {
+        "name": "Detachment of Primitive World",
+        "sourcePlayerId": "mestsxxx",
+        "sourceSlot": 1,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER'S HARMFUL SKILLS ARE STUNNED.",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE TO HELPFUL SKILLS",
+            "duration": "END THIS TURN"
+          },
+          {
+            "text": "DUST IMPLODE MAY BE USED ON THAT ENEMY.",
+            "duration": "END THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    },
+    {
+      "playerId": "luzidtraum",
+      "slot": 2,
+      "character": "Naraka Path Pein (S)",
+      "effect": "Chakra Rod Deflection",
+      "detail": {
+        "name": "Chakra Rod Deflection",
+        "sourcePlayerId": "luzidtraum",
+        "sourceSlot": 2,
+        "durationTexts": [
+          {
+            "text": "THIS CHARACTER IS INVULNERABLE.",
+            "duration": "ENDS THIS TURN"
+          }
+        ],
+        "stacks": 1
+      }
+    }
+  ],
+  "skillChanges": [],
+  "chakraChanges": [
+    {
+      "playerId": "mestsxxx",
+      "before": [
+        "Tai",
+        "Gen",
+        "Blood"
+      ],
+      "after": []
+    }
+  ]
+}
