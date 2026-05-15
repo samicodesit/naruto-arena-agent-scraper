@@ -256,6 +256,7 @@ export function updateWinner(battle: CloneBattleState): void {
   }
 }
 
+
 export function damageCharacter(
   battle: CloneBattleState,
   targetPlayerId: string,
@@ -265,10 +266,15 @@ export function damageCharacter(
 ): void {
   const player = getPlayer(battle, targetPlayerId);
   const target = player.team[targetSlot];
-
   if (!target || target.isDead) return;
 
-  target.health = Math.max(0, target.health - amount);
+  const originalAmount = amount;
+  const preventedByDefense = consumeDestructibleDefense(target, amount);
+  amount = Math.max(0, amount - preventedByDefense);
+
+  if (amount > 0) {
+    target.health = Math.max(0, target.health - amount);
+  }
 
   battle.history.push({
     turnNumber: battle.turnNumber,
@@ -278,6 +284,8 @@ export function damageCharacter(
       targetSlot,
       targetName: target.name,
       amount,
+      originalAmount,
+      preventedByDefense,
       source,
       remainingHealth: target.health
     }
@@ -285,4 +293,59 @@ export function damageCharacter(
 
   updateDeaths(player);
   updateWinner(battle);
+}
+
+export function grantDestructibleDefense(
+  character: CloneCharacterState,
+  amount: number,
+  source: string
+): void {
+  if (amount <= 0 || character.isDead) return;
+  const current = getDestructibleDefense(character);
+  setDestructibleDefense(character, current + amount);
+
+  character.effects.push({
+    id: `observed-defense:${source}:${character.slot}:${Date.now()}:${Math.random()}`,
+    name: "__Observed Destructible Defense",
+    sourcePlayerId: null,
+    sourceSlot: null,
+    durationTurns: null,
+    durationLabel: "INFINITE",
+    text: [`THIS CHARACTER HAS ${amount} POINTS OF DESTRUCTIBLE DEFENSE.`],
+    textDurations: ["INFINITE"],
+    stacks: 1,
+    tags: ["ObservedInternal", "DestructibleDefense"]
+  });
+}
+
+function consumeDestructibleDefense(character: CloneCharacterState, amount: number): number {
+  if (amount <= 0) return 0;
+
+  const current = getDestructibleDefense(character);
+  const prevented = Math.min(current, amount);
+
+  if (prevented > 0) {
+    setDestructibleDefense(character, current - prevented);
+  }
+
+  return prevented;
+}
+
+function getDestructibleDefense(character: CloneCharacterState): number {
+  const existing = (character as any).__destructibleDefense;
+  if (typeof existing === "number") return existing;
+
+  const parsed = character.effects.reduce((sum, effect) => {
+    return sum + effect.text.reduce((inner, line) => {
+      const match = String(line).match(/\bHAS +(\d+) +POINTS? +OF +DESTRUCTIBLE +DEFENSE\b/i);
+      return inner + (match ? Number(match[1]) : 0);
+    }, 0);
+  }, 0);
+
+  setDestructibleDefense(character, parsed);
+  return parsed;
+}
+
+function setDestructibleDefense(character: CloneCharacterState, amount: number): void {
+  (character as any).__destructibleDefense = Math.max(0, amount);
 }
