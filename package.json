@@ -25,7 +25,8 @@
     "clone:state-diff": "tsx src/clone/state-diff.ts",
     "clone:observe": "tsx src/clone/observe-turn-delta.ts",
     "clone:mechanics": "tsx src/clone/build-observed-mechanics.ts",
-    "clone:effect-rules": "tsx src/clone/build-observed-effect-rules.ts"
+    "clone:effect-rules": "tsx src/clone/build-observed-effect-rules.ts",
+    "clone:validate-fixtures": "node scripts/validate-replay-fixtures.mjs"
   },
   "dependencies": {
     "@playwright/test": "^1.54.0",
