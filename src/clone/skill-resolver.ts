@@ -140,7 +140,7 @@ export function resolveQueueSkill(
         }
       });
 
-      return { ok: true, skillName: skill.name, notes: [`ignored_${selfHealthLoss.amount}_self_damage`] };
+      applyObservedEffectRules({ battle, playerId, caster, casterSlot: assigned.char as Slot, skill, target: null, effectTargetOverrides: item.replayEffectTargetOverrides ?? [] }); return { ok: true, skillName: skill.name, notes: [`ignored_${selfHealthLoss.amount}_self_damage`] };
     }
 
     damageCharacter(battle, player.playerId, assigned.char as Slot, selfHealthLoss.amount, skill.name);
